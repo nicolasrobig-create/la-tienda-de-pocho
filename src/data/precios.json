@@ -1,0 +1,747 @@
+{
+  "agility-gold-felino-adulto-1-5-kg": {
+    "precio": 63000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "agility-gold-felino-adulto-3-kg": {
+    "precio": 144000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "agility-gold-felino-esterilizados-1-5-kg": {
+    "precio": 63000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "agility-gold-felino-esterilizados-3-kg": {
+    "precio": 144000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "agility-gold-felino-kitten-1-5-kg": {
+    "precio": 63000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-adulto-mayor-3-kg": {
+    "precio": 150000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-bola-de-pelo-adulto-3-kg": {
+    "precio": 150000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-castrado-pollo-1-kg": {
+    "precio": 53500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-castrado-pollo-3-kg": {
+    "precio": 150000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-gastrointestinal-1-5-kg": {
+    "precio": 65000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-gastrointestinal-500-g": {
+    "precio": 32500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-kitten-pollo-3-kg": {
+    "precio": 150000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-kitten-salmon-3-kg": {
+    "precio": 150000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-renal-care-1-5-kg": {
+    "precio": 65000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-renal-care-500-g": {
+    "precio": 32500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-salmon-1-kg": {
+    "precio": 53500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "br-felino-salmon-3-kg": {
+    "precio": 150000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "cat-chaow-felino-carne-1-5-kg": {
+    "precio": 59000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "cat-chaow-felino-esterilizados-1-5-kg": {
+    "precio": 59000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "cat-chaow-felino-hogarenos-1-5-kg": {
+    "precio": 59000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "cat-chaow-felino-pescado-1-5-kg": {
+    "precio": 59000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "cat-chaow-felino-vida-sana-1-3-kg": {
+    "precio": 55000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "cat-chaow-felino-vida-sana-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "country-value-felino-pollo-y-pescado-2-kg": {
+    "precio": 76500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "country-value-felino-pollo-y-pescado-20-lb": {
+    "precio": 305500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "diamond-naturals-felino-indoor-cat-1-1-lb": {
+    "precio": 35500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "diamond-naturals-felino-indoor-cat-18-lb": {
+    "precio": 377000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "diamond-naturals-felino-indoor-cat-6-lb": {
+    "precio": 143500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "diamond-naturals-felino-kitten-6-lb": {
+    "precio": 143500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-adulto-1-5-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-adulto-500-g": {
+    "precio": 30500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-castrados-1-5-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-kitten-1-5-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-kitten-500-g": {
+    "precio": 30500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-light-1-5-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-pelos-longos-1-5-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-renal-2-kg": {
+    "precio": 88500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-salmon-1-5-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "equilibrio-felino-urinary-2-kg": {
+    "precio": 88500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "evolve-felino-classic-pollo-1-24-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "evolve-felino-grain-free-pescado-2-75-lb": {
+    "precio": 61500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "evolve-felino-grain-free-pollo-3-lb": {
+    "precio": 64500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "evolve-felino-kitten-1-24-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "excellent-felino-adulto-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "excellent-felino-adulto-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "excellent-felino-kitten-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "excellent-felino-urinary-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "excellent-felino-urinary-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "felix-felino-triple-delicious-1-5-kg": {
+    "precio": 55000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-adulto-7-small-bites-4-4-lb": {
+    "precio": 105500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-adulto-small-bites-4-4-lb": {
+    "precio": 105500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-i-d-8-5-lb": {
+    "precio": 214000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-i-d-low-fat-8-5-lb": {
+    "precio": 214000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-metabolic-7-7-lb": {
+    "precio": 196500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-puppy-small-bites-4-5-lb": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-r-d-3-3-lb": {
+    "precio": 72500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-r-d-8-5-lb": {
+    "precio": 214000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-small-y-mini-adulto-7-4-5-lb": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-small-y-mini-adulto-cordero-4-5-lb": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-small-y-mini-adulto-pollo-4-5-lb": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-small-y-mini-puppy-4-5-lb": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-canino-w-d-3-3-lb": {
+    "precio": 72500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-adulto-1-6-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-adulto-1-6-7-lb": {
+    "precio": 181500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-adulto-7-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-adulto-indoor-3-5-lb": {
+    "precio": 78000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-adulto-indoor-7-lb": {
+    "precio": 181500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-hairball-control-1-6-3-5-lb": {
+    "precio": 78000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-hairball-control-1-6-7-lb": {
+    "precio": 181500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-indoor-11-3-5-lb": {
+    "precio": 78000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-kitten-3-5-lb": {
+    "precio": 78000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-kitten-7-lb": {
+    "precio": 181500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-kitten-indoor-3-5-lb": {
+    "precio": 78000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-kitten-indoor-7-lb": {
+    "precio": 181500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-light-1-6-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-metabolic-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-perfect-weight-3-lb": {
+    "precio": 69000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-r-d-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-senior-vitality-3-lb": {
+    "precio": 69000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-sensitive-stomach-y-skin-3-5-lb": {
+    "precio": 78000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-w-d-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "hills-felino-z-d-4-lb": {
+    "precio": 93000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "holliday-felino-gastrointestinal-2-kg": {
+    "precio": 106500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-adulto-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-adulto-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-castrado-selection-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-castrados-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-castrados-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-kitten-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-sabores-de-mar-1-kg": {
+    "precio": 48500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "max-felino-sabores-de-mar-3-kg": {
+    "precio": 132000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "monello-felino-adulto-1-kg": {
+    "precio": 50000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "monello-felino-castrados-1-kg": {
+    "precio": 50000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "monello-felino-kitten-1-kg": {
+    "precio": 50000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "monge-felino-vetsolution-renal-1-5-kg": {
+    "precio": 74000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-ancestral-grain-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-ancestral-kitten-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-ocean-castrados-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-prime-adulto-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-tropical-adulto-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-tropical-castrados-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nd-felino-urinary-1-5-kg": {
+    "precio": 72000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nulo-felino-hairball-5-lb": {
+    "precio": 119500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nulo-felino-indoor-cat-5-lb": {
+    "precio": 119500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nulo-felino-kitten-5-lb": {
+    "precio": 119500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nupec-felino-adulto-indoor-1-5-kg": {
+    "precio": 64000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nupec-felino-adulto-indoor-3-kg": {
+    "precio": 147000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nupec-felino-kitten-1-5-kg": {
+    "precio": 64000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nupec-felino-renal-care-1-5-kg": {
+    "precio": 64000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nupec-felino-urinary-1-5-kg": {
+    "precio": 64000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nupec-felino-weight-care-1-5-kg": {
+    "precio": 64000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nutra-nuggets-felino-amarillo-1-kg": {
+    "precio": 46500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "nutra-nuggets-felino-amarillo-3-kg": {
+    "precio": 126000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "orijen-felino-fit-y-trim-4-lb": {
+    "precio": 96000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "orijen-felino-original-cat-4-lb": {
+    "precio": 96000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "orijen-felino-six-fish-recipe-4-lb": {
+    "precio": 96000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-adulto-1-5-kg": {
+    "precio": 67000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-adulto-3-kg": {
+    "precio": 156000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-en-1-5-kg": {
+    "precio": 67000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-ha-4-lb": {
+    "precio": 85000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-liveclear-1-kg": {
+    "precio": 55000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-liveclear-3-kg": {
+    "precio": 156000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-nf-early-care-3-15-lb": {
+    "precio": 65000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-nf-renal-function-1-5-kg": {
+    "precio": 67000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-om-1-5-kg": {
+    "precio": 67000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-sterilized-1-kg": {
+    "precio": 55000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-sterilized-3-kg": {
+    "precio": 156000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-ur-1-5-kg": {
+    "precio": 67000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-urinary-1-5-kg": {
+    "precio": 67000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "pro-plan-felino-urinary-3-kg": {
+    "precio": 156000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "siete-vidas-felino-sabores-de-la-tierra-1-3-kg": {
+    "precio": 54000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "siete-vidas-felino-sabores-del-mar-1-3-kg": {
+    "precio": 54000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-canyon-river-1-1-lb": {
+    "precio": 36500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-canyon-river-14-lb": {
+    "precio": 310000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-canyon-river-5-lb": {
+    "precio": 117500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-lowland-creek-14-lb": {
+    "precio": 310000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-lowland-creek-5-lb": {
+    "precio": 117500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-rocky-mountain-1-1-lb": {
+    "precio": 36500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-rocky-mountain-14-lb": {
+    "precio": 310000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "taste-of-the-wild-felino-rocky-mountain-5-lb": {
+    "precio": 117500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "vetlife-felino-diabetic-2-kg": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "vetlife-felino-gastro-intestinal-2-kg": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "vetlife-felino-renal-2-kg": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "vetlife-felino-renal-400-g": {
+    "precio": 39500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "vetlife-felino-urinary-struvite-2-kg": {
+    "precio": 108500,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "virbac-felino-adult-with-salmon-neutered-y-entire-1-5-kg": {
+    "precio": 75000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "virbac-felino-digestive-support-3-kg": {
+    "precio": 180000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "virbac-felino-kidney-y-joint-1-5-kg": {
+    "precio": 75000,
+    "stock": true,
+    "esEjemplo": true
+  },
+  "evolve-felino-classic-salmon-1-24-kg": {
+    "precio": 62000,
+    "stock": true,
+    "esEjemplo": true
+  }
+}

@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+/* ───────────────────────────────────────────────────────────────
+   ÚNICO lugar donde se definen colores, tipografías y espaciado.
+   Tailwind v4 genera utilidades (bg-crema, text-cacao, font-display…)
+   y variables CSS (var(--color-crema)…) a partir de este bloque.
+   Ver docs/brief-diseno.md antes de tocar nada.
+   ─────────────────────────────────────────────────────────────── */
+@theme {
+  /* Paleta cálida */
+  --color-crema: #fbf4e8;          /* fondo de página */
+  --color-arena: #f1e3cc;          /* superficies, tarjetas, bandas */
+  --color-arena-oscura: #e2cfae;   /* bordes, divisores */
+  --color-cacao: #3b2418;          /* texto principal */
+  --color-cacao-suave: #6b5648;    /* texto secundario */
+  --color-terracota: #b5452f;      /* acción principal (botones, enlaces) */
+  --color-terracota-oscura: #983722; /* hover / activo */
+  --color-miel: #e9a23b;           /* acento decorativo (no para texto sobre crema) */
+  --color-oliva: #4f6b2e;          /* disponible, confirmaciones */
+  --color-blanco: #ffffff;
+
+  /* Tipografías */
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-sans: "Figtree Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Radios */
+  --radius-tarjeta: 1rem;
+  --radius-boton: 999px;
+
+  /* Sombra suave y cálida */
+  --shadow-tarjeta: 0 1px 2px rgb(59 36 24 / 0.06), 0 6px 18px rgb(59 36 24 / 0.08);
+  --shadow-elevada: 0 2px 4px rgb(59 36 24 / 0.08), 0 14px 32px rgb(59 36 24 / 0.14);
+
+  /* Animaciones sutiles (se anulan con prefers-reduced-motion, ver @layer base) */
+  --animate-subir: subir 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-aparecer: aparecer 0.3s ease-out both;
+  @keyframes subir {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes brillo {
+    to { transform: translateX(100%); }
+  }
+  @keyframes deslizar {
+    from { transform: translateX(100%); }
+    to { transform: none; }
+  }
+}
+
+/* Contenedor central: 16 px de margen en móvil, 24 en md, 32 en lg. */
+@utility contenedor {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 72rem;
+  padding-inline: 1rem;
+  @media (min-width: 48rem) { padding-inline: 1.5rem; }
+  @media (min-width: 64rem) { padding-inline: 2rem; }
+}
+
+@layer components {
+  /* Marcador de carga con brillo suave */
+  .esqueleto {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--color-arena);
+  }
+  .esqueleto::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+    animation: brillo 1.4s infinite;
+  }
+
+  /* <dialog> modales: panel lateral (menú, filtros) y panel central (zoom de foto).
+     Sin utilidades de display sobre <dialog>: pisarían el display:none del navegador. */
+  dialog.panel {
+    padding: 0;
+    border: 0;
+    background: var(--color-crema);
+    color: var(--color-cacao);
+  }
+  dialog.panel::backdrop { background: rgb(59 36 24 / 0.55); }
+  dialog.panel-derecha {
+    margin: 0 0 0 auto;
+    height: 100dvh;
+    max-height: none;
+    width: min(24rem, 92vw);
+    max-width: none;
+  }
+  dialog.panel-derecha[open] { animation: deslizar 0.25s ease-out; }
+  dialog.panel-centro {
+    margin: auto;
+    width: min(56rem, 94vw);
+    max-width: none;
+    max-height: 94dvh;
+    background: transparent;
+  }
+  dialog.panel-centro[open] { animation: aparecer 0.2s ease-out; }
+}
+
+@layer base {
+  html {
+    background-color: var(--color-crema);
+    color: var(--color-cacao);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--color-crema);
+    line-height: 1.6;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-terracota);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}

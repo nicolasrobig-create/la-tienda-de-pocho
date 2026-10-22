@@ -1,0 +1,308 @@
+{
+  "fecha": "2026-10-22T21:54:27.325Z",
+  "marcas": {
+    "AGILITY GOLD": {
+      "fotos": 5,
+      "productos": 5,
+      "docx": []
+    },
+    "BR": {
+      "fotos": 12,
+      "productos": 12,
+      "docx": []
+    },
+    "CAT CHAOW": {
+      "fotos": 6,
+      "productos": 6,
+      "docx": [
+        "CAT CHAOW\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "COUNTRY VALUE": {
+      "fotos": 2,
+      "productos": 2,
+      "docx": [
+        "COUNTRY VALUE\\F C\\DESCRIPCÍON.docx"
+      ]
+    },
+    "DIAMOND NATURALS": {
+      "fotos": 4,
+      "productos": 4,
+      "docx": [
+        "DIAMOND NATURALS\\F C\\DESCRIPCIÓN.docx"
+      ]
+    },
+    "EQUILIBRIO": {
+      "fotos": 10,
+      "productos": 10,
+      "docx": []
+    },
+    "EVOLVE": {
+      "fotos": 5,
+      "productos": 5,
+      "docx": [
+        "EVOLVE\\F C\\DESCRIPCIÓN.docx"
+      ]
+    },
+    "EXCELLENT": {
+      "fotos": 5,
+      "productos": 5,
+      "docx": [
+        "EXCELLENT\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "FELIX": {
+      "fotos": 1,
+      "productos": 1,
+      "docx": [
+        "FELIX\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "HILLS": {
+      "fotos": 33,
+      "productos": 33,
+      "docx": []
+    },
+    "HOLLIDAY": {
+      "fotos": 1,
+      "productos": 1,
+      "docx": []
+    },
+    "MAX": {
+      "fotos": 8,
+      "productos": 8,
+      "docx": []
+    },
+    "MONELLO": {
+      "fotos": 3,
+      "productos": 3,
+      "docx": []
+    },
+    "MONGE": {
+      "fotos": 1,
+      "productos": 1,
+      "docx": []
+    },
+    "N&D": {
+      "fotos": 7,
+      "productos": 7,
+      "docx": [
+        "N&D\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "NULO": {
+      "fotos": 3,
+      "productos": 3,
+      "docx": [
+        "NULO\\F C\\Nuevo Documento de Microsoft Word.docx"
+      ]
+    },
+    "NUPEC": {
+      "fotos": 6,
+      "productos": 6,
+      "docx": [
+        "NUPEC\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "NUTRA-NUGGETS": {
+      "fotos": 2,
+      "productos": 2,
+      "docx": [
+        "NUTRA-NUGGETS\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "ORIJEN": {
+      "fotos": 3,
+      "productos": 3,
+      "docx": []
+    },
+    "PRO PLAN": {
+      "fotos": 14,
+      "productos": 14,
+      "docx": [
+        "PRO PLAN\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "SIETE VIDAS": {
+      "fotos": 2,
+      "productos": 2,
+      "docx": []
+    },
+    "TASTE OF THE WILD": {
+      "fotos": 8,
+      "productos": 8,
+      "docx": [
+        "TASTE OF THE WILD\\F C\\DESCRIPCION.docx"
+      ]
+    },
+    "VETLIFE": {
+      "fotos": 5,
+      "productos": 5,
+      "docx": []
+    },
+    "VIRBAC": {
+      "fotos": 3,
+      "productos": 3,
+      "docx": []
+    }
+  },
+  "fotos": {
+    "procesadas": 149,
+    "omitidasPorExistir": 0,
+    "fallidas": []
+  },
+  "docx": {
+    "leidos": [
+      {
+        "archivo": "COUNTRY VALUE\\F C\\DESCRIPCÍON.docx",
+        "secciones": 1
+      },
+      {
+        "archivo": "EVOLVE\\F C\\DESCRIPCIÓN.docx",
+        "secciones": 4
+      },
+      {
+        "archivo": "EXCELLENT\\F C\\DESCRIPCION.docx",
+        "secciones": 3
+      },
+      {
+        "archivo": "FELIX\\F C\\DESCRIPCION.docx",
+        "secciones": 1
+      },
+      {
+        "archivo": "N&D\\F C\\DESCRIPCION.docx",
+        "secciones": 7
+      },
+      {
+        "archivo": "NULO\\F C\\Nuevo Documento de Microsoft Word.docx",
+        "secciones": 3
+      },
+      {
+        "archivo": "NUTRA-NUGGETS\\F C\\DESCRIPCION.docx",
+        "secciones": 1
+      },
+      {
+        "archivo": "PRO PLAN\\F C\\DESCRIPCION.docx",
+        "secciones": 10
+      },
+      {
+        "archivo": "TASTE OF THE WILD\\F C\\DESCRIPCION.docx",
+        "secciones": 3
+      }
+    ],
+    "vacios": [
+      "CAT CHAOW\\F C\\DESCRIPCION.docx",
+      "DIAMOND NATURALS\\F C\\DESCRIPCIÓN.docx",
+      "NUPEC\\F C\\DESCRIPCION.docx"
+    ],
+    "conError": [],
+    "sinMapeo": []
+  },
+  "sinFoto": [],
+  "sinDescripcion": [
+    "agility-gold-felino-adulto-1-5-kg",
+    "agility-gold-felino-adulto-3-kg",
+    "agility-gold-felino-esterilizados-1-5-kg",
+    "agility-gold-felino-esterilizados-3-kg",
+    "agility-gold-felino-kitten-1-5-kg",
+    "br-felino-adulto-mayor-3-kg",
+    "br-felino-bola-de-pelo-adulto-3-kg",
+    "br-felino-castrado-pollo-1-kg",
+    "br-felino-castrado-pollo-3-kg",
+    "br-felino-gastrointestinal-1-5-kg",
+    "br-felino-gastrointestinal-500-g",
+    "br-felino-kitten-pollo-3-kg",
+    "br-felino-kitten-salmon-3-kg",
+    "br-felino-renal-care-1-5-kg",
+    "br-felino-renal-care-500-g",
+    "br-felino-salmon-1-kg",
+    "br-felino-salmon-3-kg",
+    "cat-chaow-felino-carne-1-5-kg",
+    "cat-chaow-felino-esterilizados-1-5-kg",
+    "cat-chaow-felino-hogarenos-1-5-kg",
+    "cat-chaow-felino-pescado-1-5-kg",
+    "cat-chaow-felino-vida-sana-1-3-kg",
+    "cat-chaow-felino-vida-sana-3-kg",
+    "diamond-naturals-felino-indoor-cat-1-1-lb",
+    "diamond-naturals-felino-indoor-cat-18-lb",
+    "diamond-naturals-felino-indoor-cat-6-lb",
+    "diamond-naturals-felino-kitten-6-lb",
+    "equilibrio-felino-adulto-1-5-kg",
+    "equilibrio-felino-adulto-500-g",
+    "equilibrio-felino-castrados-1-5-kg",
+    "equilibrio-felino-kitten-1-5-kg",
+    "equilibrio-felino-kitten-500-g",
+    "equilibrio-felino-light-1-5-kg",
+    "equilibrio-felino-pelos-longos-1-5-kg",
+    "equilibrio-felino-renal-2-kg",
+    "equilibrio-felino-salmon-1-5-kg",
+    "equilibrio-felino-urinary-2-kg",
+    "evolve-felino-grain-free-pollo-3-lb",
+    "hills-canino-adulto-7-small-bites-4-4-lb",
+    "hills-canino-adulto-small-bites-4-4-lb",
+    "hills-canino-i-d-8-5-lb",
+    "hills-canino-i-d-low-fat-8-5-lb",
+    "hills-canino-metabolic-7-7-lb",
+    "hills-canino-puppy-small-bites-4-5-lb",
+    "hills-canino-r-d-3-3-lb",
+    "hills-canino-r-d-8-5-lb",
+    "hills-canino-small-y-mini-adulto-7-4-5-lb",
+    "hills-canino-small-y-mini-adulto-cordero-4-5-lb",
+    "hills-canino-small-y-mini-adulto-pollo-4-5-lb",
+    "hills-canino-small-y-mini-puppy-4-5-lb",
+    "hills-canino-w-d-3-3-lb",
+    "hills-felino-adulto-1-6-4-lb",
+    "hills-felino-adulto-1-6-7-lb",
+    "hills-felino-adulto-7-4-lb",
+    "hills-felino-adulto-indoor-3-5-lb",
+    "hills-felino-adulto-indoor-7-lb",
+    "hills-felino-hairball-control-1-6-3-5-lb",
+    "hills-felino-hairball-control-1-6-7-lb",
+    "hills-felino-indoor-11-3-5-lb",
+    "hills-felino-kitten-3-5-lb",
+    "hills-felino-kitten-7-lb",
+    "hills-felino-kitten-indoor-3-5-lb",
+    "hills-felino-kitten-indoor-7-lb",
+    "hills-felino-light-1-6-4-lb",
+    "hills-felino-metabolic-4-lb",
+    "hills-felino-perfect-weight-3-lb",
+    "hills-felino-r-d-4-lb",
+    "hills-felino-senior-vitality-3-lb",
+    "hills-felino-sensitive-stomach-y-skin-3-5-lb",
+    "hills-felino-w-d-4-lb",
+    "hills-felino-z-d-4-lb",
+    "holliday-felino-gastrointestinal-2-kg",
+    "max-felino-adulto-1-kg",
+    "max-felino-adulto-3-kg",
+    "max-felino-castrado-selection-3-kg",
+    "max-felino-castrados-1-kg",
+    "max-felino-castrados-3-kg",
+    "max-felino-kitten-1-kg",
+    "max-felino-sabores-de-mar-1-kg",
+    "max-felino-sabores-de-mar-3-kg",
+    "monello-felino-adulto-1-kg",
+    "monello-felino-castrados-1-kg",
+    "monello-felino-kitten-1-kg",
+    "monge-felino-vetsolution-renal-1-5-kg",
+    "nupec-felino-adulto-indoor-1-5-kg",
+    "nupec-felino-adulto-indoor-3-kg",
+    "nupec-felino-kitten-1-5-kg",
+    "nupec-felino-renal-care-1-5-kg",
+    "nupec-felino-urinary-1-5-kg",
+    "nupec-felino-weight-care-1-5-kg",
+    "orijen-felino-fit-y-trim-4-lb",
+    "orijen-felino-original-cat-4-lb",
+    "orijen-felino-six-fish-recipe-4-lb",
+    "siete-vidas-felino-sabores-de-la-tierra-1-3-kg",
+    "siete-vidas-felino-sabores-del-mar-1-3-kg",
+    "vetlife-felino-diabetic-2-kg",
+    "vetlife-felino-gastro-intestinal-2-kg",
+    "vetlife-felino-renal-2-kg",
+    "vetlife-felino-renal-400-g",
+    "vetlife-felino-urinary-struvite-2-kg",
+    "virbac-felino-adult-with-salmon-neutered-y-entire-1-5-kg",
+    "virbac-felino-digestive-support-3-kg",
+    "virbac-felino-kidney-y-joint-1-5-kg"
+  ],
+  "advertencias": []
+}

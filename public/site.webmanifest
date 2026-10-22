@@ -1,0 +1,14 @@
+{
+  "name": "La Tienda de Pocho",
+  "short_name": "Tienda de Pocho",
+  "description": "Alimento para gatos y perros en Bogotá.",
+  "lang": "es-CO",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fbf4e8",
+  "theme_color": "#fbf4e8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

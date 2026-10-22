@@ -1,0 +1,275 @@
+[
+  {
+    "modo": "mobile",
+    "ruta": "/",
+    "rendimiento": 92,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "3.3 s",
+    "auditoriasBajas": [
+      "largest-contentful-paint",
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/catalogo",
+    "rendimiento": 87,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "3.9 s",
+    "auditoriasBajas": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "interactive",
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/marca/hills",
+    "rendimiento": 87,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "3.9 s",
+    "auditoriasBajas": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "interactive",
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/producto/pro-plan-felino-adulto-3-kg",
+    "rendimiento": 94,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "2.9 s",
+    "auditoriasBajas": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/carrito",
+    "rendimiento": 97,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 66,
+    "lcp": "2.1 s",
+    "auditoriasBajas": [
+      "first-contentful-paint",
+      "unused-javascript",
+      "is-crawlable",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/checkout",
+    "rendimiento": 97,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 66,
+    "lcp": "2.1 s",
+    "auditoriasBajas": [
+      "first-contentful-paint",
+      "unused-javascript",
+      "is-crawlable",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/contacto",
+    "rendimiento": 98,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "2.1 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/envios-y-devoluciones",
+    "rendimiento": 98,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "2.1 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "mobile",
+    "ruta": "/nosotros",
+    "rendimiento": 99,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "2.1 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/",
+    "rendimiento": 100,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.7 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/catalogo",
+    "rendimiento": 99,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.9 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/marca/hills",
+    "rendimiento": 100,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.8 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/producto/pro-plan-felino-adulto-3-kg",
+    "rendimiento": 100,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.6 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "cache-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/carrito",
+    "rendimiento": 97,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 66,
+    "lcp": "0.4 s",
+    "auditoriasBajas": [
+      "cumulative-layout-shift",
+      "layout-shifts",
+      "unused-javascript",
+      "is-crawlable",
+      "cls-culprits-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/checkout",
+    "rendimiento": 97,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 66,
+    "lcp": "0.5 s",
+    "auditoriasBajas": [
+      "cumulative-layout-shift",
+      "layout-shifts",
+      "unused-javascript",
+      "is-crawlable",
+      "cls-culprits-insight",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/contacto",
+    "rendimiento": 100,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.5 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/envios-y-devoluciones",
+    "rendimiento": 100,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.4 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "network-dependency-tree-insight"
+    ]
+  },
+  {
+    "modo": "desktop",
+    "ruta": "/nosotros",
+    "rendimiento": 100,
+    "accesibilidad": 100,
+    "buenas-practicas": 100,
+    "seo": 100,
+    "lcp": "0.4 s",
+    "auditoriasBajas": [
+      "unused-javascript",
+      "network-dependency-tree-insight"
+    ]
+  }
+]

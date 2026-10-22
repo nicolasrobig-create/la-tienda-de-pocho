@@ -1,0 +1,3223 @@
+[
+  {
+    "id": "agility-gold-felino-adulto-1-5-kg",
+    "marca": "Agility Gold",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/agility-gold/agility-gold-felino-adulto-1-5-kg.webp",
+    "descripcion": "Adulto de Agility Gold, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "agility-gold-felino-adulto-3-kg",
+    "marca": "Agility Gold",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/agility-gold/agility-gold-felino-adulto-3-kg.webp",
+    "descripcion": "Adulto de Agility Gold, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "agility-gold-felino-esterilizados-1-5-kg",
+    "marca": "Agility Gold",
+    "tipoAnimal": "felino",
+    "nombre": "Esterilizados",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/agility-gold/agility-gold-felino-esterilizados-1-5-kg.webp",
+    "descripcion": "Esterilizados de Agility Gold, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "agility-gold-felino-esterilizados-3-kg",
+    "marca": "Agility Gold",
+    "tipoAnimal": "felino",
+    "nombre": "Esterilizados",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/agility-gold/agility-gold-felino-esterilizados-3-kg.webp",
+    "descripcion": "Esterilizados de Agility Gold, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "agility-gold-felino-kitten-1-5-kg",
+    "marca": "Agility Gold",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/agility-gold/agility-gold-felino-kitten-1-5-kg.webp",
+    "descripcion": "Kitten de Agility Gold, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "br-felino-adulto-mayor-3-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto Mayor",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/br/br-felino-adulto-mayor-3-kg.webp",
+    "descripcion": "Adulto Mayor de BR, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "senior"
+    ]
+  },
+  {
+    "id": "br-felino-bola-de-pelo-adulto-3-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Bola de Pelo Adulto",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/br/br-felino-bola-de-pelo-adulto-3-kg.webp",
+    "descripcion": "Bola de Pelo Adulto de BR, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "bolas de pelo"
+    ]
+  },
+  {
+    "id": "br-felino-castrado-pollo-1-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Castrado Pollo",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/br/br-felino-castrado-pollo-1-kg.webp",
+    "descripcion": "Castrado Pollo de BR, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado",
+      "pollo"
+    ]
+  },
+  {
+    "id": "br-felino-castrado-pollo-3-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Castrado Pollo",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/br/br-felino-castrado-pollo-3-kg.webp",
+    "descripcion": "Castrado Pollo de BR, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado",
+      "pollo"
+    ]
+  },
+  {
+    "id": "br-felino-gastrointestinal-1-5-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Gastrointestinal",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/br/br-felino-gastrointestinal-1-5-kg.webp",
+    "descripcion": "Gastrointestinal de BR, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva"
+    ]
+  },
+  {
+    "id": "br-felino-gastrointestinal-500-g",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Gastrointestinal",
+    "presentacion": "500 g",
+    "pesoKg": 0.5,
+    "imagen": "/productos/br/br-felino-gastrointestinal-500-g.webp",
+    "descripcion": "Gastrointestinal de BR, alimento seco para gatos en bolsa de 500 g. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva"
+    ]
+  },
+  {
+    "id": "br-felino-kitten-pollo-3-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten Pollo",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/br/br-felino-kitten-pollo-3-kg.webp",
+    "descripcion": "Kitten Pollo de BR, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "pollo"
+    ]
+  },
+  {
+    "id": "br-felino-kitten-salmon-3-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten Salmón",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/br/br-felino-kitten-salmon-3-kg.webp",
+    "descripcion": "Kitten Salmón de BR, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "salmón"
+    ]
+  },
+  {
+    "id": "br-felino-renal-care-1-5-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Renal Care",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/br/br-felino-renal-care-1-5-kg.webp",
+    "descripcion": "Renal Care de BR, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal"
+    ]
+  },
+  {
+    "id": "br-felino-renal-care-500-g",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Renal Care",
+    "presentacion": "500 g",
+    "pesoKg": 0.5,
+    "imagen": "/productos/br/br-felino-renal-care-500-g.webp",
+    "descripcion": "Renal Care de BR, alimento seco para gatos en bolsa de 500 g. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal"
+    ]
+  },
+  {
+    "id": "br-felino-salmon-1-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Salmón",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/br/br-felino-salmon-1-kg.webp",
+    "descripcion": "Salmón de BR, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salmón"
+    ]
+  },
+  {
+    "id": "br-felino-salmon-3-kg",
+    "marca": "BR",
+    "tipoAnimal": "felino",
+    "nombre": "Salmón",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/br/br-felino-salmon-3-kg.webp",
+    "descripcion": "Salmón de BR, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salmón"
+    ]
+  },
+  {
+    "id": "cat-chaow-felino-carne-1-5-kg",
+    "marca": "Cat Chow",
+    "tipoAnimal": "felino",
+    "nombre": "Carne",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/cat-chaow/cat-chaow-felino-carne-1-5-kg.webp",
+    "descripcion": "Carne de Cat Chow, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "carne"
+    ]
+  },
+  {
+    "id": "cat-chaow-felino-esterilizados-1-5-kg",
+    "marca": "Cat Chow",
+    "tipoAnimal": "felino",
+    "nombre": "Esterilizados",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/cat-chaow/cat-chaow-felino-esterilizados-1-5-kg.webp",
+    "descripcion": "Esterilizados de Cat Chow, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "cat-chaow-felino-hogarenos-1-5-kg",
+    "marca": "Cat Chow",
+    "tipoAnimal": "felino",
+    "nombre": "Hogareños",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/cat-chaow/cat-chaow-felino-hogarenos-1-5-kg.webp",
+    "descripcion": "Hogareños de Cat Chow, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatos de interior"
+    ]
+  },
+  {
+    "id": "cat-chaow-felino-pescado-1-5-kg",
+    "marca": "Cat Chow",
+    "tipoAnimal": "felino",
+    "nombre": "Pescado",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/cat-chaow/cat-chaow-felino-pescado-1-5-kg.webp",
+    "descripcion": "Pescado de Cat Chow, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "pescado"
+    ]
+  },
+  {
+    "id": "cat-chaow-felino-vida-sana-1-3-kg",
+    "marca": "Cat Chow",
+    "tipoAnimal": "felino",
+    "nombre": "Vida Sana",
+    "presentacion": "1,3 kg",
+    "pesoKg": 1.3,
+    "imagen": "/productos/cat-chaow/cat-chaow-felino-vida-sana-1-3-kg.webp",
+    "descripcion": "Vida Sana de Cat Chow, alimento seco para gatos en bolsa de 1,3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos"
+    ]
+  },
+  {
+    "id": "cat-chaow-felino-vida-sana-3-kg",
+    "marca": "Cat Chow",
+    "tipoAnimal": "felino",
+    "nombre": "Vida Sana",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/cat-chaow/cat-chaow-felino-vida-sana-3-kg.webp",
+    "descripcion": "Vida Sana de Cat Chow, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos"
+    ]
+  },
+  {
+    "id": "country-value-felino-pollo-y-pescado-2-kg",
+    "marca": "Country Value",
+    "tipoAnimal": "felino",
+    "nombre": "Pollo y Pescado",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/country-value/country-value-felino-pollo-y-pescado-2-kg.webp",
+    "descripcion": "Dale a tu felino lo mejor con Country Value Premium Adult Cat Formula – Pollo y Pescado, una combinación irresistible de sabor y salud que tu gato va a amar desde el primer bocado.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo: fuente de proteína de alta calidad para músculos fuertes",
+      "Pescado: rico en ácidos grasos esenciales (Omega 3 y 6)",
+      "Vitaminas y minerales: para una vida larga y saludable",
+      "Taurina: esencial para la salud del corazón y la visión"
+    ],
+    "beneficios": [
+      "Fórmula completa para gatos adultos de todas las razas",
+      "Mejora la digestión y energía diaria",
+      "Pelaje más suave y brillante",
+      "Sabor irresistible de pollo y pescado",
+      "Balance ideal de nutrientes esenciales"
+    ],
+    "etiquetas": [
+      "gatos",
+      "pollo",
+      "pescado"
+    ]
+  },
+  {
+    "id": "country-value-felino-pollo-y-pescado-20-lb",
+    "marca": "Country Value",
+    "tipoAnimal": "felino",
+    "nombre": "Pollo y Pescado",
+    "presentacion": "20 lb",
+    "pesoKg": 9,
+    "imagen": "/productos/country-value/country-value-felino-pollo-y-pescado-20-lb.webp",
+    "descripcion": "Dale a tu felino lo mejor con Country Value Premium Adult Cat Formula – Pollo y Pescado, una combinación irresistible de sabor y salud que tu gato va a amar desde el primer bocado.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo: fuente de proteína de alta calidad para músculos fuertes",
+      "Pescado: rico en ácidos grasos esenciales (Omega 3 y 6)",
+      "Vitaminas y minerales: para una vida larga y saludable",
+      "Taurina: esencial para la salud del corazón y la visión"
+    ],
+    "beneficios": [
+      "Fórmula completa para gatos adultos de todas las razas",
+      "Mejora la digestión y energía diaria",
+      "Pelaje más suave y brillante",
+      "Sabor irresistible de pollo y pescado",
+      "Balance ideal de nutrientes esenciales"
+    ],
+    "etiquetas": [
+      "gatos",
+      "pollo",
+      "pescado"
+    ]
+  },
+  {
+    "id": "diamond-naturals-felino-indoor-cat-1-1-lb",
+    "marca": "Diamond Naturals",
+    "tipoAnimal": "felino",
+    "nombre": "Indoor Cat",
+    "presentacion": "1,1 lb",
+    "pesoKg": 0.495,
+    "imagen": "/productos/diamond-naturals/diamond-naturals-felino-indoor-cat-1-1-lb.webp",
+    "descripcion": "Indoor Cat de Diamond Naturals, alimento seco para gatos en bolsa de 1,1 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "diamond-naturals-felino-indoor-cat-18-lb",
+    "marca": "Diamond Naturals",
+    "tipoAnimal": "felino",
+    "nombre": "Indoor Cat",
+    "presentacion": "18 lb",
+    "pesoKg": 8.1,
+    "imagen": "/productos/diamond-naturals/diamond-naturals-felino-indoor-cat-18-lb.webp",
+    "descripcion": "Indoor Cat de Diamond Naturals, alimento seco para gatos en bolsa de 18 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "diamond-naturals-felino-indoor-cat-6-lb",
+    "marca": "Diamond Naturals",
+    "tipoAnimal": "felino",
+    "nombre": "Indoor Cat",
+    "presentacion": "6 lb",
+    "pesoKg": 2.7,
+    "imagen": "/productos/diamond-naturals/diamond-naturals-felino-indoor-cat-6-lb.webp",
+    "descripcion": "Indoor Cat de Diamond Naturals, alimento seco para gatos en bolsa de 6 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "diamond-naturals-felino-kitten-6-lb",
+    "marca": "Diamond Naturals",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "6 lb",
+    "pesoKg": 2.7,
+    "imagen": "/productos/diamond-naturals/diamond-naturals-felino-kitten-6-lb.webp",
+    "descripcion": "Kitten de Diamond Naturals, alimento seco para gatos en bolsa de 6 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "premium"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-adulto-1-5-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-adulto-1-5-kg.webp",
+    "descripcion": "Adulto de Equilibrio, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-adulto-500-g",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "500 g",
+    "pesoKg": 0.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-adulto-500-g.webp",
+    "descripcion": "Adulto de Equilibrio, alimento seco para gatos en bolsa de 500 g. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-castrados-1-5-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Castrados",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-castrados-1-5-kg.webp",
+    "descripcion": "Castrados de Equilibrio, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-kitten-1-5-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-kitten-1-5-kg.webp",
+    "descripcion": "Kitten de Equilibrio, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-kitten-500-g",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "500 g",
+    "pesoKg": 0.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-kitten-500-g.webp",
+    "descripcion": "Kitten de Equilibrio, alimento seco para gatos en bolsa de 500 g. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-light-1-5-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Light",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-light-1-5-kg.webp",
+    "descripcion": "Light de Equilibrio, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-pelos-longos-1-5-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Pelos Largos",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-pelos-longos-1-5-kg.webp",
+    "descripcion": "Pelos Largos de Equilibrio, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "bolas de pelo"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-renal-2-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Renal",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/equilibrio/equilibrio-felino-renal-2-kg.webp",
+    "descripcion": "Renal de Equilibrio, alimento seco para gatos en bolsa de 2 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-salmon-1-5-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Salmón",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/equilibrio/equilibrio-felino-salmon-1-5-kg.webp",
+    "descripcion": "Salmón de Equilibrio, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salmón"
+    ]
+  },
+  {
+    "id": "equilibrio-felino-urinary-2-kg",
+    "marca": "Equilibrio",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/equilibrio/equilibrio-felino-urinary-2-kg.webp",
+    "descripcion": "Urinary de Equilibrio, alimento seco para gatos en bolsa de 2 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario"
+    ]
+  },
+  {
+    "id": "evolve-felino-classic-pollo-1-24-kg",
+    "marca": "Evolve",
+    "tipoAnimal": "felino",
+    "nombre": "Classic Pollo",
+    "presentacion": "1,24 kg",
+    "pesoKg": 1.24,
+    "imagen": "/productos/evolve/evolve-felino-classic-pollo-1-24-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación de alta calidad con Evolve Cat Classic Pollo, una fórmula diseñada para brindar energía, salud digestiva y bienestar total con ingredientes naturales y altamente nutritivos.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo real y harina de pollo: proteína de alta calidad para músculos fuertes",
+      "Pavo y pescado: variedad de proteínas para mejor nutrición",
+      "Arroz integral: energía saludable y fácil digestión",
+      "Frutas y vegetales: arándanos, zanahorias y tomate seco",
+      "Probióticos: mejor digestión y defensas fuertes",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Ingrediente principal: pollo real",
+      "Control de bolas de pelo",
+      "Favorece la digestión con probióticos",
+      "Fortalece el sistema inmune",
+      "Piel sana y pelaje brillante",
+      "Libre de ingredientes artificiales y transgénicos"
+    ],
+    "etiquetas": [
+      "gatos",
+      "pollo",
+      "premium"
+    ]
+  },
+  {
+    "id": "evolve-felino-classic-salmon-1-24-kg",
+    "marca": "Evolve",
+    "tipoAnimal": "felino",
+    "nombre": "Classic Salmón",
+    "presentacion": "1,24 kg",
+    "pesoKg": 1.24,
+    "imagen": "/productos/evolve/evolve-felino-classic-salmon-1-24-kg.webp",
+    "descripcion": "Dale a tu gato una experiencia deliciosa y saludable con Evolve Cat Classic Salmón, una fórmula premium rica en proteínas de alta calidad y ácidos grasos esenciales para su bienestar total.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Salmón real y harina de pescado: proteína altamente digestible y rica en Omega 3",
+      "Pollo: refuerzo proteico para músculos fuertes",
+      "Arroz integral: energía sostenida y fácil digestión",
+      "Frutas y vegetales: arándanos, zanahorias y tomate seco",
+      "Probióticos: salud digestiva y mejor absorción",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Sabor a salmón irresistible para gatos exigentes",
+      "Alto contenido de Omega 3 para piel y pelaje brillante",
+      "Favorece la digestión con probióticos",
+      "Refuerza el sistema inmune",
+      "Proteína de alta calidad para músculos fuertes",
+      "Ingredientes naturales sin aditivos artificiales"
+    ],
+    "etiquetas": [
+      "gatos",
+      "salmón",
+      "premium"
+    ]
+  },
+  {
+    "id": "evolve-felino-grain-free-pescado-2-75-lb",
+    "marca": "Evolve",
+    "tipoAnimal": "felino",
+    "nombre": "Grain-Free Pescado",
+    "presentacion": "2,75 lb",
+    "pesoKg": 1.238,
+    "imagen": "/productos/evolve/evolve-felino-grain-free-pescado-2-75-lb.webp",
+    "descripcion": "Dale a tu gato una alimentación más natural con Evolve Cat Grain-Free Pescado, una fórmula libre de granos, rica en proteína animal y perfecta para gatos con digestión sensible o necesidades especiales.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pescado real (salmón y pescado oceánico): proteína de alta calidad y fácil digestión",
+      "Harina de pescado: refuerzo proteico para músculos fuertes",
+      "Batata y guisantes: fuente alternativa de energía sin granos",
+      "Aceite de pescado: rico en Omega 3 para piel y pelaje",
+      "Frutas y vegetales: arándanos, zanahorias y tomate seco",
+      "Probióticos: salud digestiva y mejor absorción",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Fórmula grain-free ideal para gatos sensibles",
+      "Alta proteína para mayor energía y masa muscular",
+      "Mejora la digestión y reduce alergias alimentarias",
+      "Piel sana y pelaje brillante gracias al Omega 3",
+      "Sabor a pescado irresistible",
+      "Ingredientes naturales sin aditivos artificiales"
+    ],
+    "etiquetas": [
+      "gatos",
+      "sin granos",
+      "pescado",
+      "premium"
+    ]
+  },
+  {
+    "id": "evolve-felino-grain-free-pollo-3-lb",
+    "marca": "Evolve",
+    "tipoAnimal": "felino",
+    "nombre": "Grain-Free Pollo",
+    "presentacion": "3 lb",
+    "pesoKg": 1.35,
+    "imagen": "/productos/evolve/evolve-felino-grain-free-pollo-3-lb.webp",
+    "descripcion": "Grain-Free Pollo de Evolve, alimento seco para gatos en bolsa de 3 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "sin granos",
+      "pollo",
+      "premium"
+    ]
+  },
+  {
+    "id": "evolve-felino-kitten-1-24-kg",
+    "marca": "Evolve",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1,24 kg",
+    "pesoKg": 1.24,
+    "imagen": "/productos/evolve/evolve-felino-kitten-1-24-kg.webp",
+    "descripcion": "Dale a tu gatito el mejor comienzo con Evolve Cat Grain-Free Kitten, una fórmula premium sin granos, rica en proteína animal y diseñada para impulsar un crecimiento sano, fuerte y lleno de energía.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo y pescado real: proteínas de alta calidad para desarrollo muscular",
+      "Harina de pollo y pescado: mayor concentración proteica",
+      "Batata y guisantes: energía natural sin granos",
+      "Aceite de salmón (DHA): desarrollo del cerebro y la visión",
+      "Frutas y vegetales: arándanos, zanahorias y tomate seco",
+      "Probióticos: digestión saludable desde temprana edad",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Especial para gatitos en crecimiento",
+      "Fórmula sin granos ideal para digestión sensible",
+      "Favorece el desarrollo cerebral y visual (DHA)",
+      "Alta energía para su etapa más activa",
+      "Refuerza el sistema inmune",
+      "Promueve piel sana y pelaje brillante"
+    ],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "premium"
+    ]
+  },
+  {
+    "id": "excellent-felino-adulto-1-kg",
+    "marca": "Excellent",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/excellent/excellent-felino-adulto-1-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación balanceada y deliciosa con Excellent Gato Adulto, una fórmula completa diseñada para mantener su energía, salud digestiva y bienestar general todos los días.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo y/o carne): fortalece músculos y mantiene su vitalidad",
+      "Cereales seleccionados: energía sostenida para el día a día",
+      "Grasas saludables: apoyo para piel y pelaje",
+      "Vitaminas y minerales: refuerzan el sistema inmune",
+      "Taurina: esencial para la salud del corazón y la visión"
+    ],
+    "beneficios": [
+      "Nutrición completa y balanceada",
+      "Mantiene la energía y vitalidad diaria",
+      "Favorece la digestión",
+      "Fortalece el sistema inmune",
+      "Piel sana y pelaje brillante",
+      "Excelente relación calidad-precio"
+    ],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "excellent-felino-adulto-3-kg",
+    "marca": "Excellent",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/excellent/excellent-felino-adulto-3-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación balanceada y deliciosa con Excellent Gato Adulto, una fórmula completa diseñada para mantener su energía, salud digestiva y bienestar general todos los días.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo y/o carne): fortalece músculos y mantiene su vitalidad",
+      "Cereales seleccionados: energía sostenida para el día a día",
+      "Grasas saludables: apoyo para piel y pelaje",
+      "Vitaminas y minerales: refuerzan el sistema inmune",
+      "Taurina: esencial para la salud del corazón y la visión"
+    ],
+    "beneficios": [
+      "Nutrición completa y balanceada",
+      "Mantiene la energía y vitalidad diaria",
+      "Favorece la digestión",
+      "Fortalece el sistema inmune",
+      "Piel sana y pelaje brillante",
+      "Excelente relación calidad-precio"
+    ],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "excellent-felino-kitten-1-kg",
+    "marca": "Excellent",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/excellent/excellent-felino-kitten-1-kg.webp",
+    "descripcion": "Dale a tu gatito la nutrición que necesita desde el primer día con Excellent Kitten, una fórmula especialmente diseñada para apoyar su crecimiento, desarrollo y energía en esta etapa tan importante.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo y/o carne): desarrollo muscular fuerte",
+      "Cereales seleccionados: energía constante para su crecimiento",
+      "Grasas saludables: apoyo al desarrollo general",
+      "Vitaminas y minerales: fortalecen el sistema inmune",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Especial para gatitos en crecimiento",
+      "Favorece el desarrollo físico y energético",
+      "Refuerza el sistema inmune",
+      "Apoya una digestión saludable",
+      "Promueve piel sana y pelaje brillante",
+      "Excelente opción económica y balanceada"
+    ],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "excellent-felino-urinary-1-kg",
+    "marca": "Excellent",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/excellent/excellent-felino-urinary-1-kg.webp",
+    "descripcion": "Cuida la salud de tu gato desde adentro con Excellent Urinary Cat, una fórmula especializada que ayuda a mantener un sistema urinario saludable mientras le brinda una nutrición completa y equilibrada.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo y/o carne): mantiene músculos fuertes",
+      "Cereales seleccionados: energía diaria balanceada",
+      "Minerales controlados: ayudan a prevenir problemas urinarios",
+      "Vitaminas y antioxidantes: refuerzan las defensas",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a mantener la salud urinaria",
+      "Control de minerales para prevenir molestias",
+      "Favorece una buena digestión",
+      "Refuerza el sistema inmune",
+      "Nutrición completa para gatos adultos",
+      "Excelente opción económica y funcional"
+    ],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario"
+    ]
+  },
+  {
+    "id": "excellent-felino-urinary-3-kg",
+    "marca": "Excellent",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/excellent/excellent-felino-urinary-3-kg.webp",
+    "descripcion": "Cuida la salud de tu gato desde adentro con Excellent Urinary Cat, una fórmula especializada que ayuda a mantener un sistema urinario saludable mientras le brinda una nutrición completa y equilibrada.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo y/o carne): mantiene músculos fuertes",
+      "Cereales seleccionados: energía diaria balanceada",
+      "Minerales controlados: ayudan a prevenir problemas urinarios",
+      "Vitaminas y antioxidantes: refuerzan las defensas",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a mantener la salud urinaria",
+      "Control de minerales para prevenir molestias",
+      "Favorece una buena digestión",
+      "Refuerza el sistema inmune",
+      "Nutrición completa para gatos adultos",
+      "Excelente opción económica y funcional"
+    ],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario"
+    ]
+  },
+  {
+    "id": "felix-felino-triple-delicious-1-5-kg",
+    "marca": "Felix",
+    "tipoAnimal": "felino",
+    "nombre": "Triple Delicious",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/felix/felix-felino-triple-delicious-1-5-kg.webp",
+    "descripcion": "Sorprende a tu gato con Felix Triple Delicious, una deliciosa combinación de sabores que convierte cada comida en una experiencia única, ideal para gatos exigentes que disfrutan variedad y sabor.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Mezcla de carnes (res, pollo y/o pescado): sabores variados que encantan",
+      "Cereales seleccionados: energía diaria balanceada",
+      "Vitaminas y minerales: apoyan la salud general",
+      "Grasas saludables: contribuyen a piel y pelaje",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Variedad de sabores en un solo producto",
+      "Alta palatabilidad (les encanta)",
+      "Nutrición completa para el día a día",
+      "Mantiene energía y vitalidad",
+      "Ideal para gatos exigentes",
+      "Excelente opción económica"
+    ],
+    "etiquetas": [
+      "gatos"
+    ]
+  },
+  {
+    "id": "hills-canino-adulto-7-small-bites-4-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Adulto 7+ Small Bites",
+    "presentacion": "4,4 lb",
+    "pesoKg": 1.98,
+    "imagen": "/productos/hills/hills-canino-adulto-7-small-bites-4-4-lb.webp",
+    "descripcion": "Adulto 7+ Small Bites de Hill's, alimento seco para perros en bolsa de 4,4 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "adulto",
+      "senior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-adulto-small-bites-4-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Adulto Small Bites",
+    "presentacion": "4,4 lb",
+    "pesoKg": 1.98,
+    "imagen": "/productos/hills/hills-canino-adulto-small-bites-4-4-lb.webp",
+    "descripcion": "Adulto Small Bites de Hill's, alimento seco para perros en bolsa de 4,4 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "adulto",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-i-d-8-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Prescription Diet i/d",
+    "presentacion": "8,5 lb",
+    "pesoKg": 3.825,
+    "imagen": "/productos/hills/hills-canino-i-d-8-5-lb.webp",
+    "descripcion": "Prescription Diet i/d de Hill's, dieta veterinaria para perros en bolsa de 8,5 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "salud digestiva",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-canino-i-d-low-fat-8-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Prescription Diet i/d Low Fat",
+    "presentacion": "8,5 lb",
+    "pesoKg": 3.825,
+    "imagen": "/productos/hills/hills-canino-i-d-low-fat-8-5-lb.webp",
+    "descripcion": "Prescription Diet i/d Low Fat de Hill's, dieta veterinaria para perros en bolsa de 8,5 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "salud digestiva",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-canino-metabolic-7-7-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Prescription Diet Metabolic",
+    "presentacion": "7,7 lb",
+    "pesoKg": 3.465,
+    "imagen": "/productos/hills/hills-canino-metabolic-7-7-lb.webp",
+    "descripcion": "Prescription Diet Metabolic de Hill's, dieta veterinaria para perros en bolsa de 7,7 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-canino-puppy-small-bites-4-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Puppy Small Bites",
+    "presentacion": "4,5 lb",
+    "pesoKg": 2.025,
+    "imagen": "/productos/hills/hills-canino-puppy-small-bites-4-5-lb.webp",
+    "descripcion": "Puppy Small Bites de Hill's, alimento seco para perros en bolsa de 4,5 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "cachorro",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-r-d-3-3-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Prescription Diet r/d",
+    "presentacion": "3,3 lb",
+    "pesoKg": 1.485,
+    "imagen": "/productos/hills/hills-canino-r-d-3-3-lb.webp",
+    "descripcion": "Prescription Diet r/d de Hill's, dieta veterinaria para perros en bolsa de 3,3 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-canino-r-d-8-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Prescription Diet r/d",
+    "presentacion": "8,5 lb",
+    "pesoKg": 3.825,
+    "imagen": "/productos/hills/hills-canino-r-d-8-5-lb.webp",
+    "descripcion": "Prescription Diet r/d de Hill's, dieta veterinaria para perros en bolsa de 8,5 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-canino-small-y-mini-adulto-7-4-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Small & Mini Adulto 7+",
+    "presentacion": "4,5 lb",
+    "pesoKg": 2.025,
+    "imagen": "/productos/hills/hills-canino-small-y-mini-adulto-7-4-5-lb.webp",
+    "descripcion": "Small & Mini Adulto 7+ de Hill's, alimento seco para perros en bolsa de 4,5 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "adulto",
+      "senior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-small-y-mini-adulto-cordero-4-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Small & Mini Adulto Cordero",
+    "presentacion": "4,5 lb",
+    "pesoKg": 2.025,
+    "imagen": "/productos/hills/hills-canino-small-y-mini-adulto-cordero-4-5-lb.webp",
+    "descripcion": "Small & Mini Adulto Cordero de Hill's, alimento seco para perros en bolsa de 4,5 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "adulto",
+      "cordero",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-small-y-mini-adulto-pollo-4-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Small & Mini Adulto Pollo",
+    "presentacion": "4,5 lb",
+    "pesoKg": 2.025,
+    "imagen": "/productos/hills/hills-canino-small-y-mini-adulto-pollo-4-5-lb.webp",
+    "descripcion": "Small & Mini Adulto Pollo de Hill's, alimento seco para perros en bolsa de 4,5 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "adulto",
+      "pollo",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-small-y-mini-puppy-4-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Small & Mini Puppy",
+    "presentacion": "4,5 lb",
+    "pesoKg": 2.025,
+    "imagen": "/productos/hills/hills-canino-small-y-mini-puppy-4-5-lb.webp",
+    "descripcion": "Small & Mini Puppy de Hill's, alimento seco para perros en bolsa de 4,5 lb. Una opción para la comida diaria de tu perro. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "cachorro",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-canino-w-d-3-3-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "canino",
+    "nombre": "Prescription Diet w/d",
+    "presentacion": "3,3 lb",
+    "pesoKg": 1.485,
+    "imagen": "/productos/hills/hills-canino-w-d-3-3-lb.webp",
+    "descripcion": "Prescription Diet w/d de Hill's, dieta veterinaria para perros en bolsa de 3,3 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "perros",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-felino-adulto-1-6-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto 1-6",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-adulto-1-6-4-lb.webp",
+    "descripcion": "Adulto 1-6 de Hill's, alimento seco para gatos en bolsa de 4 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-adulto-1-6-7-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto 1-6",
+    "presentacion": "7 lb",
+    "pesoKg": 3.15,
+    "imagen": "/productos/hills/hills-felino-adulto-1-6-7-lb.webp",
+    "descripcion": "Adulto 1-6 de Hill's, alimento seco para gatos en bolsa de 7 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-adulto-7-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto 7+",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-adulto-7-4-lb.webp",
+    "descripcion": "Adulto 7+ de Hill's, alimento seco para gatos en bolsa de 4 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "senior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-adulto-indoor-3-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto Indoor",
+    "presentacion": "3,5 lb",
+    "pesoKg": 1.575,
+    "imagen": "/productos/hills/hills-felino-adulto-indoor-3-5-lb.webp",
+    "descripcion": "Adulto Indoor de Hill's, alimento seco para gatos en bolsa de 3,5 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-adulto-indoor-7-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto Indoor",
+    "presentacion": "7 lb",
+    "pesoKg": 3.15,
+    "imagen": "/productos/hills/hills-felino-adulto-indoor-7-lb.webp",
+    "descripcion": "Adulto Indoor de Hill's, alimento seco para gatos en bolsa de 7 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-hairball-control-1-6-3-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Hairball Control 1-6",
+    "presentacion": "3,5 lb",
+    "pesoKg": 1.575,
+    "imagen": "/productos/hills/hills-felino-hairball-control-1-6-3-5-lb.webp",
+    "descripcion": "Hairball Control 1-6 de Hill's, alimento seco para gatos en bolsa de 3,5 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "bolas de pelo",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-hairball-control-1-6-7-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Hairball Control 1-6",
+    "presentacion": "7 lb",
+    "pesoKg": 3.15,
+    "imagen": "/productos/hills/hills-felino-hairball-control-1-6-7-lb.webp",
+    "descripcion": "Hairball Control 1-6 de Hill's, alimento seco para gatos en bolsa de 7 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "bolas de pelo",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-indoor-11-3-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Indoor 11+",
+    "presentacion": "3,5 lb",
+    "pesoKg": 1.575,
+    "imagen": "/productos/hills/hills-felino-indoor-11-3-5-lb.webp",
+    "descripcion": "Indoor 11+ de Hill's, alimento seco para gatos en bolsa de 3,5 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "senior",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-kitten-3-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "3,5 lb",
+    "pesoKg": 1.575,
+    "imagen": "/productos/hills/hills-felino-kitten-3-5-lb.webp",
+    "descripcion": "Kitten de Hill's, alimento seco para gatos en bolsa de 3,5 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-kitten-7-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "7 lb",
+    "pesoKg": 3.15,
+    "imagen": "/productos/hills/hills-felino-kitten-7-lb.webp",
+    "descripcion": "Kitten de Hill's, alimento seco para gatos en bolsa de 7 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-kitten-indoor-3-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten Indoor",
+    "presentacion": "3,5 lb",
+    "pesoKg": 1.575,
+    "imagen": "/productos/hills/hills-felino-kitten-indoor-3-5-lb.webp",
+    "descripcion": "Kitten Indoor de Hill's, alimento seco para gatos en bolsa de 3,5 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-kitten-indoor-7-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten Indoor",
+    "presentacion": "7 lb",
+    "pesoKg": 3.15,
+    "imagen": "/productos/hills/hills-felino-kitten-indoor-7-lb.webp",
+    "descripcion": "Kitten Indoor de Hill's, alimento seco para gatos en bolsa de 7 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-light-1-6-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Light 1-6",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-light-1-6-4-lb.webp",
+    "descripcion": "Light 1-6 de Hill's, alimento seco para gatos en bolsa de 4 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-metabolic-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Prescription Diet Metabolic",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-metabolic-4-lb.webp",
+    "descripcion": "Prescription Diet Metabolic de Hill's, dieta veterinaria para gatos en bolsa de 4 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-felino-perfect-weight-3-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Perfect Weight",
+    "presentacion": "3 lb",
+    "pesoKg": 1.35,
+    "imagen": "/productos/hills/hills-felino-perfect-weight-3-lb.webp",
+    "descripcion": "Perfect Weight de Hill's, alimento seco para gatos en bolsa de 3 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-r-d-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Prescription Diet r/d",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-r-d-4-lb.webp",
+    "descripcion": "Prescription Diet r/d de Hill's, dieta veterinaria para gatos en bolsa de 4 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-felino-senior-vitality-3-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Senior Vitality",
+    "presentacion": "3 lb",
+    "pesoKg": 1.35,
+    "imagen": "/productos/hills/hills-felino-senior-vitality-3-lb.webp",
+    "descripcion": "Senior Vitality de Hill's, alimento seco para gatos en bolsa de 3 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "senior",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-sensitive-stomach-y-skin-3-5-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Sensitive Stomach & Skin",
+    "presentacion": "3,5 lb",
+    "pesoKg": 1.575,
+    "imagen": "/productos/hills/hills-felino-sensitive-stomach-y-skin-3-5-lb.webp",
+    "descripcion": "Sensitive Stomach & Skin de Hill's, alimento seco para gatos en bolsa de 3,5 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva",
+      "premium"
+    ]
+  },
+  {
+    "id": "hills-felino-w-d-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Prescription Diet w/d",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-w-d-4-lb.webp",
+    "descripcion": "Prescription Diet w/d de Hill's, dieta veterinaria para gatos en bolsa de 4 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "hills-felino-z-d-4-lb",
+    "marca": "Hill's",
+    "tipoAnimal": "felino",
+    "nombre": "Prescription Diet z/d",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/hills/hills-felino-z-d-4-lb.webp",
+    "descripcion": "Prescription Diet z/d de Hill's, dieta veterinaria para gatos en bolsa de 4 lb. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "alergias",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "holliday-felino-gastrointestinal-2-kg",
+    "marca": "Holliday",
+    "tipoAnimal": "felino",
+    "nombre": "MV Dieta Prescripta Gastrointestinal",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/holliday/holliday-felino-gastrointestinal-2-kg.webp",
+    "descripcion": "MV Dieta Prescripta Gastrointestinal de Holliday, dieta veterinaria para gatos en bolsa de 2 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "max-felino-adulto-1-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/max/max-felino-adulto-1-kg.webp",
+    "descripcion": "Adulto de Max, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "max-felino-adulto-3-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/max/max-felino-adulto-3-kg.webp",
+    "descripcion": "Adulto de Max, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "max-felino-castrado-selection-3-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Castrado Selection",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/max/max-felino-castrado-selection-3-kg.webp",
+    "descripcion": "Castrado Selection de Max, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "max-felino-castrados-1-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Castrados",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/max/max-felino-castrados-1-kg.webp",
+    "descripcion": "Castrados de Max, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "max-felino-castrados-3-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Castrados",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/max/max-felino-castrados-3-kg.webp",
+    "descripcion": "Castrados de Max, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "max-felino-kitten-1-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/max/max-felino-kitten-1-kg.webp",
+    "descripcion": "Kitten de Max, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "max-felino-sabores-de-mar-1-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Sabores de Mar",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/max/max-felino-sabores-de-mar-1-kg.webp",
+    "descripcion": "Sabores de Mar de Max, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "pescado"
+    ]
+  },
+  {
+    "id": "max-felino-sabores-de-mar-3-kg",
+    "marca": "Max",
+    "tipoAnimal": "felino",
+    "nombre": "Sabores de Mar",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/max/max-felino-sabores-de-mar-3-kg.webp",
+    "descripcion": "Sabores de Mar de Max, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "pescado"
+    ]
+  },
+  {
+    "id": "monello-felino-adulto-1-kg",
+    "marca": "Monello",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/monello/monello-felino-adulto-1-kg.webp",
+    "descripcion": "Adulto de Monello, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "monello-felino-castrados-1-kg",
+    "marca": "Monello",
+    "tipoAnimal": "felino",
+    "nombre": "Castrados",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/monello/monello-felino-castrados-1-kg.webp",
+    "descripcion": "Castrados de Monello, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "monello-felino-kitten-1-kg",
+    "marca": "Monello",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/monello/monello-felino-kitten-1-kg.webp",
+    "descripcion": "Kitten de Monello, alimento seco para gatos en bolsa de 1 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "monge-felino-vetsolution-renal-1-5-kg",
+    "marca": "Monge",
+    "tipoAnimal": "felino",
+    "nombre": "VetSolution Renal",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/monge/monge-felino-vetsolution-renal-1-5-kg.webp",
+    "descripcion": "VetSolution Renal de Monge, dieta veterinaria para gatos en bolsa de 1,5 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "nd-felino-ancestral-grain-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Ancestral Grain",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-ancestral-grain-1-5-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación inspirada en su naturaleza con N&D Ancestral Grain (Farmina), una fórmula premium que combina proteínas de alta calidad con granos ancestrales para una nutrición equilibrada, natural y altamente digestible.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo, cordero o pescado real: proteína animal de alta calidad",
+      "Granos ancestrales (espelta y avena): energía saludable de bajo índice glucémico",
+      "Frutas y vegetales: granada, manzana, arándanos y espinaca",
+      "Aceite de pescado: rico en Omega 3 para piel y pelaje",
+      "Prebióticos y fibra natural: favorecen la digestión",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Fórmula con granos ancestrales de bajo índice glucémico",
+      "Alta proteína animal para músculos fuertes",
+      "Favorece la digestión y absorción de nutrientes",
+      "Refuerza el sistema inmune",
+      "Piel sana y pelaje brillante",
+      "Ingredientes naturales de calidad premium"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "nd-felino-ancestral-kitten-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Ancestral Kitten",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-ancestral-kitten-1-5-kg.webp",
+    "descripcion": "Dale a tu gatito un comienzo excepcional con N&D Ancestral Grain Kitten (Farmina), una fórmula premium diseñada para su crecimiento, combinando proteína animal de alta calidad con granos ancestrales para un desarrollo sano, fuerte y equilibrado.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo real: proteína de alta calidad para desarrollo muscular",
+      "Granos ancestrales (espelta y avena): energía estable y digestible",
+      "Granada y frutas naturales: antioxidantes para fortalecer defensas",
+      "Aceite de pescado (DHA): desarrollo del cerebro y la visión",
+      "Prebióticos y fibra natural: digestión saludable",
+      "Taurina: esencial para el corazón y la vista"
+    ],
+    "beneficios": [
+      "Especial para gatitos en crecimiento",
+      "Alta proteína animal para desarrollo óptimo",
+      "Favorece el desarrollo cerebral y visual (DHA)",
+      "Refuerza el sistema inmune con antioxidantes naturales",
+      "Energía balanceada con granos ancestrales",
+      "Piel sana y pelaje brillante"
+    ],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "premium"
+    ]
+  },
+  {
+    "id": "nd-felino-ocean-castrados-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Ocean Castrados",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-ocean-castrados-1-5-kg.webp",
+    "descripcion": "Dale a tu gato esterilizado el equilibrio perfecto entre sabor y salud con N&D Ocean Neutered (Castrados), una fórmula premium diseñada para controlar el peso, cuidar su metabolismo y mantener su vitalidad diaria.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pescado (bacalao, arenque u otros): proteína de alta calidad y fácil digestión",
+      "Naranja y frutas naturales: antioxidantes que fortalecen el sistema inmune",
+      "Bajo contenido de grasa: ayuda a controlar el peso en gatos castrados",
+      "Fibra natural y prebióticos: mejora la digestión y saciedad",
+      "Aceite de pescado (Omega 3): piel sana y pelaje brillante",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Especial para gatos esterilizados",
+      "Control de peso y metabolismo saludable",
+      "Alta proteína con bajo contenido de grasa",
+      "Favorece la digestión y la saciedad",
+      "Refuerza el sistema inmune",
+      "Ingredientes premium de origen natural"
+    ],
+    "etiquetas": [
+      "gatos",
+      "esterilizado",
+      "pescado",
+      "premium"
+    ]
+  },
+  {
+    "id": "nd-felino-prime-adulto-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Prime Adulto",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-prime-adulto-1-5-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación de alto nivel con N&D Prime Adulto (Farmina), una fórmula grain-free diseñada para respetar su naturaleza carnívora, con alta proteína animal y cero granos para un rendimiento óptimo.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo, cordero o pescado real: proteína de alta calidad para músculos fuertes",
+      "Granada y frutas naturales: antioxidantes que fortalecen el sistema inmune",
+      "Sin granos (grain-free): ideal para digestión más natural",
+      "Batata y vegetales: energía saludable alternativa",
+      "Aceite de pescado (Omega 3): piel sana y pelaje brillante",
+      "Prebióticos: mejor digestión y absorción",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Fórmula grain-free ideal para gatos exigentes",
+      "Muy alta proteína animal para máxima energía",
+      "Favorece la digestión natural",
+      "Refuerza el sistema inmune con antioxidantes",
+      "Piel sana y pelaje brillante",
+      "Nutrición premium basada en su instinto carnívoro"
+    ],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "premium"
+    ]
+  },
+  {
+    "id": "nd-felino-tropical-adulto-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Tropical Adulto",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-tropical-adulto-1-5-kg.webp",
+    "descripcion": "Sorprende a tu gato con una dieta diferente y balanceada con N&D Tropical Selection Adulto (Farmina), una fórmula premium que combina proteína animal de alta calidad con frutas tropicales y granos seleccionados para una nutrición completa y deliciosa.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo, cordero o pescado real: proteína de alta calidad para músculos fuertes",
+      "Frutas tropicales (papaya, mango, kiwi, piña): ricas en antioxidantes y vitaminas",
+      "Cereales seleccionados: energía equilibrada y digestible",
+      "Aceite de pescado (Omega 3): piel sana y pelaje brillante",
+      "Prebióticos y fibra natural: favorecen la digestión",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Fórmula innovadora con frutas tropicales",
+      "Alta proteína para músculos fuertes",
+      "Refuerza el sistema inmune con antioxidantes naturales",
+      "Favorece la digestión y absorción de nutrientes",
+      "Piel sana y pelaje brillante",
+      "Sabor único e irresistible"
+    ],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "premium"
+    ]
+  },
+  {
+    "id": "nd-felino-tropical-castrados-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Tropical Castrados",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-tropical-castrados-1-5-kg.webp",
+    "descripcion": "Cuida a tu gato esterilizado con una fórmula innovadora y deliciosa: N&D Tropical Selection Neutered (Castrados). Diseñada para mantener su peso ideal, apoyar su metabolismo y brindarle una nutrición completa con ingredientes naturales y frutas tropicales.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo, cordero o pescado real: proteína de alta calidad para mantener masa muscular",
+      "Frutas tropicales (papaya, mango, kiwi, piña): antioxidantes naturales que fortalecen el sistema inmune",
+      "Contenido moderado de grasa: ayuda a controlar el peso",
+      "Cereales seleccionados: energía balanceada",
+      "Prebióticos y fibra natural: mejor digestión y mayor saciedad",
+      "Aceite de pescado (Omega 3): piel sana y pelaje brillante",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Especial para gatos castrados",
+      "Control de peso y metabolismo saludable",
+      "Proteína de alta calidad con grasa moderada",
+      "Favorece la digestión y la saciedad",
+      "Refuerza el sistema inmune con antioxidantes naturales",
+      "Sabor único con frutas tropicales"
+    ],
+    "etiquetas": [
+      "gatos",
+      "esterilizado",
+      "premium"
+    ]
+  },
+  {
+    "id": "nd-felino-urinary-1-5-kg",
+    "marca": "N&D",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nd/nd-felino-urinary-1-5-kg.webp",
+    "descripcion": "Cuida la salud urinaria de tu gato con N&D Urinary (Farmina), una fórmula premium diseñada para mantener el equilibrio del tracto urinario mientras le brinda una nutrición completa, natural y altamente digestible.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo, cordero o pescado real: proteína de alta calidad para músculos fuertes",
+      "Fórmula grain-free o baja en cereales: favorece una digestión más natural",
+      "Minerales balanceados: ayudan a mantener un sistema urinario saludable",
+      "Frutas y vegetales naturales: antioxidantes que refuerzan defensas",
+      "Prebióticos y fibra natural: mejor digestión y absorción",
+      "Aceite de pescado (Omega 3): piel sana y pelaje brillante",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Apoya la salud del tracto urinario",
+      "Control de minerales para prevenir molestias",
+      "Alta proteína para mantener masa muscular",
+      "Favorece la digestión natural",
+      "Refuerza el sistema inmune",
+      "Ingredientes premium de alta calidad"
+    ],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario",
+      "premium"
+    ]
+  },
+  {
+    "id": "nulo-felino-hairball-5-lb",
+    "marca": "Nulo",
+    "tipoAnimal": "felino",
+    "nombre": "Hairball",
+    "presentacion": "5 lb",
+    "pesoKg": 2.25,
+    "imagen": "/productos/nulo/nulo-felino-hairball-5-lb.webp",
+    "descripcion": "Ayuda a tu gato a sentirse mejor por dentro y por fuera con Nulo Hairball Management para Gatos, una fórmula premium diseñada para reducir las bolas de pelo mientras aporta nutrición completa y de alta calidad.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo y pescado (bacalao): proteínas de alta calidad para músculos fuertes",
+      "Alto contenido de fibra natural: ayuda a reducir la formación de bolas de pelo",
+      "Fórmula baja en carbohidratos: mejor metabolismo y energía",
+      "Probióticos vivos: favorecen la digestión",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Controla y reduce bolas de pelo",
+      "Alta proteína para mantener masa muscular",
+      "Mejora la digestión",
+      "Piel sana y pelaje brillante",
+      "Fórmula baja en carbohidratos",
+      "Sabor irresistible"
+    ],
+    "etiquetas": [
+      "gatos",
+      "bolas de pelo",
+      "premium"
+    ]
+  },
+  {
+    "id": "nulo-felino-indoor-cat-5-lb",
+    "marca": "Nulo",
+    "tipoAnimal": "felino",
+    "nombre": "Indoor Cat",
+    "presentacion": "5 lb",
+    "pesoKg": 2.25,
+    "imagen": "/productos/nulo/nulo-felino-indoor-cat-5-lb.webp",
+    "descripcion": "Dale a tu gato de casa una alimentación diseñada especialmente para su estilo de vida con Nulo Indoor Cat, una fórmula premium que ayuda a mantener su peso ideal, mejorar la digestión y cuidar su bienestar diario.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo y pescado (bacalao): proteína de alta calidad para músculos fuertes",
+      "Fórmula baja en carbohidratos: ayuda a mantener un peso saludable",
+      "Fibra natural: favorece la digestión y controla bolas de pelo",
+      "Probióticos vivos: mejoran la salud intestinal",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Ideal para gatos de interior",
+      "Ayuda a mantener el peso ideal",
+      "Controla bolas de pelo",
+      "Mejora la digestión",
+      "Alta proteína y bajo en carbohidratos",
+      "Ingredientes de alta calidad"
+    ],
+    "etiquetas": [
+      "gatos",
+      "gatos de interior",
+      "premium"
+    ]
+  },
+  {
+    "id": "nulo-felino-kitten-5-lb",
+    "marca": "Nulo",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "5 lb",
+    "pesoKg": 2.25,
+    "imagen": "/productos/nulo/nulo-felino-kitten-5-lb.webp",
+    "descripcion": "Dale a tu gatito el mejor inicio con Nulo Kitten, una fórmula premium rica en proteína animal y nutrientes esenciales para un crecimiento sano, fuerte y lleno de energía.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo y salmón: proteínas de alta calidad para desarrollo muscular",
+      "Aceite de salmón (DHA): favorece el desarrollo del cerebro y la visión",
+      "Fórmula baja en carbohidratos: mejor metabolismo desde temprana edad",
+      "Probióticos vivos: digestión saludable",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Especial para gatitos en crecimiento",
+      "Alta proteína para desarrollo óptimo",
+      "Favorece el desarrollo cerebral (DHA)",
+      "Refuerza el sistema inmune",
+      "Mejora la digestión",
+      "Ingredientes premium de alta calidad"
+    ],
+    "etiquetas": [
+      "gatos",
+      "gatito",
+      "premium"
+    ]
+  },
+  {
+    "id": "nupec-felino-adulto-indoor-1-5-kg",
+    "marca": "Nupec",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto Indoor",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nupec/nupec-felino-adulto-indoor-1-5-kg.webp",
+    "descripcion": "Adulto Indoor de Nupec, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "gatos de interior"
+    ]
+  },
+  {
+    "id": "nupec-felino-adulto-indoor-3-kg",
+    "marca": "Nupec",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto Indoor",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/nupec/nupec-felino-adulto-indoor-3-kg.webp",
+    "descripcion": "Adulto Indoor de Nupec, alimento seco para gatos en bolsa de 3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "gatos de interior"
+    ]
+  },
+  {
+    "id": "nupec-felino-kitten-1-5-kg",
+    "marca": "Nupec",
+    "tipoAnimal": "felino",
+    "nombre": "Kitten",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nupec/nupec-felino-kitten-1-5-kg.webp",
+    "descripcion": "Kitten de Nupec, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "gatito"
+    ]
+  },
+  {
+    "id": "nupec-felino-renal-care-1-5-kg",
+    "marca": "Nupec",
+    "tipoAnimal": "felino",
+    "nombre": "Renal Care",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nupec/nupec-felino-renal-care-1-5-kg.webp",
+    "descripcion": "Renal Care de Nupec, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal"
+    ]
+  },
+  {
+    "id": "nupec-felino-urinary-1-5-kg",
+    "marca": "Nupec",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nupec/nupec-felino-urinary-1-5-kg.webp",
+    "descripcion": "Urinary de Nupec, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario"
+    ]
+  },
+  {
+    "id": "nupec-felino-weight-care-1-5-kg",
+    "marca": "Nupec",
+    "tipoAnimal": "felino",
+    "nombre": "Weight Care",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/nupec/nupec-felino-weight-care-1-5-kg.webp",
+    "descripcion": "Weight Care de Nupec, alimento seco para gatos en bolsa de 1,5 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso"
+    ]
+  },
+  {
+    "id": "nutra-nuggets-felino-amarillo-1-kg",
+    "marca": "Nutra-Nuggets",
+    "tipoAnimal": "felino",
+    "nombre": "Amarillo",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/nutra-nuggets/nutra-nuggets-felino-amarillo-1-kg.webp",
+    "descripcion": "Mantén a tu gato sano, activo y en su peso ideal con Nutra-Nuggets Gato Adulto Mantenimiento, una fórmula balanceada diseñada para cubrir sus necesidades diarias sin excesos, ideal para gatos con actividad moderada.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo): ayuda a conservar la masa muscular",
+      "Arroz y cereales seleccionados: energía estable y fácil digestión",
+      "Grasas moderadas: ayudan a mantener un peso saludable",
+      "Vitaminas y minerales: fortalecen el sistema inmune",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Ideal para mantenimiento diario",
+      "Control de peso con grasa moderada",
+      "Favorece una digestión saludable",
+      "Mantiene la energía sin excesos",
+      "Refuerza el sistema inmune",
+      "Excelente opción económica y funcional"
+    ],
+    "etiquetas": [
+      "gatos"
+    ]
+  },
+  {
+    "id": "nutra-nuggets-felino-amarillo-3-kg",
+    "marca": "Nutra-Nuggets",
+    "tipoAnimal": "felino",
+    "nombre": "Amarillo",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/nutra-nuggets/nutra-nuggets-felino-amarillo-3-kg.webp",
+    "descripcion": "Mantén a tu gato sano, activo y en su peso ideal con Nutra-Nuggets Gato Adulto Mantenimiento, una fórmula balanceada diseñada para cubrir sus necesidades diarias sin excesos, ideal para gatos con actividad moderada.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de origen animal (pollo): ayuda a conservar la masa muscular",
+      "Arroz y cereales seleccionados: energía estable y fácil digestión",
+      "Grasas moderadas: ayudan a mantener un peso saludable",
+      "Vitaminas y minerales: fortalecen el sistema inmune",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Ideal para mantenimiento diario",
+      "Control de peso con grasa moderada",
+      "Favorece una digestión saludable",
+      "Mantiene la energía sin excesos",
+      "Refuerza el sistema inmune",
+      "Excelente opción económica y funcional"
+    ],
+    "etiquetas": [
+      "gatos"
+    ]
+  },
+  {
+    "id": "orijen-felino-fit-y-trim-4-lb",
+    "marca": "Orijen",
+    "tipoAnimal": "felino",
+    "nombre": "Fit & Trim",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/orijen/orijen-felino-fit-y-trim-4-lb.webp",
+    "descripcion": "Fit & Trim de Orijen, alimento seco para gatos en bolsa de 4 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "premium"
+    ]
+  },
+  {
+    "id": "orijen-felino-original-cat-4-lb",
+    "marca": "Orijen",
+    "tipoAnimal": "felino",
+    "nombre": "Original Cat",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/orijen/orijen-felino-original-cat-4-lb.webp",
+    "descripcion": "Original Cat de Orijen, alimento seco para gatos en bolsa de 4 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "orijen-felino-six-fish-recipe-4-lb",
+    "marca": "Orijen",
+    "tipoAnimal": "felino",
+    "nombre": "Six Fish Recipe",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/orijen/orijen-felino-six-fish-recipe-4-lb.webp",
+    "descripcion": "Six Fish Recipe de Orijen, alimento seco para gatos en bolsa de 4 lb. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "pescado",
+      "premium"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-adulto-1-5-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/pro-plan/pro-plan-felino-adulto-1-5-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación de alto rendimiento con Pro Plan Gato Adulto, una fórmula premium desarrollada científicamente para brindar una nutrición completa, mejorar su digestión y fortalecer su sistema inmune día a día.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo o salmón real: proteína de alta calidad para músculos fuertes",
+      "Tecnología OptiPrebio: prebióticos que optimizan la digestión",
+      "Antioxidantes naturales: refuerzan el sistema inmune",
+      "Minerales balanceados: ayudan a mantener la salud urinaria",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Nutrición premium respaldada por ciencia",
+      "Mejora la digestión con tecnología OptiPrebio",
+      "Refuerza el sistema inmune con antioxidantes",
+      "Contribuye a la salud urinaria",
+      "Alta palatabilidad (les encanta)",
+      "Mantiene energía y vitalidad diaria"
+    ],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-adulto-3-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Adulto",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/pro-plan/pro-plan-felino-adulto-3-kg.webp",
+    "descripcion": "Dale a tu gato una alimentación de alto rendimiento con Pro Plan Gato Adulto, una fórmula premium desarrollada científicamente para brindar una nutrición completa, mejorar su digestión y fortalecer su sistema inmune día a día.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo o salmón real: proteína de alta calidad para músculos fuertes",
+      "Tecnología OptiPrebio: prebióticos que optimizan la digestión",
+      "Antioxidantes naturales: refuerzan el sistema inmune",
+      "Minerales balanceados: ayudan a mantener la salud urinaria",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Nutrición premium respaldada por ciencia",
+      "Mejora la digestión con tecnología OptiPrebio",
+      "Refuerza el sistema inmune con antioxidantes",
+      "Contribuye a la salud urinaria",
+      "Alta palatabilidad (les encanta)",
+      "Mantiene energía y vitalidad diaria"
+    ],
+    "etiquetas": [
+      "gatos",
+      "adulto"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-en-1-5-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Veterinary Diets EN Gastroenteric",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/pro-plan/pro-plan-felino-en-1-5-kg.webp",
+    "descripcion": "Cuida la salud digestiva de tu gato con Pro Plan Gato EN (Gastroenteric), una fórmula veterinaria especializada diseñada para apoyar problemas gastrointestinales, mejorar la absorción de nutrientes y promover una recuperación efectiva.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de alta digestibilidad (pollo): fácil absorción y menor carga digestiva",
+      "Carbohidratos seleccionados: energía rápida y digestible",
+      "Prebióticos (OptiPrebio): equilibrio de la flora intestinal",
+      "Electrolitos añadidos: ayudan en procesos de recuperación",
+      "Ácidos grasos Omega 3 y 6: reducen inflamación y mejoran la salud general",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Apoyo especializado para problemas digestivos",
+      "Alta digestibilidad para mejor absorción",
+      "Ayuda en casos de diarrea, vómito o sensibilidad digestiva",
+      "Favorece la recuperación intestinal",
+      "Recomendado por veterinarios",
+      "Nutrición clínica de alta calidad"
+    ],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-ha-4-lb",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Veterinary Diets HA Hypoallergenic",
+    "presentacion": "4 lb",
+    "pesoKg": 1.8,
+    "imagen": "/productos/pro-plan/pro-plan-felino-ha-4-lb.webp",
+    "descripcion": "Cuida a tu gato con sensibilidad alimentaria con Pro Plan Gato HA (Hypoallergenic), una fórmula veterinaria especializada que ayuda a reducir reacciones alérgicas y mejora la calidad de vida de gatos con intolerancias.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína hidrolizada: reduce el riesgo de alergias alimentarias",
+      "Carbohidratos purificados: minimizan reacciones adversas",
+      "Ácidos grasos Omega 3 y 6: ayudan a la salud de la piel",
+      "Vitaminas y minerales: refuerzan el sistema inmune",
+      "Alta digestibilidad: facilita la absorción de nutrientes",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Fórmula hipoalergénica",
+      "Reduce reacciones alérgicas e intolerancias",
+      "Mejora la salud de la piel y el pelaje",
+      "Favorece la digestión",
+      "Apoya el sistema inmune",
+      "Recomendado por veterinarios"
+    ],
+    "etiquetas": [
+      "gatos",
+      "alergias",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-liveclear-1-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "LiveClear",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/pro-plan/pro-plan-felino-liveclear-1-kg.webp",
+    "descripcion": "Pro Plan LiveClear es un alimento premium para gatos adultos que combina nutrición avanzada con una innovadora tecnología diseñada para ayudar a reducir los alérgenos presentes en el pelaje y la caspa de los gatos, mejorando la convivencia con personas sensibles.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Reducción de alérgenos: Disminuye en promedio hasta un 47% los alérgenos desde la tercera semana de uso continuo.",
+      "Proteína de alta calidad: Elaborado con pollo como ingrediente principal para mantener masa muscular.",
+      "Nutrición completa y balanceada: Ideal para gatos adultos de 1 a 7 años.",
+      "Con probióticos y nutrientes esenciales: Favorece la digestión y el sistema inmunológico.",
+      "Incluye taurina: Fundamental para la salud visual y cardíaca."
+    ],
+    "beneficios": [
+      "Mejora la convivencia con personas alérgicas",
+      "Mantiene piel y pelaje saludables",
+      "Apoya la salud digestiva",
+      "Aporta energía y vitalidad diaria"
+    ],
+    "etiquetas": [
+      "gatos",
+      "alergias"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-liveclear-3-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "LiveClear",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/pro-plan/pro-plan-felino-liveclear-3-kg.webp",
+    "descripcion": "Pro Plan LiveClear es un alimento premium para gatos adultos que combina nutrición avanzada con una innovadora tecnología diseñada para ayudar a reducir los alérgenos presentes en el pelaje y la caspa de los gatos, mejorando la convivencia con personas sensibles.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Reducción de alérgenos: Disminuye en promedio hasta un 47% los alérgenos desde la tercera semana de uso continuo.",
+      "Proteína de alta calidad: Elaborado con pollo como ingrediente principal para mantener masa muscular.",
+      "Nutrición completa y balanceada: Ideal para gatos adultos de 1 a 7 años.",
+      "Con probióticos y nutrientes esenciales: Favorece la digestión y el sistema inmunológico.",
+      "Incluye taurina: Fundamental para la salud visual y cardíaca."
+    ],
+    "beneficios": [
+      "Mejora la convivencia con personas alérgicas",
+      "Mantiene piel y pelaje saludables",
+      "Apoya la salud digestiva",
+      "Aporta energía y vitalidad diaria"
+    ],
+    "etiquetas": [
+      "gatos",
+      "alergias"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-nf-early-care-3-15-lb",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Veterinary Diets NF Early Care",
+    "presentacion": "3,15 lb",
+    "pesoKg": 1.418,
+    "imagen": "/productos/pro-plan/pro-plan-felino-nf-early-care-3-15-lb.webp",
+    "descripcion": "El Pro Plan NF Early Care es un alimento terapéutico diseñado específicamente para gatos con problemas renales en etapas iniciales. Su fórmula está desarrollada por veterinarios y nutricionistas para ayudar a mantener la función renal, reducir la progresión del daño y mejorar la calidad de vida del gato.",
+    "descripcionGenerica": false,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-nf-renal-function-1-5-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Veterinary Diets NF Renal Function",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/pro-plan/pro-plan-felino-nf-renal-function-1-5-kg.webp",
+    "descripcion": "Pro Plan NF Renal Function es un alimento clínico formulado específicamente para gatos adultos con enfermedad renal crónica (ERC), brindando soporte nutricional avanzado para ayudar a mejorar su calidad de vida y controlar la progresión de la enfermedad.",
+    "descripcionGenerica": false,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-om-1-5-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Veterinary Diets OM Overweight Management",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/pro-plan/pro-plan-felino-om-1-5-kg.webp",
+    "descripcion": "Dale a tu gato una vida más saludable con Pro Plan OM Overweight Management, una fórmula veterinaria especializada para el control de peso que ayuda a reducir grasa corporal sin sacrificar nutrientes esenciales.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de alta calidad: mantiene la masa muscular durante la pérdida de peso",
+      "Fibra natural: genera mayor saciedad y reduce el hambre",
+      "Carbohidratos controlados: ayudan a regular el metabolismo",
+      "L-carnitina: favorece la quema de grasa",
+      "Vitaminas y minerales: fortalecen el sistema inmune",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a bajar de peso de forma segura",
+      "Mantiene masa muscular magra citeturn0search1",
+      "Genera sensación de saciedad y controla el apetito citeturn0search1",
+      "Apoya la salud urinaria citeturn0search1",
+      "Puede usarse para pérdida y mantenimiento del peso ideal citeturn0search1",
+      "Recomendado por veterinarios"
+    ],
+    "etiquetas": [
+      "gatos",
+      "control de peso",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-sterilized-1-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Sterilized",
+    "presentacion": "1 kg",
+    "pesoKg": 1,
+    "imagen": "/productos/pro-plan/pro-plan-felino-sterilized-1-kg.webp",
+    "descripcion": "Dale a tu gato esterilizado una nutrición adaptada a sus nuevas necesidades con Pro Plan Gato Sterilized, una fórmula diseñada para mantener su peso ideal, proteger su sistema urinario y conservar su vitalidad diaria.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo como primer ingrediente: proteína de alta calidad para músculos fuertes",
+      "Fibras naturales: ayudan a controlar el apetito",
+      "Grasas controladas: mantienen el peso ideal",
+      "Minerales balanceados: contribuyen a la salud urinaria",
+      "Vitaminas y antioxidantes: refuerzan el sistema inmune",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a mantener el peso ideal",
+      "Controla el apetito después de la esterilización",
+      "Favorece la salud urinaria",
+      "Mantiene músculos fuertes",
+      "Refuerza el sistema inmune",
+      "Alta palatabilidad"
+    ],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-sterilized-3-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Sterilized",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/pro-plan/pro-plan-felino-sterilized-3-kg.webp",
+    "descripcion": "Dale a tu gato esterilizado una nutrición adaptada a sus nuevas necesidades con Pro Plan Gato Sterilized, una fórmula diseñada para mantener su peso ideal, proteger su sistema urinario y conservar su vitalidad diaria.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo como primer ingrediente: proteína de alta calidad para músculos fuertes",
+      "Fibras naturales: ayudan a controlar el apetito",
+      "Grasas controladas: mantienen el peso ideal",
+      "Minerales balanceados: contribuyen a la salud urinaria",
+      "Vitaminas y antioxidantes: refuerzan el sistema inmune",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a mantener el peso ideal",
+      "Controla el apetito después de la esterilización",
+      "Favorece la salud urinaria",
+      "Mantiene músculos fuertes",
+      "Refuerza el sistema inmune",
+      "Alta palatabilidad"
+    ],
+    "etiquetas": [
+      "gatos",
+      "esterilizado"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-ur-1-5-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Veterinary Diets UR Urinary",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/pro-plan/pro-plan-felino-ur-1-5-kg.webp",
+    "descripcion": "Cuida la salud urinaria de tu gato con Pro Plan UR (Urinary), una fórmula veterinaria especializada diseñada para ayudar en el manejo de problemas del tracto urinario y mejorar su calidad de vida.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Proteína de alta calidad: mantiene la masa muscular",
+      "Minerales controlados: ayudan a reducir la formación de cristales",
+      "Nivel óptimo de sodio: favorece el consumo de agua",
+      "Ácidos grasos Omega 3 y 6: apoyan la salud general",
+      "Vitaminas y antioxidantes: fortalecen el sistema inmune",
+      "Taurina: esencial para el corazón y la visión"
+    ],
+    "beneficios": [
+      "Ayuda a disolver y prevenir cristales urinarios",
+      "Favorece un pH urinario adecuado",
+      "Apoya la salud del tracto urinario",
+      "Alta digestibilidad",
+      "Excelente palatabilidad",
+      "Recomendado por veterinarios"
+    ],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-urinary-1-5-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/pro-plan/pro-plan-felino-urinary-1-5-kg.webp",
+    "descripcion": "Protege la salud del tracto urinario de tu gato todos los días con Pro Plan Gato Urinary, una fórmula especializada que ayuda a mantener un sistema urinario saludable mientras brinda nutrición completa y balanceada.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo como primer ingrediente: proteína de alta calidad",
+      "Minerales balanceados: ayudan a prevenir la formación de cristales",
+      "Nivel adecuado de sodio: estimula el consumo de agua",
+      "Ácidos grasos Omega 3 y 6: apoyan la salud general",
+      "Vitaminas y antioxidantes: fortalecen el sistema inmune",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a mantener la salud urinaria",
+      "Previene la formación de cristales",
+      "Nutrición completa para el día a día",
+      "Alta digestibilidad",
+      "Excelente sabor",
+      "Ideal para uso continuo"
+    ],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario"
+    ]
+  },
+  {
+    "id": "pro-plan-felino-urinary-3-kg",
+    "marca": "Pro Plan",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/pro-plan/pro-plan-felino-urinary-3-kg.webp",
+    "descripcion": "Protege la salud del tracto urinario de tu gato todos los días con Pro Plan Gato Urinary, una fórmula especializada que ayuda a mantener un sistema urinario saludable mientras brinda nutrición completa y balanceada.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Pollo como primer ingrediente: proteína de alta calidad",
+      "Minerales balanceados: ayudan a prevenir la formación de cristales",
+      "Nivel adecuado de sodio: estimula el consumo de agua",
+      "Ácidos grasos Omega 3 y 6: apoyan la salud general",
+      "Vitaminas y antioxidantes: fortalecen el sistema inmune",
+      "Taurina: esencial para corazón y visión"
+    ],
+    "beneficios": [
+      "Ayuda a mantener la salud urinaria",
+      "Previene la formación de cristales",
+      "Nutrición completa para el día a día",
+      "Alta digestibilidad",
+      "Excelente sabor",
+      "Ideal para uso continuo"
+    ],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario"
+    ]
+  },
+  {
+    "id": "siete-vidas-felino-sabores-de-la-tierra-1-3-kg",
+    "marca": "Siete Vidas",
+    "tipoAnimal": "felino",
+    "nombre": "Sabores de la Tierra",
+    "presentacion": "1,3 kg",
+    "pesoKg": 1.3,
+    "imagen": "/productos/siete-vidas/siete-vidas-felino-sabores-de-la-tierra-1-3-kg.webp",
+    "descripcion": "Sabores de la Tierra de Siete Vidas, alimento seco para gatos en bolsa de 1,3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos"
+    ]
+  },
+  {
+    "id": "siete-vidas-felino-sabores-del-mar-1-3-kg",
+    "marca": "Siete Vidas",
+    "tipoAnimal": "felino",
+    "nombre": "Sabores del Mar",
+    "presentacion": "1,3 kg",
+    "pesoKg": 1.3,
+    "imagen": "/productos/siete-vidas/siete-vidas-felino-sabores-del-mar-1-3-kg.webp",
+    "descripcion": "Sabores del Mar de Siete Vidas, alimento seco para gatos en bolsa de 1,3 kg. Una opción para la comida diaria de tu gato. Si no sabes cuál elegir, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "pescado"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-canyon-river-1-1-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Canyon River",
+    "presentacion": "1,1 lb",
+    "pesoKg": 0.495,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-canyon-river-1-1-lb.webp",
+    "descripcion": "Dale a tu gato una alimentación de alto nivel con Taste of the Wild Canyon River, una fórmula premium libre de granos inspirada en la dieta natural felina, ideal para gatos con paladar exigente o sensibilidad digestiva.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Trucha y salmón ahumado: proteínas altamente digestibles y de gran sabor",
+      "Fórmula grain-free: sin granos, ideal para gatos sensibles",
+      "Batata y guisantes: fuente de energía saludable",
+      "Probióticos específicos: favorecen la salud digestiva",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: apoyo al sistema inmune"
+    ],
+    "beneficios": [
+      "Proteína de pescado de alta calidad",
+      "Sin granos (grain-free)",
+      "Alta digestibilidad",
+      "Mejora la salud de piel y pelaje",
+      "Refuerza el sistema inmune",
+      "Sabor irresistible para gatos exigentes"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-canyon-river-14-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Canyon River",
+    "presentacion": "14 lb",
+    "pesoKg": 6.3,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-canyon-river-14-lb.webp",
+    "descripcion": "Dale a tu gato una alimentación de alto nivel con Taste of the Wild Canyon River, una fórmula premium libre de granos inspirada en la dieta natural felina, ideal para gatos con paladar exigente o sensibilidad digestiva.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Trucha y salmón ahumado: proteínas altamente digestibles y de gran sabor",
+      "Fórmula grain-free: sin granos, ideal para gatos sensibles",
+      "Batata y guisantes: fuente de energía saludable",
+      "Probióticos específicos: favorecen la salud digestiva",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: apoyo al sistema inmune"
+    ],
+    "beneficios": [
+      "Proteína de pescado de alta calidad",
+      "Sin granos (grain-free)",
+      "Alta digestibilidad",
+      "Mejora la salud de piel y pelaje",
+      "Refuerza el sistema inmune",
+      "Sabor irresistible para gatos exigentes"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-canyon-river-5-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Canyon River",
+    "presentacion": "5 lb",
+    "pesoKg": 2.25,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-canyon-river-5-lb.webp",
+    "descripcion": "Dale a tu gato una alimentación de alto nivel con Taste of the Wild Canyon River, una fórmula premium libre de granos inspirada en la dieta natural felina, ideal para gatos con paladar exigente o sensibilidad digestiva.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Trucha y salmón ahumado: proteínas altamente digestibles y de gran sabor",
+      "Fórmula grain-free: sin granos, ideal para gatos sensibles",
+      "Batata y guisantes: fuente de energía saludable",
+      "Probióticos específicos: favorecen la salud digestiva",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: apoyo al sistema inmune"
+    ],
+    "beneficios": [
+      "Proteína de pescado de alta calidad",
+      "Sin granos (grain-free)",
+      "Alta digestibilidad",
+      "Mejora la salud de piel y pelaje",
+      "Refuerza el sistema inmune",
+      "Sabor irresistible para gatos exigentes"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-lowland-creek-14-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Lowland Creek",
+    "presentacion": "14 lb",
+    "pesoKg": 6.3,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-lowland-creek-14-lb.webp",
+    "descripcion": "Sorprende a tu gato con Taste of the Wild Lowland Creek, una fórmula premium grain-free elaborada con proteínas novedosas como codorniz y pato, ideal para gatos que necesitan alta digestibilidad y una nutrición más natural.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Codorniz y pato asado: proteínas de alta calidad y gran sabor",
+      "Fórmula libre de granos (grain-free): ideal para gatos sensibles",
+      "Batata y guisantes: energía sostenida y saludable",
+      "Probióticos específicos: favorecen la digestión",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: fortalecen el sistema inmune"
+    ],
+    "beneficios": [
+      "Proteínas novedosas (codorniz y pato)",
+      "Sin granos, ideal para digestión sensible",
+      "Alta palatabilidad (sabor irresistible)",
+      "Mejora piel y pelaje",
+      "Refuerza el sistema inmune",
+      "Nutrición premium tipo natural"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-lowland-creek-5-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Lowland Creek",
+    "presentacion": "5 lb",
+    "pesoKg": 2.25,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-lowland-creek-5-lb.webp",
+    "descripcion": "Sorprende a tu gato con Taste of the Wild Lowland Creek, una fórmula premium grain-free elaborada con proteínas novedosas como codorniz y pato, ideal para gatos que necesitan alta digestibilidad y una nutrición más natural.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Codorniz y pato asado: proteínas de alta calidad y gran sabor",
+      "Fórmula libre de granos (grain-free): ideal para gatos sensibles",
+      "Batata y guisantes: energía sostenida y saludable",
+      "Probióticos específicos: favorecen la digestión",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: fortalecen el sistema inmune"
+    ],
+    "beneficios": [
+      "Proteínas novedosas (codorniz y pato)",
+      "Sin granos, ideal para digestión sensible",
+      "Alta palatabilidad (sabor irresistible)",
+      "Mejora piel y pelaje",
+      "Refuerza el sistema inmune",
+      "Nutrición premium tipo natural"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-rocky-mountain-1-1-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Rocky Mountain",
+    "presentacion": "1,1 lb",
+    "pesoKg": 0.495,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-rocky-mountain-1-1-lb.webp",
+    "descripcion": "Lleva la alimentación de tu gato a otro nivel con Taste of the Wild Rocky Mountain, una fórmula premium grain-free inspirada en la dieta ancestral felina, con proteínas de alta calidad que aportan energía, vitalidad y excelente digestibilidad.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Venado asado y salmón ahumado: proteínas altamente digestibles y sabrosas",
+      "Fórmula libre de granos (grain-free): ideal para gatos sensibles",
+      "Batata y guisantes: energía natural y sostenida",
+      "Probióticos específicos: apoyan la salud digestiva",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: fortalecen el sistema inmune"
+    ],
+    "beneficios": [
+      "Alto contenido de proteína",
+      "Sin granos (grain-free)",
+      "Excelente digestibilidad",
+      "Ideal para gatos activos",
+      "Mejora piel y pelaje",
+      "Sabor intenso e irresistible"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-rocky-mountain-14-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Rocky Mountain",
+    "presentacion": "14 lb",
+    "pesoKg": 6.3,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-rocky-mountain-14-lb.webp",
+    "descripcion": "Lleva la alimentación de tu gato a otro nivel con Taste of the Wild Rocky Mountain, una fórmula premium grain-free inspirada en la dieta ancestral felina, con proteínas de alta calidad que aportan energía, vitalidad y excelente digestibilidad.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Venado asado y salmón ahumado: proteínas altamente digestibles y sabrosas",
+      "Fórmula libre de granos (grain-free): ideal para gatos sensibles",
+      "Batata y guisantes: energía natural y sostenida",
+      "Probióticos específicos: apoyan la salud digestiva",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: fortalecen el sistema inmune"
+    ],
+    "beneficios": [
+      "Alto contenido de proteína",
+      "Sin granos (grain-free)",
+      "Excelente digestibilidad",
+      "Ideal para gatos activos",
+      "Mejora piel y pelaje",
+      "Sabor intenso e irresistible"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "taste-of-the-wild-felino-rocky-mountain-5-lb",
+    "marca": "Taste of the Wild",
+    "tipoAnimal": "felino",
+    "nombre": "Rocky Mountain",
+    "presentacion": "5 lb",
+    "pesoKg": 2.25,
+    "imagen": "/productos/taste-of-the-wild/taste-of-the-wild-felino-rocky-mountain-5-lb.webp",
+    "descripcion": "Lleva la alimentación de tu gato a otro nivel con Taste of the Wild Rocky Mountain, una fórmula premium grain-free inspirada en la dieta ancestral felina, con proteínas de alta calidad que aportan energía, vitalidad y excelente digestibilidad.",
+    "descripcionGenerica": false,
+    "ingredientes": [
+      "Venado asado y salmón ahumado: proteínas altamente digestibles y sabrosas",
+      "Fórmula libre de granos (grain-free): ideal para gatos sensibles",
+      "Batata y guisantes: energía natural y sostenida",
+      "Probióticos específicos: apoyan la salud digestiva",
+      "Ácidos grasos Omega 3 y 6: piel sana y pelaje brillante",
+      "Antioxidantes naturales: fortalecen el sistema inmune"
+    ],
+    "beneficios": [
+      "Alto contenido de proteína",
+      "Sin granos (grain-free)",
+      "Excelente digestibilidad",
+      "Ideal para gatos activos",
+      "Mejora piel y pelaje",
+      "Sabor intenso e irresistible"
+    ],
+    "etiquetas": [
+      "gatos",
+      "premium"
+    ]
+  },
+  {
+    "id": "vetlife-felino-diabetic-2-kg",
+    "marca": "VetLife",
+    "tipoAnimal": "felino",
+    "nombre": "Diabetic",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/vetlife/vetlife-felino-diabetic-2-kg.webp",
+    "descripcion": "Diabetic de VetLife, dieta veterinaria para gatos en bolsa de 2 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "diabetes",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "vetlife-felino-gastro-intestinal-2-kg",
+    "marca": "VetLife",
+    "tipoAnimal": "felino",
+    "nombre": "Gastro-Intestinal",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/vetlife/vetlife-felino-gastro-intestinal-2-kg.webp",
+    "descripcion": "Gastro-Intestinal de VetLife, dieta veterinaria para gatos en bolsa de 2 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "vetlife-felino-renal-2-kg",
+    "marca": "VetLife",
+    "tipoAnimal": "felino",
+    "nombre": "Renal",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/vetlife/vetlife-felino-renal-2-kg.webp",
+    "descripcion": "Renal de VetLife, dieta veterinaria para gatos en bolsa de 2 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "vetlife-felino-renal-400-g",
+    "marca": "VetLife",
+    "tipoAnimal": "felino",
+    "nombre": "Renal",
+    "presentacion": "400 g",
+    "pesoKg": 0.4,
+    "imagen": "/productos/vetlife/vetlife-felino-renal-400-g.webp",
+    "descripcion": "Renal de VetLife, dieta veterinaria para gatos en bolsa de 400 g. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "vetlife-felino-urinary-struvite-2-kg",
+    "marca": "VetLife",
+    "tipoAnimal": "felino",
+    "nombre": "Urinary Struvite",
+    "presentacion": "2 kg",
+    "pesoKg": 2,
+    "imagen": "/productos/vetlife/vetlife-felino-urinary-struvite-2-kg.webp",
+    "descripcion": "Urinary Struvite de VetLife, dieta veterinaria para gatos en bolsa de 2 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado urinario",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "virbac-felino-adult-with-salmon-neutered-y-entire-1-5-kg",
+    "marca": "Virbac",
+    "tipoAnimal": "felino",
+    "nombre": "Adult with Salmon Neutered & Entire",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/virbac/virbac-felino-adult-with-salmon-neutered-y-entire-1-5-kg.webp",
+    "descripcion": "Adult with Salmon Neutered & Entire de Virbac, dieta veterinaria para gatos en bolsa de 1,5 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "adulto",
+      "esterilizado",
+      "salmón",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "virbac-felino-digestive-support-3-kg",
+    "marca": "Virbac",
+    "tipoAnimal": "felino",
+    "nombre": "Digestive Support",
+    "presentacion": "3 kg",
+    "pesoKg": 3,
+    "imagen": "/productos/virbac/virbac-felino-digestive-support-3-kg.webp",
+    "descripcion": "Digestive Support de Virbac, dieta veterinaria para gatos en bolsa de 3 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "salud digestiva",
+      "dieta veterinaria"
+    ]
+  },
+  {
+    "id": "virbac-felino-kidney-y-joint-1-5-kg",
+    "marca": "Virbac",
+    "tipoAnimal": "felino",
+    "nombre": "Kidney & Joint",
+    "presentacion": "1,5 kg",
+    "pesoKg": 1.5,
+    "imagen": "/productos/virbac/virbac-felino-kidney-y-joint-1-5-kg.webp",
+    "descripcion": "Kidney & Joint de Virbac, dieta veterinaria para gatos en bolsa de 1,5 kg. Úsala bajo supervisión veterinaria; si tienes dudas, escríbenos y te ayudamos.",
+    "descripcionGenerica": true,
+    "ingredientes": [],
+    "beneficios": [],
+    "etiquetas": [
+      "gatos",
+      "cuidado renal",
+      "dieta veterinaria"
+    ]
+  }
+]
