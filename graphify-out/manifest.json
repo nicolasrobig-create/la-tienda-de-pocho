@@ -54,10 +54,10 @@
     "semantic_hash": "624cd6fa5f6a93ba34002b8b8d21c12b"
   },
   "src/components/catalogo/PanelFiltros.jsx": {
-    "mtime": 1793065912.5853398,
-    "seen": 1793072832.7343113,
-    "ast_hash": "90bb4423d645f876ccd22de83383510a",
-    "semantic_hash": "90bb4423d645f876ccd22de83383510a"
+    "mtime": 1793073909.5721357,
+    "seen": 1793074884.183882,
+    "ast_hash": "aca68a83ca87738f91ef00faa95e2549",
+    "semantic_hash": "aca68a83ca87738f91ef00faa95e2549"
   },
   "src/components/catalogo/TarjetaProducto.jsx": {
     "mtime": 1793065912.6063766,
@@ -72,10 +72,10 @@
     "semantic_hash": "db2746f43cfa99a48085c4a38f89a33b"
   },
   "src/components/layout/Buscador.jsx": {
-    "mtime": 1793065912.6449964,
-    "seen": 1793072832.734318,
-    "ast_hash": "d2bc9af3afe004e48726853f083905e0",
-    "semantic_hash": "d2bc9af3afe004e48726853f083905e0"
+    "mtime": 1793073976.648456,
+    "seen": 1793074884.1838865,
+    "ast_hash": "0b6c523a8b5317904b5afa7e9d902064",
+    "semantic_hash": "0b6c523a8b5317904b5afa7e9d902064"
   },
   "src/components/layout/ErrorBoundary.jsx": {
     "mtime": 1793065912.6635716,
@@ -258,10 +258,10 @@
     "semantic_hash": "a354c8250b85b19e53b5b06cb24b66a1"
   },
   "src/pages/Inicio.jsx": {
-    "mtime": 1793066551.9004252,
-    "seen": 1793072832.7343895,
-    "ast_hash": "ca07286abb9c21cc8070b0f9cf622075",
-    "semantic_hash": "ca07286abb9c21cc8070b0f9cf622075"
+    "mtime": 1793073909.5435543,
+    "seen": 1793074884.183933,
+    "ast_hash": "31b51c2593aee0a8da8b4df7d0754832",
+    "semantic_hash": "31b51c2593aee0a8da8b4df7d0754832"
   },
   "src/pages/Marca.jsx": {
     "mtime": 1793065913.0629318,
