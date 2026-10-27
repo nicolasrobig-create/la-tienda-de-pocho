@@ -15,26 +15,26 @@ export default function TarjetaProducto({ producto, prioridad = false }) {
         <ImagenProducto producto={producto} prioridad={prioridad} className="aspect-[4/5]" />
         {(veterinario || !producto.stock) && (
           <div className="absolute top-2 left-2 flex flex-col items-start gap-1">
-            {!producto.stock && <span className="rounded-boton bg-cacao px-2.5 py-1 text-xs font-bold text-crema">Agotado</span>}
-            {veterinario && <span className="rounded-boton bg-miel px-2.5 py-1 text-xs font-bold text-cacao">Veterinaria</span>}
+            {!producto.stock && <span className="rounded-boton bg-noche px-2.5 py-1 text-xs font-bold text-fondo">Agotado</span>}
+            {veterinario && <span className="rounded-boton bg-ambar px-2.5 py-1 text-xs font-bold text-noche">Veterinaria</span>}
           </div>
         )}
       </div>
 
       <div className="flex flex-1 flex-col gap-1 p-3.5 sm:p-4">
-        <p className="text-[0.7rem] font-bold tracking-wider text-cacao-suave uppercase">{producto.marca}</p>
+        <p className="text-[0.7rem] font-bold tracking-wider text-noche-suave uppercase">{producto.marca}</p>
         <h3 className="font-display text-base leading-snug font-bold sm:text-lg">
           <Link
             to={`/producto/${producto.id}`}
-            className="rounded-sm after:absolute after:inset-0 after:content-[''] hover:text-terracota-oscura focus-visible:after:outline-3 focus-visible:after:outline-terracota focus-visible:after:-outline-offset-2 focus-visible:outline-none"
+            className="rounded-sm after:absolute after:inset-0 after:content-[''] hover:text-azul-oscuro focus-visible:after:outline-3 focus-visible:after:outline-azul focus-visible:after:-outline-offset-2 focus-visible:outline-none"
           >
             {producto.nombre}
           </Link>
         </h3>
-        <p className="text-sm text-cacao-suave">{producto.presentacion}</p>
+        <p className="text-sm text-noche-suave">{producto.presentacion}</p>
 
         <div className="mt-auto flex items-end justify-between gap-2 pt-3">
-          <p className={`font-bold tabular-nums ${sinPrecio ? 'text-sm text-cacao-suave' : 'text-lg sm:text-xl'}`}>
+          <p className={`font-bold tabular-nums ${sinPrecio ? 'text-sm text-noche-suave' : 'text-lg sm:text-xl'}`}>
             {formatearPrecio(producto.precio)}
           </p>
           <button
@@ -42,7 +42,7 @@ export default function TarjetaProducto({ producto, prioridad = false }) {
             onClick={() => agregar(producto.id)}
             disabled={!producto.stock}
             aria-label={`Agregar al carrito: ${producto.marca} ${producto.nombre}, ${producto.presentacion}`}
-            className="relative z-10 inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-terracota text-blanco transition-colors hover:bg-terracota-oscura disabled:cursor-not-allowed disabled:bg-arena-oscura disabled:text-cacao-suave motion-safe:active:scale-95"
+            className="relative z-10 inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-azul text-blanco transition-colors hover:bg-azul-oscuro disabled:cursor-not-allowed disabled:bg-durazno-oscuro disabled:text-noche-suave motion-safe:active:scale-95"
           >
             <Icono nombre="mas" className="size-5" />
           </button>

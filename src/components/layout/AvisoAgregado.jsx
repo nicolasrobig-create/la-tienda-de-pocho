@@ -19,18 +19,18 @@ export default function AvisoAgregado() {
       {aviso && (
         <div
           key={aviso.clave}
-          className="pointer-events-auto flex w-full max-w-md items-center gap-3 rounded-2xl bg-cacao p-3 pr-4 text-crema shadow-elevada motion-safe:animate-subir"
+          className="pointer-events-auto flex w-full max-w-md items-center gap-3 rounded-2xl bg-noche p-3 pr-4 text-fondo shadow-elevada motion-safe:animate-subir"
         >
           <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-oliva text-blanco">
             <Icono nombre="check" className="size-5" />
           </span>
           <p className="min-w-0 flex-1 text-sm leading-snug">
             <span className="block truncate font-semibold">Agregado al carrito</span>
-            <span className="block truncate text-crema/80">
+            <span className="block truncate text-fondo/80">
               {aviso.cantidad > 1 ? `${aviso.cantidad} × ` : ''}{aviso.producto.nombre} · {aviso.producto.presentacion}
             </span>
           </p>
-          <Link to="/carrito" onClick={cerrarAviso} className="shrink-0 rounded-boton bg-crema px-3.5 py-2 text-sm font-semibold text-cacao hover:bg-miel">
+          <Link to="/carrito" onClick={cerrarAviso} className="shrink-0 rounded-boton bg-fondo px-3.5 py-2 text-sm font-semibold text-noche hover:bg-ambar">
             Ver carrito
           </Link>
         </div>

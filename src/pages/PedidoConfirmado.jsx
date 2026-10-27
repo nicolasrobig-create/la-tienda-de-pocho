@@ -43,19 +43,19 @@ export default function PedidoConfirmado() {
   return (
     <div className="contenedor py-8 sm:py-12">
       <div className="mx-auto max-w-3xl">
-        <div className="rounded-[1.75rem] bg-arena p-6 text-center sm:p-10 motion-safe:animate-subir">
+        <div className="rounded-[1.75rem] bg-durazno p-6 text-center sm:p-10 motion-safe:animate-subir">
           <span className="mx-auto flex size-14 items-center justify-center rounded-full bg-oliva text-blanco">
             <Icono nombre="check" className="size-8" />
           </span>
           <h1 className="mt-4 text-3xl sm:text-4xl">
             {enviado ? `${pedido.nombre ? `${pedido.nombre}, falta` : 'Falta'} un último paso` : 'Tu pedido quedó armado'}
           </h1>
-          <p className="mt-3 text-lg text-cacao-suave">
+          <p className="mt-3 text-lg text-noche-suave">
             {enviado
-              ? <>Abrimos WhatsApp con tu pedido. <strong className="text-cacao">Presiona «Enviar» en la conversación</strong> para que nos llegue.</>
+              ? <>Abrimos WhatsApp con tu pedido. <strong className="text-noche">Presiona «Enviar» en la conversación</strong> para que nos llegue.</>
               : 'Todavía no podemos abrir WhatsApp desde la web. Copia el mensaje y envíalo por nuestra página de Facebook.'}
           </p>
-          <p className="mt-4 inline-block rounded-boton bg-crema px-4 py-1.5 text-sm font-semibold">
+          <p className="mt-4 inline-block rounded-boton bg-fondo px-4 py-1.5 text-sm font-semibold">
             Código del pedido: <span className="tabular-nums">{pedido.codigo}</span>
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
@@ -78,9 +78,9 @@ export default function PedidoConfirmado() {
               ['3', 'Coordinamos la entrega', `Acordamos día y horario de entrega en ${TIENDA.cobertura}.`],
             ].map(([n, t, d]) => (
               <li key={n} className="rounded-tarjeta bg-blanco p-5 shadow-tarjeta">
-                <span className="flex size-8 items-center justify-center rounded-full bg-terracota text-sm font-bold text-blanco">{n}</span>
+                <span className="flex size-8 items-center justify-center rounded-full bg-azul text-sm font-bold text-blanco">{n}</span>
                 <h3 className="mt-3 text-lg">{t}</h3>
-                <p className="mt-1 text-sm text-cacao-suave">{d}</p>
+                <p className="mt-1 text-sm text-noche-suave">{d}</p>
               </li>
             ))}
           </ol>
@@ -88,23 +88,23 @@ export default function PedidoConfirmado() {
 
         <section className="mt-8 rounded-tarjeta bg-blanco p-5 shadow-tarjeta sm:p-6" aria-labelledby="detalle-titulo">
           <h2 id="detalle-titulo" className="text-2xl">Resumen del pedido</h2>
-          <ul className="mt-4 divide-y divide-arena-oscura/70">
+          <ul className="mt-4 divide-y divide-durazno-oscuro/70">
             {pedido.lineas.map((l) => (
               <li key={l.id} className="flex items-start justify-between gap-4 py-3 first:pt-0">
-                <p><span className="font-semibold">{l.marca} {l.nombre}</span><br /><span className="text-sm text-cacao-suave">{l.presentacion} × {l.cantidad}</span></p>
+                <p><span className="font-semibold">{l.marca} {l.nombre}</span><br /><span className="text-sm text-noche-suave">{l.presentacion} × {l.cantidad}</span></p>
                 <p className="font-bold tabular-nums">{l.subtotal == null ? 'Consultar precio' : formatearPrecio(l.subtotal)}</p>
               </li>
             ))}
           </ul>
-          <p className="mt-4 flex items-baseline justify-between border-t border-arena-oscura pt-4">
+          <p className="mt-4 flex items-baseline justify-between border-t border-durazno-oscuro pt-4">
             <span className="font-display text-lg font-bold">Total productos</span>
             <span className="font-display text-2xl font-bold tabular-nums">{formatearPrecio(pedido.total)}</span>
           </p>
-          <p className="mt-1 text-sm text-cacao-suave">Envío: se confirma por WhatsApp según tu zona.{pedido.hayPorConsultar && ' El total no incluye los productos por consultar.'}</p>
+          <p className="mt-1 text-sm text-noche-suave">Envío: se confirma por WhatsApp según tu zona.{pedido.hayPorConsultar && ' El total no incluye los productos por consultar.'}</p>
         </section>
 
         <p className="mt-8 text-center">
-          <Link to="/catalogo" className="font-semibold text-terracota-oscura underline-offset-4 hover:underline">Seguir mirando el catálogo</Link>
+          <Link to="/catalogo" className="font-semibold text-azul-oscuro underline-offset-4 hover:underline">Seguir mirando el catálogo</Link>
         </p>
       </div>
     </div>

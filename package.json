@@ -11,6 +11,7 @@
     "test:e2e": "node tests/e2e.mjs",
     "catalogo": "node scripts/generar-catalogo.js",
     "precios": "node scripts/generar-precios.js",
+    "fotos": "node scripts/optimizar-fotos.js",
     "og": "node scripts/generar-og.js",
     "lighthouse": "node scripts/lighthouse.mjs",
     "preview:vite": "vite preview"

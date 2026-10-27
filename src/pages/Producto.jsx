@@ -66,28 +66,28 @@ export default function Producto() {
         </div>
 
         <div className="motion-safe:animate-subir">
-          <Link to={`/marca/${producto.slugMarca}`} className="text-sm font-bold tracking-wider text-terracota-oscura uppercase underline-offset-4 hover:underline">
+          <Link to={`/marca/${producto.slugMarca}`} className="text-sm font-bold tracking-wider text-azul-oscuro uppercase underline-offset-4 hover:underline">
             {producto.marca}
           </Link>
           <h1 className="mt-1 text-3xl sm:text-4xl">{producto.nombre}</h1>
-          <p className="mt-2 text-cacao-suave">Alimento para {nombreAnimal(producto.tipoAnimal)} · {producto.presentacion}</p>
+          <p className="mt-2 text-noche-suave">Alimento para {nombreAnimal(producto.tipoAnimal)} · {producto.presentacion}</p>
 
           {etiquetas.length > 0 && (
             <ul className="mt-4 flex flex-wrap gap-2">
               {etiquetas.map((t) => (
                 <li key={t}>
-                  <Link to={`/catalogo?et=${encodeURIComponent(t)}`} className="inline-block rounded-boton bg-arena px-3 py-1 text-sm hover:bg-arena-oscura">{t}</Link>
+                  <Link to={`/catalogo?et=${encodeURIComponent(t)}`} className="inline-block rounded-boton bg-durazno px-3 py-1 text-sm hover:bg-durazno-oscuro">{t}</Link>
                 </li>
               ))}
             </ul>
           )}
 
-          <div className="mt-6 border-y border-arena-oscura py-5">
-            <p className={`font-display font-bold tabular-nums ${sinPrecio ? 'text-2xl text-cacao-suave' : 'text-4xl'}`}>
+          <div className="mt-6 border-y border-durazno-oscuro py-5">
+            <p className={`font-display font-bold tabular-nums ${sinPrecio ? 'text-2xl text-noche-suave' : 'text-4xl'}`}>
               {formatearPrecio(producto.precio)}
             </p>
-            {porKg && <p className="mt-1 text-sm text-cacao-suave">Aprox. {formatearPrecio(porKg)} por kilo</p>}
-            {sinPrecio && <p className="mt-1 text-sm text-cacao-suave">Escríbenos y te confirmamos el valor y la disponibilidad.</p>}
+            {porKg && <p className="mt-1 text-sm text-noche-suave">Aprox. {formatearPrecio(porKg)} por kilo</p>}
+            {sinPrecio && <p className="mt-1 text-sm text-noche-suave">Escríbenos y te confirmamos el valor y la disponibilidad.</p>}
           </div>
 
           {variantes.length > 1 && (
@@ -100,10 +100,10 @@ export default function Producto() {
                       to={`/producto/${v.id}`}
                       replace
                       aria-current={v.id === producto.id ? 'true' : undefined}
-                      className="flex min-h-11 flex-col justify-center rounded-xl border-2 border-arena-oscura bg-blanco px-4 py-2 text-left transition-colors hover:border-cacao aria-[current=true]:border-terracota aria-[current=true]:bg-arena"
+                      className="flex min-h-11 flex-col justify-center rounded-xl border-2 border-durazno-oscuro bg-blanco px-4 py-2 text-left transition-colors hover:border-noche aria-[current=true]:border-azul aria-[current=true]:bg-durazno"
                     >
                       <span className="font-semibold">{v.presentacion}</span>
-                      <span className="text-xs text-cacao-suave tabular-nums">{formatearPrecio(v.precio)}</span>
+                      <span className="text-xs text-noche-suave tabular-nums">{formatearPrecio(v.precio)}</span>
                     </Link>
                   </li>
                 ))}
@@ -127,30 +127,30 @@ export default function Producto() {
           )}
 
           {veterinario && (
-            <div className="mt-6 flex gap-3 rounded-tarjeta border border-miel bg-miel/15 p-4 text-sm" role="note">
-              <Icono nombre="info" className="mt-0.5 size-5 shrink-0 text-terracota-oscura" />
+            <div className="mt-6 flex gap-3 rounded-tarjeta border border-ambar bg-ambar/15 p-4 text-sm" role="note">
+              <Icono nombre="info" className="mt-0.5 size-5 shrink-0 text-azul-oscuro" />
               <p><strong>Dieta veterinaria.</strong> Úsala bajo supervisión de un veterinario. Si no tienes la fórmula indicada, escríbenos y te orientamos.</p>
             </div>
           )}
 
-          <ul className="mt-6 space-y-2 text-sm text-cacao-suave">
-            <li className="flex items-center gap-2.5"><Icono nombre="camion" className="size-5 text-terracota" /> Entrega en Bogotá. <Link to="/envios-y-devoluciones" className="underline underline-offset-4 hover:text-terracota">Cómo funciona</Link></li>
-            <li className="flex items-center gap-2.5"><Icono nombre="info" className="size-5 text-terracota" /> ¿Dudas sobre cuál elegir? <Link to="/contacto" className="underline underline-offset-4 hover:text-terracota">Escríbenos</Link></li>
+          <ul className="mt-6 space-y-2 text-sm text-noche-suave">
+            <li className="flex items-center gap-2.5"><Icono nombre="camion" className="size-5 text-azul" /> Entrega en Bogotá. <Link to="/envios-y-devoluciones" className="underline underline-offset-4 hover:text-azul">Cómo funciona</Link></li>
+            <li className="flex items-center gap-2.5"><Icono nombre="info" className="size-5 text-azul" /> ¿Dudas sobre cuál elegir? <Link to="/contacto" className="underline underline-offset-4 hover:text-azul">Escríbenos</Link></li>
           </ul>
         </div>
       </div>
 
-      <section className="mt-12 grid gap-8 border-t border-arena-oscura pt-10 md:grid-cols-[3fr_2fr] lg:gap-14" aria-labelledby="desc-titulo">
+      <section className="mt-12 grid gap-8 border-t border-durazno-oscuro pt-10 md:grid-cols-[3fr_2fr] lg:gap-14" aria-labelledby="desc-titulo">
         <div>
           <h2 id="desc-titulo" className="text-2xl">Sobre este alimento</h2>
           <p className="mt-3 max-w-prose text-lg leading-relaxed">{producto.descripcion}</p>
           {producto.ingredientes.length > 0 && (
-            <details className="group mt-6 rounded-tarjeta bg-arena/60 p-4 open:bg-arena/60">
+            <details className="group mt-6 rounded-tarjeta bg-durazno/60 p-4 open:bg-durazno/60">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-display text-lg font-bold">
                 Ingredientes destacados
                 <Icono nombre="chevron" className="size-5 transition-transform group-open:rotate-180" />
               </summary>
-              <ul className="mt-3 list-disc space-y-1.5 pl-5 marker:text-terracota">
+              <ul className="mt-3 list-disc space-y-1.5 pl-5 marker:text-azul">
                 {producto.ingredientes.map((i) => <li key={i}>{i}</li>)}
               </ul>
             </details>

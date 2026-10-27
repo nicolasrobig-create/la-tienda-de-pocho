@@ -39,8 +39,8 @@ function Navegacion({ vertical = false, onNavegar }) {
             aria-current={activo(e) ? 'page' : undefined}
             className={
               vertical
-                ? 'block border-b border-arena-oscura/60 py-3.5 font-display text-xl aria-[current=page]:text-terracota'
-                : 'rounded-boton px-3.5 py-2 text-[0.95rem] font-semibold text-cacao transition-colors hover:bg-arena aria-[current=page]:bg-arena aria-[current=page]:text-terracota-oscura'
+                ? 'block border-b border-durazno-oscuro/60 py-3.5 font-display text-xl aria-[current=page]:text-azul'
+                : 'rounded-boton px-3.5 py-2 text-[0.95rem] font-semibold text-fondo transition-colors hover:bg-fondo/15 aria-[current=page]:bg-ambar aria-[current=page]:text-noche'
             }
           >
             {e.etiqueta}
@@ -57,16 +57,16 @@ export default function Header() {
   const cerrarMenu = () => setMenuAbierto(false);
 
   return (
-    <header className="sticky top-0 z-30 border-b border-arena-oscura/70 bg-crema/95 backdrop-blur supports-[backdrop-filter]:bg-crema/85">
-      <p className="bg-cacao py-1.5 text-center text-xs font-medium text-crema sm:text-sm">
+    <header className="sobre-oscuro sticky top-0 z-30 bg-azul shadow-tarjeta">
+      <p className="bg-ambar px-4 py-1.5 text-center text-xs font-semibold text-noche sm:text-sm">
         Entregas en {TIENDA.cobertura} · ¿Dudas para elegir? Escríbenos y te ayudamos
       </p>
 
-      <div className="contenedor flex items-center gap-3 py-3 lg:gap-6">
+      <div className="contenedor flex items-center gap-3 py-2.5 lg:gap-6">
         <button
           type="button"
           onClick={() => setMenuAbierto(true)}
-          className="inline-flex size-11 items-center justify-center rounded-full text-cacao hover:bg-arena lg:hidden"
+          className="inline-flex size-11 items-center justify-center rounded-full text-fondo transition-colors hover:bg-fondo/15 lg:hidden"
           aria-label="Abrir menú"
           aria-haspopup="dialog"
         >
@@ -81,14 +81,14 @@ export default function Header() {
 
         <Link
           to="/carrito"
-          className="relative inline-flex size-11 items-center justify-center rounded-full text-cacao transition-colors hover:bg-arena"
+          className="relative inline-flex size-11 items-center justify-center rounded-full text-fondo transition-colors hover:bg-fondo/15"
           aria-label={`Carrito, ${totalUnidades} ${totalUnidades === 1 ? 'producto' : 'productos'}`}
         >
           <Icono nombre="carrito" className="size-6" />
           {totalUnidades > 0 && (
             <span
               key={totalUnidades}
-              className="absolute -top-0.5 -right-0.5 flex min-w-5 items-center justify-center rounded-full bg-terracota px-1.5 text-xs font-bold text-blanco tabular-nums motion-safe:animate-aparecer"
+              className="absolute -top-0.5 -right-0.5 flex min-w-5 items-center justify-center rounded-full bg-ambar px-1.5 text-xs font-bold text-noche tabular-nums motion-safe:animate-aparecer"
               aria-hidden="true"
             >
               {totalUnidades}
@@ -101,24 +101,24 @@ export default function Header() {
         <Buscador id="buscar-movil" />
       </div>
 
-      <nav aria-label="Principal" className="contenedor hidden border-t border-arena-oscura/50 py-1.5 lg:block">
+      <nav aria-label="Principal" className="contenedor hidden border-t border-fondo/15 py-1.5 lg:block">
         <Navegacion />
       </nav>
 
       <Dialogo abierto={menuAbierto} onCerrar={cerrarMenu} etiqueta="Menú principal">
         <div className="flex h-full flex-col overflow-y-auto p-5">
           <div className="mb-4 flex items-center justify-between">
-            <Logo />
-            <button type="button" onClick={cerrarMenu} className="inline-flex size-11 items-center justify-center rounded-full hover:bg-arena" aria-label="Cerrar menú">
+            <Logo claro />
+            <button type="button" onClick={cerrarMenu} className="inline-flex size-11 items-center justify-center rounded-full hover:bg-durazno" aria-label="Cerrar menú">
               <Icono nombre="cerrar" className="size-6" />
             </button>
           </div>
           <nav aria-label="Principal (móvil)">
             <Navegacion vertical onNavegar={cerrarMenu} />
           </nav>
-          <div className="mt-auto pt-8 text-sm text-cacao-suave">
+          <div className="mt-auto pt-8 text-sm text-noche-suave">
             <p>Entregamos en {TIENDA.cobertura}.</p>
-            <a href={TIENDA.facebook} target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center gap-2 font-semibold text-terracota-oscura underline-offset-4 hover:underline">
+            <a href={TIENDA.facebook} target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center gap-2 font-semibold text-azul-oscuro underline-offset-4 hover:underline">
               <Icono nombre="facebook" className="size-5" /> Síguenos en Facebook
             </a>
           </div>

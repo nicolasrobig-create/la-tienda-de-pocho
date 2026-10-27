@@ -54,7 +54,8 @@ npm run preview    # sirve dist/ en http://localhost:4173
 | `npm run lighthouse` | Lighthouse móvil y escritorio sobre el build; resumen en `docs/lighthouse.json` |
 | `npm run catalogo` | Regenera `productos.json` y las imágenes desde `Productos/` |
 | `npm run precios` | Agrega a `precios.json` los productos nuevos (no toca los existentes) |
-| `npm run og` | Regenera la imagen para compartir (`og-default.jpg`) y los íconos a partir de `favicon.svg` |
+| `npm run fotos` | Recorta y optimiza el logo y las fotos de `Fotos/` hacia `public/` (`logo*.webp`, `fotos/`) |
+| `npm run og` | Regenera la imagen para compartir (`og-default.jpg`) y los íconos a partir del logo (corre antes `npm run fotos`) |
 
 ## Estructura
 
@@ -172,16 +173,19 @@ zonasExcluidas: ['Sumapaz', 'Usme'],   // barrios, localidades o palabras clave
 
 ## Colores, tipografías y logo
 
-- **Colores, tipografías, radios y sombras:** bloque `@theme` de `src/index.css`. Es el único lugar: cambiar `--color-terracota`
+- **Colores, tipografías, radios y sombras:** bloque `@theme` de `src/index.css`. Es el único lugar: cambiar `--color-azul`
   cambia todo el sitio. Guía completa en `docs/brief-diseno.md`. Los contrastes están medidos (WCAG AA); si cambias un color, revisa que
   siga cumpliendo 4,5:1 con su fondo.
 - **Tipografías:** Fraunces (títulos) y Figtree (texto), alojadas en el propio sitio con `@fontsource-variable`. Para cambiarlas:
   instala otra familia de `@fontsource-variable/...`, impórtala en `src/main.jsx` y actualiza `--font-display` / `--font-sans`.
-- **Logo:** hoy es provisional (un plato de comida). Para ponerlo definitivo:
-  1. Reemplaza el contenido de `src/components/layout/Logo.jsx` (componente `Marca`) por tu SVG o una `<img>`.
-  2. Reemplaza `public/favicon.svg` por el nuevo.
-  3. Corre `npm run og` para regenerar los íconos (`favicon-32.png`, `apple-touch-icon.png`, `icon-192/512.png`) y la imagen para
-     compartir (`og-default.jpg`; edita el texto y las fotos en `scripts/generar-og.js` si quieres otro diseño).
+- **Logo y fotos reales:** los originales están en `Fotos/` (no se despliega, ver `.vercelignore`). `npm run fotos` recorta el logo
+  (`public/logo.webp` y `logo-2x.webp`), la cara del gato (`public/marca-gato.png`) y genera las fotos de `public/fotos/` en WebP de
+  360/480/768/1080 px, más `src/data/fotos.json` (anchos disponibles). Los recortes (para quitar stickers, emojis y marcas de agua)
+  están en el arreglo `FOTOS` de `scripts/optimizar-fotos.js`. En los componentes se usa `<Foto nombre="..." alt="..." sizes="..." />`.
+  El logo se muestra con `ImagenLogo` (`src/components/layout/Logo.jsx`).
+  Para cambiar el logo, reemplaza el archivo de `Fotos/Logo/`, ajusta los recortes de `scripts/optimizar-fotos.js` y corre `npm run fotos`
+  y luego `npm run og` (regenera `favicon-32.png`, `apple-touch-icon.png`, `icon-192/512.png` y `og-default.jpg`). El logo actual mide
+  540 px: con uno más grande o en SVG se vería más nítido en el hero.
 
 ## Cómo funciona el pedido
 
@@ -224,11 +228,11 @@ Las capturas quedan en `docs/capturas/`.
 
 | Página | Rendimiento (móvil / escritorio) | Accesibilidad | Buenas prácticas | SEO |
 |---|---|---|---|---|
-| Inicio | 92 / 100 | 100 | 100 | 100 |
-| Catálogo | 87–92 / 99 | 100 | 100 | 100 |
-| Marca | 83–87 / 99–100 | 100 | 100 | 100 |
+| Inicio | 90 / 100 | 100 | 100 | 100 |
+| Catálogo | 93 / 100 | 100 | 100 | 100 |
+| Marca | 91 / 100 | 100 | 100 | 100 |
 | Producto | 94 / 100 | 100 | 100 | 100 |
-| Contacto, Envíos, Nosotros | 98 / 100 | 100 | 100 | 100 |
+| Contacto, Envíos, Nosotros | 95–98 / 100 | 100 | 100 | 100 |
 | Carrito, Checkout | 97 / 97 | 100 | 100 | 66 (por diseño: `noindex`) |
 
 Las páginas con muchas fotos (catálogo y marca) quedan en el borde del objetivo de 90 en móvil con el throttling pesimista de Lighthouse

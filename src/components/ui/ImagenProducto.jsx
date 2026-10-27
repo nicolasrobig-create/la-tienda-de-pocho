@@ -27,7 +27,7 @@ export default function ImagenProducto({ producto, className = '', prioridad = f
     <div className={`relative overflow-hidden bg-blanco ${className}`}>
       {!cargada && !fallo && !prioridad && <div className="esqueleto absolute inset-0" aria-hidden="true" />}
       {fallo || !producto.imagen ? (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-arena p-4 text-center text-sm text-cacao-suave">
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-durazno p-4 text-center text-sm text-noche-suave">
           <Icono nombre="caja" className="size-8" />
           <span>Foto no disponible</span>
         </div>

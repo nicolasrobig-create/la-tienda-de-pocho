@@ -79,8 +79,8 @@ export default function Checkout() {
 
       <div className="grid items-start gap-8 lg:grid-cols-[1fr_24rem] lg:gap-12">
         <form onSubmit={enviar} noValidate aria-label="Datos de entrega" className="space-y-5 rounded-tarjeta bg-blanco p-5 shadow-tarjeta sm:p-8">
-          <p className="flex gap-2.5 rounded-xl bg-arena p-4 text-sm" role="note">
-            <Icono nombre="info" className="mt-0.5 size-5 shrink-0 text-terracota" />
+          <p className="flex gap-2.5 rounded-xl bg-durazno p-4 text-sm" role="note">
+            <Icono nombre="info" className="mt-0.5 size-5 shrink-0 text-azul" />
             <span>
               {numero
                 ? <>Al confirmar, se abre WhatsApp con tu pedido listo para enviar. <strong>El costo del envío y la disponibilidad te los confirmamos por WhatsApp</strong>, según tu zona.</>
@@ -97,39 +97,39 @@ export default function Checkout() {
           </div>
 
           {TIENDA.zonasExcluidas.length > 0 && (
-            <p className="text-sm text-cacao-suave">Por ahora no entregamos en: {TIENDA.zonasExcluidas.join(', ')}.</p>
+            <p className="text-sm text-noche-suave">Por ahora no entregamos en: {TIENDA.zonasExcluidas.join(', ')}.</p>
           )}
 
-          <div className="flex flex-wrap items-center gap-4 border-t border-arena-oscura pt-5">
+          <div className="flex flex-wrap items-center gap-4 border-t border-durazno-oscuro pt-5">
             <Boton type="submit" className="min-h-12 w-full sm:w-auto sm:px-8">
               {numero ? <><Icono nombre="whatsapp" className="size-5" /> Enviar pedido por WhatsApp</> : 'Confirmar pedido'}
             </Boton>
-            <Link to="/carrito" className="font-semibold text-terracota-oscura underline-offset-4 hover:underline">← Volver al carrito</Link>
+            <Link to="/carrito" className="font-semibold text-azul-oscuro underline-offset-4 hover:underline">← Volver al carrito</Link>
           </div>
-          <p className="text-xs text-cacao-suave">
+          <p className="text-xs text-noche-suave">
             Usamos tus datos solo para coordinar este pedido. No los guardamos en tu navegador.
           </p>
         </form>
 
-        <aside aria-labelledby="resumen-pedido" className="rounded-tarjeta bg-arena p-6 lg:sticky lg:top-36">
+        <aside aria-labelledby="resumen-pedido" className="rounded-tarjeta bg-durazno p-6 lg:sticky lg:top-36">
           <h2 id="resumen-pedido" className="text-2xl">Tu pedido</h2>
-          <ul className="mt-4 divide-y divide-arena-oscura/70">
+          <ul className="mt-4 divide-y divide-durazno-oscuro/70">
             {lineas.map((l) => (
               <li key={l.id} className="flex gap-3 py-3 first:pt-0">
-                <ImagenProducto producto={l.producto} sizes="56px" className="aspect-[4/5] w-14 shrink-0 rounded-lg border border-arena-oscura" />
+                <ImagenProducto producto={l.producto} sizes="56px" className="aspect-[4/5] w-14 shrink-0 rounded-lg border border-durazno-oscuro" />
                 <div className="min-w-0 flex-1 text-sm">
                   <p className="font-semibold">{l.producto.marca} {l.producto.nombre}</p>
-                  <p className="text-cacao-suave">{l.producto.presentacion} × {l.cantidad}</p>
+                  <p className="text-noche-suave">{l.producto.presentacion} × {l.cantidad}</p>
                 </div>
                 <p className="text-sm font-bold tabular-nums">{l.subtotal == null ? 'Consultar' : formatearPrecio(l.subtotal)}</p>
               </li>
             ))}
           </ul>
-          <dl className="mt-4 space-y-2 border-t border-arena-oscura pt-4 text-[0.95rem]">
+          <dl className="mt-4 space-y-2 border-t border-durazno-oscuro pt-4 text-[0.95rem]">
             <div className="flex justify-between gap-4"><dt>{pluralizar(totalUnidades, 'producto', 'productos')}</dt><dd className="font-semibold tabular-nums">{formatearPrecio(total)}</dd></div>
-            <div className="flex justify-between gap-4"><dt>Envío</dt><dd className="text-right text-cacao-suave">Se confirma por WhatsApp</dd></div>
+            <div className="flex justify-between gap-4"><dt>Envío</dt><dd className="text-right text-noche-suave">Se confirma por WhatsApp</dd></div>
           </dl>
-          {hayPorConsultar && <p className="mt-3 text-sm text-cacao-suave">El total no incluye los productos con precio por consultar.</p>}
+          {hayPorConsultar && <p className="mt-3 text-sm text-noche-suave">El total no incluye los productos con precio por consultar.</p>}
         </aside>
       </div>
     </div>

@@ -16,7 +16,7 @@ export default function GaleriaProducto({ producto }) {
         aria-haspopup="dialog"
       >
         <ImagenProducto producto={producto} prioridad sizes="(min-width: 768px) 540px, 92vw" className="aspect-[4/5]" />
-        <span className="absolute right-3 bottom-3 inline-flex items-center gap-1.5 rounded-boton bg-cacao/85 px-3 py-1.5 text-xs font-semibold text-crema transition-opacity sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-visible:opacity-100">
+        <span className="absolute right-3 bottom-3 inline-flex items-center gap-1.5 rounded-boton bg-noche/85 px-3 py-1.5 text-xs font-semibold text-fondo transition-opacity sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-visible:opacity-100">
           <Icono nombre="zoom" className="size-4" /> Ampliar
         </span>
       </button>
@@ -26,7 +26,7 @@ export default function GaleriaProducto({ producto }) {
           <button
             type="button"
             onClick={() => setAmpliada(false)}
-            className="absolute top-3 right-3 z-10 inline-flex size-11 items-center justify-center rounded-full bg-cacao text-crema hover:bg-terracota"
+            className="absolute top-3 right-3 z-10 inline-flex size-11 items-center justify-center rounded-full bg-noche text-fondo hover:bg-azul"
             aria-label="Cerrar foto"
           >
             <Icono nombre="cerrar" className="size-6" />

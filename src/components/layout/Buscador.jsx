@@ -22,7 +22,7 @@ export default function Buscador({ id, className = '', onBuscar }) {
     <form role="search" onSubmit={enviar} className={className}>
       <label htmlFor={id} className="sr-only">Buscar productos</label>
       <div className="relative">
-        <Icono nombre="buscar" className="pointer-events-none absolute top-1/2 left-4 size-5 -translate-y-1/2 text-cacao-suave" />
+        <Icono nombre="buscar" className="pointer-events-none absolute top-1/2 left-4 size-5 -translate-y-1/2 text-noche-suave" />
         <input
           id={id}
           type="search"
@@ -31,11 +31,11 @@ export default function Buscador({ id, className = '', onBuscar }) {
           placeholder="Buscar alimento, marca o necesidad"
           autoComplete="off"
           enterKeyHint="search"
-          className="min-h-11 w-full rounded-boton border border-arena-oscura bg-blanco py-2 pr-24 pl-11 text-base text-cacao placeholder:text-cacao-suave/80 hover:border-cacao-suave"
+          className="min-h-11 w-full rounded-boton border border-durazno-oscuro bg-blanco py-2 pr-24 pl-11 text-base text-noche placeholder:text-noche-suave/80 hover:border-noche-suave"
         />
         <button
           type="submit"
-          className="absolute top-1 right-1 bottom-1 rounded-boton bg-cacao px-4 text-sm font-semibold text-crema transition-colors hover:bg-terracota"
+          className="absolute top-1 right-1 bottom-1 rounded-boton bg-noche px-4 text-sm font-semibold text-fondo transition-colors hover:bg-azul"
         >
           Buscar
         </button>

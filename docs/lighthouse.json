@@ -2,11 +2,11 @@
   {
     "modo": "mobile",
     "ruta": "/",
-    "rendimiento": 92,
+    "rendimiento": 90,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "3.3 s",
+    "lcp": "3.5 s",
     "auditoriasBajas": [
       "largest-contentful-paint",
       "unused-javascript",
@@ -18,15 +18,14 @@
   {
     "modo": "mobile",
     "ruta": "/catalogo",
-    "rendimiento": 87,
+    "rendimiento": 93,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "3.9 s",
+    "lcp": "3.0 s",
     "auditoriasBajas": [
       "first-contentful-paint",
       "largest-contentful-paint",
-      "interactive",
       "unused-javascript",
       "cache-insight",
       "image-delivery-insight",
@@ -37,15 +36,14 @@
   {
     "modo": "mobile",
     "ruta": "/marca/hills",
-    "rendimiento": 87,
+    "rendimiento": 91,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "3.9 s",
+    "lcp": "3.3 s",
     "auditoriasBajas": [
       "first-contentful-paint",
       "largest-contentful-paint",
-      "interactive",
       "unused-javascript",
       "cache-insight",
       "image-delivery-insight",
@@ -72,11 +70,11 @@
   {
     "modo": "mobile",
     "ruta": "/carrito",
-    "rendimiento": 97,
+    "rendimiento": 96,
     "accesibilidad": 100,
     "buenas-practicas": 100,
-    "seo": 66,
-    "lcp": "2.1 s",
+    "seo": 69,
+    "lcp": "2.3 s",
     "auditoriasBajas": [
       "first-contentful-paint",
       "unused-javascript",
@@ -90,10 +88,9 @@
     "rendimiento": 97,
     "accesibilidad": 100,
     "buenas-practicas": 100,
-    "seo": 66,
-    "lcp": "2.1 s",
+    "seo": 69,
+    "lcp": "2.3 s",
     "auditoriasBajas": [
-      "first-contentful-paint",
       "unused-javascript",
       "is-crawlable",
       "network-dependency-tree-insight"
@@ -102,12 +99,13 @@
   {
     "modo": "mobile",
     "ruta": "/contacto",
-    "rendimiento": 98,
+    "rendimiento": 97,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "2.1 s",
+    "lcp": "2.3 s",
     "auditoriasBajas": [
+      "first-contentful-paint",
       "unused-javascript",
       "network-dependency-tree-insight"
     ]
@@ -119,7 +117,7 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "2.1 s",
+    "lcp": "2.3 s",
     "auditoriasBajas": [
       "unused-javascript",
       "network-dependency-tree-insight"
@@ -128,13 +126,16 @@
   {
     "modo": "mobile",
     "ruta": "/nosotros",
-    "rendimiento": 99,
+    "rendimiento": 95,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "2.1 s",
+    "lcp": "2.8 s",
     "auditoriasBajas": [
+      "largest-contentful-paint",
       "unused-javascript",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
       "network-dependency-tree-insight"
     ]
   },
@@ -150,17 +151,18 @@
       "unused-javascript",
       "cache-insight",
       "image-delivery-insight",
+      "lcp-discovery-insight",
       "network-dependency-tree-insight"
     ]
   },
   {
     "modo": "desktop",
     "ruta": "/catalogo",
-    "rendimiento": 99,
+    "rendimiento": 100,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "0.9 s",
+    "lcp": "0.8 s",
     "auditoriasBajas": [
       "unused-javascript",
       "cache-insight",
@@ -176,7 +178,7 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "0.8 s",
+    "lcp": "0.7 s",
     "auditoriasBajas": [
       "unused-javascript",
       "cache-insight",
@@ -202,34 +204,30 @@
   {
     "modo": "desktop",
     "ruta": "/carrito",
-    "rendimiento": 97,
+    "rendimiento": 98,
     "accesibilidad": 100,
     "buenas-practicas": 100,
-    "seo": 66,
-    "lcp": "0.4 s",
+    "seo": 69,
+    "lcp": "0.5 s",
     "auditoriasBajas": [
-      "cumulative-layout-shift",
-      "layout-shifts",
       "unused-javascript",
       "is-crawlable",
-      "cls-culprits-insight",
+      "image-delivery-insight",
       "network-dependency-tree-insight"
     ]
   },
   {
     "modo": "desktop",
     "ruta": "/checkout",
-    "rendimiento": 97,
+    "rendimiento": 98,
     "accesibilidad": 100,
     "buenas-practicas": 100,
-    "seo": 66,
+    "seo": 69,
     "lcp": "0.5 s",
     "auditoriasBajas": [
-      "cumulative-layout-shift",
-      "layout-shifts",
       "unused-javascript",
       "is-crawlable",
-      "cls-culprits-insight",
+      "image-delivery-insight",
       "network-dependency-tree-insight"
     ]
   },
@@ -243,6 +241,8 @@
     "lcp": "0.5 s",
     "auditoriasBajas": [
       "unused-javascript",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
       "network-dependency-tree-insight"
     ]
   },
@@ -253,9 +253,10 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "0.4 s",
+    "lcp": "0.5 s",
     "auditoriasBajas": [
       "unused-javascript",
+      "image-delivery-insight",
       "network-dependency-tree-insight"
     ]
   },
@@ -266,9 +267,11 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "0.4 s",
+    "lcp": "0.6 s",
     "auditoriasBajas": [
       "unused-javascript",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
       "network-dependency-tree-insight"
     ]
   }

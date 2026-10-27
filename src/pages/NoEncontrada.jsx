@@ -6,7 +6,7 @@ export default function NoEncontrada() {
   usePagina({ titulo: 'Página no encontrada', noindex: true });
   return (
     <div className="contenedor py-16">
-      <p className="mb-2 text-center font-display text-7xl font-bold text-terracota" aria-hidden="true">404</p>
+      <p className="mb-2 text-center font-display text-7xl font-bold text-azul" aria-hidden="true">404</p>
       <EstadoVacio
         principal
         icono="buscar"

@@ -20,29 +20,39 @@ que conoce a tu mascota por el nombre, no como un catálogo corporativo.
 - **Pesos**: `1,5 kg`, `500 g`, `7 lb` (coma decimal, unidad en minúscula).
 - Mensajes de error con salida: "No encontramos ese producto. Mira todo el alimento para gatos."
 
-## 2. Paleta cálida
+## 2. Paleta de marca
 
-Definida como tokens en `@theme` (`src/index.css`). Contrastes medidos (WCAG, mínimo AA = 4,5:1):
+Sale del logo: el azul del fondo, el durazno de las letras "POCHO" y el crema del gato. El ámbar es el único color que
+no está en el logo: se eligió como complementario cálido del azul. Definida como tokens en `@theme` (`src/index.css`).
+Contrastes medidos (WCAG, mínimo AA = 4,5:1 en texto, 3:1 en componentes y texto grande):
 
-| Token | Valor | Uso | Contraste |
-|---|---|---|---|
-| `crema` | `#FBF4E8` | Fondo de página | — |
-| `arena` | `#F1E3CC` | Tarjetas, bandas, superficies | — |
-| `arena-oscura` | `#E2CFAE` | Bordes y divisores | — |
-| `cacao` | `#3B2418` | Texto principal | 13,2:1 sobre crema |
-| `cacao-suave` | `#6B5648` | Texto secundario | 6,3:1 sobre crema · 5,4:1 sobre arena |
-| `terracota` | `#B5452F` | Botón principal, enlaces | blanco sobre terracota 5,4:1 |
-| `terracota-oscura` | `#983722` | Hover / activo | blanco sobre ella 7,2:1 |
-| `miel` | `#E9A23B` | Acento decorativo, badges, estrellas | cacao sobre miel 6,7:1 |
-| `oliva` | `#4F6B2E` | "Disponible", confirmaciones | blanco sobre oliva 6,0:1 |
+| Rol | Token | Valor | Uso | Contraste |
+|---|---|---|---|---|
+| Primario | `azul` | `#0B4390` | Header, botón principal, enlaces, precios | 9,1:1 sobre fondo · blanco sobre azul 9,5:1 |
+| Primario (hover) | `azul-oscuro` | `#083570` | Hover / activo, enlaces sobre claro | 11,5:1 sobre fondo |
+| Texto oscuro | `noche` | `#0A2A63` | Texto principal, footer, bandas oscuras | 13,2:1 sobre fondo |
+| — | `noche-suave` | `#44567F` | Texto secundario | 7,0:1 sobre fondo · 5,5:1 sobre durazno |
+| Fondo claro | `fondo` | `#FFFAF0` | Fondo de página | — |
+| Secundario | `durazno` | `#F8D9C4` | Chips, íconos, superficies | noche sobre durazno 10,3:1 |
+| — | `durazno-claro` | `#FDEEE0` | Bandas amplias, esqueletos de carga | — |
+| — | `durazno-oscuro` | `#E6C2A8` | Bordes y divisores | decorativo |
+| Acento | `ambar` | `#FFB020` | Badges, CTA sobre azul, hover, activo del menú | noche sobre ámbar 7,5:1 · ámbar sobre azul 4,7:1 (solo texto grande) |
+| Funcional | `oliva` | `#4F6B2E` | "Disponible", confirmaciones | blanco sobre oliva 6,0:1 |
 
 Reglas:
-- Fondo siempre `crema`; las tarjetas suben a `arena` o `blanco` con `--shadow-tarjeta`.
-- **Un solo color de acción**: `terracota`. `miel` no se usa como color de texto sobre fondos claros (no pasa AA).
-- Nunca negro puro ni gris frío: todos los neutros salen de `cacao`.
+- Fondo de página siempre `fondo`; las tarjetas suben a `blanco` o `durazno` con `--shadow-tarjeta`.
+- **Azul = acción y marca; ámbar = énfasis.** `ambar` nunca es texto sobre fondo claro (no pasa AA); sobre azul solo en
+  textos grandes o iconos. Sobre ámbar el texto es siempre `noche`.
+- Dentro de zonas azules (header, footer, hero) se añade la clase `sobre-oscuro`: el anillo de foco pasa de azul a ámbar.
+- Degradados: `degradado-marca` (azul → noche), `degradado-hero` (igual, con halo de azul claro) y `degradado-calido`
+  (durazno claro → fondo). Un halo ámbar sobre azul se mezcla en gris: no usarlo.
+- Un solo radio para tarjetas (`--radius-tarjeta`, 1,25 rem) y píldora para botones; sombras teñidas de azul noche.
+- Hover: `.elevar` (sube 3 px y gana sombra) en tarjetas; los botones suben 2 px. Todo se anula con `prefers-reduced-motion`.
+- Nunca negro puro ni gris frío: todos los neutros salen de `noche`.
 - No comunicar estado solo con color (stock/sin stock llevan texto o ícono).
-- Las fotos de producto son fotos reales de bolsas con fondos variados: mostrarlas sobre `blanco` o `arena`
+- Las fotos de producto son fotos reales de bolsas con fondos variados: mostrarlas sobre `blanco` o `durazno`
   con `object-fit: contain` y esquinas redondeadas, sin recortar la bolsa.
+- Las fotos reales de la tienda y de mascotas (`public/fotos/`) sí se recortan (`object-cover`), con el componente `Foto`.
 
 ## 3. Tipografías
 
@@ -71,14 +81,14 @@ Reglas:
 
 ## 5. Componentes y patrones (guía para la Fase 2)
 
-- **Tarjeta de producto**: foto en proporción 4:5 sobre `blanco`, marca en `cacao-suave` (mayúsculas pequeñas),
+- **Tarjeta de producto**: foto en proporción 4:5 sobre `blanco`, marca en `noche-suave` (mayúsculas pequeñas),
   nombre en `font-display`, presentación como chip, precio grande, botón "Agregar".
 - **Filtros**: por animal (gatos/perros), marca, etapa (gatito/adulto/senior) y necesidad
   (urinario, control de peso, bolas de pelo…) usando las `etiquetas` del catálogo.
 - **Productos veterinarios** (etiqueta `dieta veterinaria`): aviso visible en la tarjeta y la ficha.
 - **Precios de ejemplo**: mientras `esEjemplo` sea `true` en `precios.json`, no se muestran como definitivos
   (mostrar un aviso interno o bloquear el checkout) hasta cargar los precios reales.
-- Botones: primario = `terracota` con texto blanco; secundario = borde `cacao` sobre `crema`.
+- Botones: primario = `azul` con texto blanco; secundario = borde y texto `azul`; sobre fondos azules, `ambar` (CTA) y `claro` (contorno).
 - Estados de foco visibles (ya definidos globalmente) y `prefers-reduced-motion` respetado.
 
 ## 6. Qué evitar

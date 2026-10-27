@@ -30,7 +30,7 @@ export default function Marca() {
       <Migas items={[{ etiqueta: 'Inicio', to: '/' }, { etiqueta: 'Marcas', to: '/#marcas' }, { etiqueta: marca.nombre }]} />
       <header className="mt-4 mb-8 max-w-2xl">
         <h1 className="text-4xl sm:text-5xl">{marca.nombre}</h1>
-        <p className="mt-2 text-cacao-suave">{pluralizar(marca.total, 'producto', 'productos')} para {animales}.</p>
+        <p className="mt-2 text-noche-suave">{pluralizar(marca.total, 'producto', 'productos')} para {animales}.</p>
       </header>
       <ExplorarCatalogo marcaFija={marca.slug} />
     </div>
