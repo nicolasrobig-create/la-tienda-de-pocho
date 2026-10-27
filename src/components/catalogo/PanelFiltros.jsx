@@ -92,7 +92,7 @@ export default function PanelFiltros({ idBase, f, onCambiar, marcaFija, conteos,
 
       <Grupo titulo="Precio (COP)">
         <form onSubmit={aplicarPrecio} noValidate>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 gap-3">
             <Campo etiqueta="Mínimo" type="number" inputMode="numeric" min="0" step="500" placeholder={String(rangoPrecios.min)} value={min} onChange={(e) => setMin(e.target.value)} />
             <Campo etiqueta="Máximo" type="number" inputMode="numeric" min="0" step="500" placeholder={String(rangoPrecios.max)} value={max} onChange={(e) => setMax(e.target.value)} />
           </div>

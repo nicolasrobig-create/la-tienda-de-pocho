@@ -3,7 +3,6 @@ import Boton from '../components/ui/Boton.jsx';
 import Icono from '../components/ui/Icono.jsx';
 import Foto from '../components/ui/Foto.jsx';
 import ImagenProducto from '../components/ui/ImagenProducto.jsx';
-import { ImagenLogo } from '../components/layout/Logo.jsx';
 import TarjetaProducto from '../components/catalogo/TarjetaProducto.jsx';
 import { marcas, obtenerProducto, productos } from '../lib/datos.js';
 import { TIENDA } from '../config/store';
@@ -43,7 +42,6 @@ export default function Inicio() {
       <section className="degradado-hero sobre-oscuro relative overflow-hidden text-fondo">
         <div className="contenedor relative grid items-center gap-10 py-10 md:grid-cols-2 md:gap-6 md:py-16 lg:py-20">
           <div className="motion-safe:animate-subir">
-            <ImagenLogo grande className="mb-6 w-52 rounded-2xl shadow-elevada sm:w-60" />
             <p className="mb-4 inline-flex items-center gap-2 rounded-boton bg-ambar px-3.5 py-1.5 text-sm font-semibold text-noche">
               <Icono nombre="pin" className="size-4" /> Entregamos en {TIENDA.cobertura}
             </p>
@@ -171,7 +169,7 @@ export default function Inicio() {
               sizes="(min-width: 1024px) 1008px, 92vw"
               className="aspect-[16/9] w-full sm:aspect-[2/1] lg:aspect-[21/9]"
             />
-            <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-noche/80 via-noche/10 to-transparent" />
+            <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-noche/95 via-noche/60 to-noche/10" />
             <div className="absolute inset-x-0 bottom-0 p-5 sm:p-8">
               <h2 id="marcas-titulo" className="text-3xl text-fondo sm:text-4xl">Nuestras marcas</h2>
               <p className="mt-1 text-fondo/90">Entra a una marca para ver todo lo que tenemos.</p>

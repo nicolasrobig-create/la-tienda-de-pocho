@@ -28,7 +28,7 @@ export default function Buscador({ id, className = '', onBuscar }) {
           type="search"
           value={texto}
           onChange={(e) => setTexto(e.target.value)}
-          placeholder="Buscar alimento, marca o necesidad"
+          placeholder="Buscar alimento o marca"
           autoComplete="off"
           enterKeyHint="search"
           className="min-h-11 w-full rounded-boton border border-durazno-oscuro bg-blanco py-2 pr-24 pl-11 text-base text-noche placeholder:text-noche-suave/80 hover:border-noche-suave"
