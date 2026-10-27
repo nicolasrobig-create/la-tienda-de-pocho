@@ -1,0 +1,15 @@
+# Material original e imágenes (no aportan al grafo)
+Productos/
+Fotos/
+public/productos/
+docs/capturas/
+# Skills de Claude, worktrees y salidas generadas
+.claude/skills/
+.claude/worktrees/
+package-lock.json
+docs/lighthouse.json
+docs/reporte-catalogo.json
+src/data/productos.json
+src/data/precios.jsonpublic/*.png
+public/*.jpg
+public/*.svg

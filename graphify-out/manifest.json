@@ -1,0 +1,398 @@
+{
+  "package.json": {
+    "mtime": 1793066097.8518982,
+    "seen": 1793072832.7342794,
+    "ast_hash": "5ee0f9bf6492995597ce5d821cce8dd5",
+    "semantic_hash": "5ee0f9bf6492995597ce5d821cce8dd5"
+  },
+  "scripts/generar-catalogo.js": {
+    "mtime": 1793065841.2080078,
+    "seen": 1793072832.734288,
+    "ast_hash": "ff6f097b128487dac0e7e71a646e6f4a",
+    "semantic_hash": "ff6f097b128487dac0e7e71a646e6f4a"
+  },
+  "scripts/generar-og.js": {
+    "mtime": 1793066114.6779199,
+    "seen": 1793072832.7342918,
+    "ast_hash": "f212f90b379fba40c000e996854c7cf2",
+    "semantic_hash": "f212f90b379fba40c000e996854c7cf2"
+  },
+  "scripts/generar-precios.js": {
+    "mtime": 1793065841.230028,
+    "seen": 1793072832.7342944,
+    "ast_hash": "15fdb559329eac8ed07841bd3933082b",
+    "semantic_hash": "15fdb559329eac8ed07841bd3933082b"
+  },
+  "scripts/lighthouse.mjs": {
+    "mtime": 1793065841.230028,
+    "seen": 1793072832.734297,
+    "ast_hash": "f7f9f2a3b7b7ce844c18420d90d118a7",
+    "semantic_hash": "f7f9f2a3b7b7ce844c18420d90d118a7"
+  },
+  "scripts/postbuild.js": {
+    "mtime": 1793066551.9728673,
+    "seen": 1793072832.7343023,
+    "ast_hash": "5553bd196ba7663cb8520abad0cf3189",
+    "semantic_hash": "5553bd196ba7663cb8520abad0cf3189"
+  },
+  "scripts/serve-dist.mjs": {
+    "mtime": 1793065841.2596483,
+    "seen": 1793072832.7343044,
+    "ast_hash": "2fccb1b3a80e3ce45800ea70d2ea9e0f",
+    "semantic_hash": "2fccb1b3a80e3ce45800ea70d2ea9e0f"
+  },
+  "src/App.jsx": {
+    "mtime": 1793065912.5482638,
+    "seen": 1793072832.7343066,
+    "ast_hash": "47d54bfeddc6f5417d4ca479dae67b2f",
+    "semantic_hash": "47d54bfeddc6f5417d4ca479dae67b2f"
+  },
+  "src/components/catalogo/ExplorarCatalogo.jsx": {
+    "mtime": 1793065912.5637896,
+    "seen": 1793072832.7343092,
+    "ast_hash": "624cd6fa5f6a93ba34002b8b8d21c12b",
+    "semantic_hash": "624cd6fa5f6a93ba34002b8b8d21c12b"
+  },
+  "src/components/catalogo/PanelFiltros.jsx": {
+    "mtime": 1793065912.5853398,
+    "seen": 1793072832.7343113,
+    "ast_hash": "90bb4423d645f876ccd22de83383510a",
+    "semantic_hash": "90bb4423d645f876ccd22de83383510a"
+  },
+  "src/components/catalogo/TarjetaProducto.jsx": {
+    "mtime": 1793065912.6063766,
+    "seen": 1793072832.734314,
+    "ast_hash": "eaab6cf1ba363ed7df426469d9f032a4",
+    "semantic_hash": "eaab6cf1ba363ed7df426469d9f032a4"
+  },
+  "src/components/layout/AvisoAgregado.jsx": {
+    "mtime": 1793065912.62544,
+    "seen": 1793072832.734316,
+    "ast_hash": "db2746f43cfa99a48085c4a38f89a33b",
+    "semantic_hash": "db2746f43cfa99a48085c4a38f89a33b"
+  },
+  "src/components/layout/Buscador.jsx": {
+    "mtime": 1793065912.6449964,
+    "seen": 1793072832.734318,
+    "ast_hash": "d2bc9af3afe004e48726853f083905e0",
+    "semantic_hash": "d2bc9af3afe004e48726853f083905e0"
+  },
+  "src/components/layout/ErrorBoundary.jsx": {
+    "mtime": 1793065912.6635716,
+    "seen": 1793072832.7343202,
+    "ast_hash": "4c74537ff02710b64f4954d330dc90f4",
+    "semantic_hash": "4c74537ff02710b64f4954d330dc90f4"
+  },
+  "src/components/layout/Footer.jsx": {
+    "mtime": 1793065974.7036412,
+    "seen": 1793072832.7343225,
+    "ast_hash": "bc43e6d4890a232982db4974e8bd5c54",
+    "semantic_hash": "bc43e6d4890a232982db4974e8bd5c54"
+  },
+  "src/components/layout/Header.jsx": {
+    "mtime": 1793066232.6082394,
+    "seen": 1793072832.7343245,
+    "ast_hash": "9db87adc00ee29ad120c36cc9c930919",
+    "semantic_hash": "9db87adc00ee29ad120c36cc9c930919"
+  },
+  "src/components/layout/Layout.jsx": {
+    "mtime": 1793065912.7200043,
+    "seen": 1793072832.7343266,
+    "ast_hash": "80b0d3428cbf2e9aaf8e4fec378c326b",
+    "semantic_hash": "80b0d3428cbf2e9aaf8e4fec378c326b"
+  },
+  "src/components/layout/Logo.jsx": {
+    "mtime": 1793065954.572445,
+    "seen": 1793072832.7343287,
+    "ast_hash": "a7a924ac7b4f013974fc9e29067986e3",
+    "semantic_hash": "a7a924ac7b4f013974fc9e29067986e3"
+  },
+  "src/components/producto/GaleriaProducto.jsx": {
+    "mtime": 1793065912.7608607,
+    "seen": 1793072832.734331,
+    "ast_hash": "a02537af84260028e4fd620bc585b085",
+    "semantic_hash": "a02537af84260028e4fd620bc585b085"
+  },
+  "src/components/ui/Boton.jsx": {
+    "mtime": 1793065986.5599692,
+    "seen": 1793072832.7343333,
+    "ast_hash": "2987c7f7bb734d7beda4f0ce9a545501",
+    "semantic_hash": "2987c7f7bb734d7beda4f0ce9a545501"
+  },
+  "src/components/ui/Campo.jsx": {
+    "mtime": 1793065912.799774,
+    "seen": 1793072832.7343352,
+    "ast_hash": "bb071599061a5979831f26fb5821fa77",
+    "semantic_hash": "bb071599061a5979831f26fb5821fa77"
+  },
+  "src/components/ui/Dialogo.jsx": {
+    "mtime": 1793065912.8186128,
+    "seen": 1793072832.7343373,
+    "ast_hash": "efa5c6a1c738e3e7559a7f5644a350d8",
+    "semantic_hash": "efa5c6a1c738e3e7559a7f5644a350d8"
+  },
+  "src/components/ui/EstadoVacio.jsx": {
+    "mtime": 1793065912.8282373,
+    "seen": 1793072832.7343392,
+    "ast_hash": "ea7b667a27d9753600eb67ad4a51fc48",
+    "semantic_hash": "ea7b667a27d9753600eb67ad4a51fc48"
+  },
+  "src/components/ui/Icono.jsx": {
+    "mtime": 1793065912.8465643,
+    "seen": 1793072832.7343442,
+    "ast_hash": "48a8a3e680f2be945122149be547431a",
+    "semantic_hash": "48a8a3e680f2be945122149be547431a"
+  },
+  "src/components/ui/ImagenProducto.jsx": {
+    "mtime": 1793065912.8577867,
+    "seen": 1793072832.7343464,
+    "ast_hash": "06a1fdfd82699887c1321796260215be",
+    "semantic_hash": "06a1fdfd82699887c1321796260215be"
+  },
+  "src/components/ui/Migas.jsx": {
+    "mtime": 1793065912.8774958,
+    "seen": 1793072832.7343483,
+    "ast_hash": "5edfe48a3c1fe0eb2287334334d12cce",
+    "semantic_hash": "5edfe48a3c1fe0eb2287334334d12cce"
+  },
+  "src/components/ui/SelectorCantidad.jsx": {
+    "mtime": 1793065912.894801,
+    "seen": 1793072832.7343507,
+    "ast_hash": "e3b0ed679dc9e75a469086115001d820",
+    "semantic_hash": "e3b0ed679dc9e75a469086115001d820"
+  },
+  "src/config/store.ts": {
+    "mtime": 1793065841.3331013,
+    "seen": 1793072832.7343528,
+    "ast_hash": "4752c96d54ecd3f89b694775e69d163c",
+    "semantic_hash": "4752c96d54ecd3f89b694775e69d163c"
+  },
+  "src/context/CarritoContext.jsx": {
+    "mtime": 1793065912.9155874,
+    "seen": 1793072832.734355,
+    "ast_hash": "7f9599f34a83674aa9d9dbac96a3771d",
+    "semantic_hash": "7f9599f34a83674aa9d9dbac96a3771d"
+  },
+  "src/data/precios.json": {
+    "mtime": 1793065841.3331013,
+    "seen": 1793072832.734359,
+    "ast_hash": "150ed6e91601b132617bdca1f45c1042",
+    "semantic_hash": "150ed6e91601b132617bdca1f45c1042"
+  },
+  "src/hooks/useMediaQuery.js": {
+    "mtime": 1793065841.3351011,
+    "seen": 1793072832.7343612,
+    "ast_hash": "602bda0f80740240b6c15a9e2edfe342",
+    "semantic_hash": "602bda0f80740240b6c15a9e2edfe342"
+  },
+  "src/hooks/usePagina.js": {
+    "mtime": 1793065841.3351011,
+    "seen": 1793072832.7343633,
+    "ast_hash": "010f077b8f05abf85049d988c57b4ec8",
+    "semantic_hash": "010f077b8f05abf85049d988c57b4ec8"
+  },
+  "src/lib/datos.js": {
+    "mtime": 1793065841.3361018,
+    "seen": 1793072832.7343657,
+    "ast_hash": "27038bd3d802223ff57cf1cf89693d57",
+    "semantic_hash": "27038bd3d802223ff57cf1cf89693d57"
+  },
+  "src/lib/filtros.js": {
+    "mtime": 1793065841.3361018,
+    "seen": 1793072832.734368,
+    "ast_hash": "2e6e6ac2c35674553218920a27886914",
+    "semantic_hash": "2e6e6ac2c35674553218920a27886914"
+  },
+  "src/lib/formato.js": {
+    "mtime": 1793065841.3361018,
+    "seen": 1793072832.73437,
+    "ast_hash": "284aef132f5aff850e08734f432e816f",
+    "semantic_hash": "284aef132f5aff850e08734f432e816f"
+  },
+  "src/lib/pedido.js": {
+    "mtime": 1793065841.3361018,
+    "seen": 1793072832.7343721,
+    "ast_hash": "79ec63d61a3ad2045a7fac7bcff4123c",
+    "semantic_hash": "79ec63d61a3ad2045a7fac7bcff4123c"
+  },
+  "src/lib/seo.js": {
+    "mtime": 1793065841.3361018,
+    "seen": 1793072832.734374,
+    "ast_hash": "93846273627fca6928fd366a742c6ff7",
+    "semantic_hash": "93846273627fca6928fd366a742c6ff7"
+  },
+  "src/main.jsx": {
+    "mtime": 1793065912.923241,
+    "seen": 1793072832.7343764,
+    "ast_hash": "2c2ed5563532e9cdc04cecc06a1c895a",
+    "semantic_hash": "2c2ed5563532e9cdc04cecc06a1c895a"
+  },
+  "src/pages/Carrito.jsx": {
+    "mtime": 1793065912.9358952,
+    "seen": 1793072832.7343788,
+    "ast_hash": "85da17e6c0bc7510ea7ea9cef99b4080",
+    "semantic_hash": "85da17e6c0bc7510ea7ea9cef99b4080"
+  },
+  "src/pages/Catalogo.jsx": {
+    "mtime": 1793065912.9545293,
+    "seen": 1793072832.7343807,
+    "ast_hash": "5982da7d5dd3898a9786a66a2eadd1bb",
+    "semantic_hash": "5982da7d5dd3898a9786a66a2eadd1bb"
+  },
+  "src/pages/Checkout.jsx": {
+    "mtime": 1793065912.9756734,
+    "seen": 1793072832.7343829,
+    "ast_hash": "1b70c5a2a40eb3c2a473944142aa0010",
+    "semantic_hash": "1b70c5a2a40eb3c2a473944142aa0010"
+  },
+  "src/pages/Contacto.jsx": {
+    "mtime": 1793066232.3353455,
+    "seen": 1793072832.734385,
+    "ast_hash": "54b72a547279db09b827df6615daa6a7",
+    "semantic_hash": "54b72a547279db09b827df6615daa6a7"
+  },
+  "src/pages/Envios.jsx": {
+    "mtime": 1793065913.0223868,
+    "seen": 1793072832.734387,
+    "ast_hash": "a354c8250b85b19e53b5b06cb24b66a1",
+    "semantic_hash": "a354c8250b85b19e53b5b06cb24b66a1"
+  },
+  "src/pages/Inicio.jsx": {
+    "mtime": 1793066551.9004252,
+    "seen": 1793072832.7343895,
+    "ast_hash": "ca07286abb9c21cc8070b0f9cf622075",
+    "semantic_hash": "ca07286abb9c21cc8070b0f9cf622075"
+  },
+  "src/pages/Marca.jsx": {
+    "mtime": 1793065913.0629318,
+    "seen": 1793072832.7343912,
+    "ast_hash": "c1fbfe356930bd6e8aeff1c35c9e9608",
+    "semantic_hash": "c1fbfe356930bd6e8aeff1c35c9e9608"
+  },
+  "src/pages/NoEncontrada.jsx": {
+    "mtime": 1793065913.0790603,
+    "seen": 1793072832.7343936,
+    "ast_hash": "9aecf5299f0d2db1b47efebc5201b73c",
+    "semantic_hash": "9aecf5299f0d2db1b47efebc5201b73c"
+  },
+  "src/pages/Nosotros.jsx": {
+    "mtime": 1793066068.4694927,
+    "seen": 1793072832.7343957,
+    "ast_hash": "1e4d32d2b27649f325c9feb55e06a870",
+    "semantic_hash": "1e4d32d2b27649f325c9feb55e06a870"
+  },
+  "src/pages/PedidoConfirmado.jsx": {
+    "mtime": 1793065913.1112719,
+    "seen": 1793072832.7343981,
+    "ast_hash": "7f254efefc790dd15674472781e20145",
+    "semantic_hash": "7f254efefc790dd15674472781e20145"
+  },
+  "src/pages/Producto.jsx": {
+    "mtime": 1793065913.151783,
+    "seen": 1793072832.7344005,
+    "ast_hash": "af5794c9b67079413ae2171fd824d8c9",
+    "semantic_hash": "af5794c9b67079413ae2171fd824d8c9"
+  },
+  "tests/e2e.mjs": {
+    "mtime": 1793065841.3627007,
+    "seen": 1793072832.7344031,
+    "ast_hash": "b0ebd9f167333f0ec9ece4ce8c210e4a",
+    "semantic_hash": "b0ebd9f167333f0ec9ece4ce8c210e4a"
+  },
+  "tests/pedido.test.js": {
+    "mtime": 1793065841.3627007,
+    "seen": 1793072832.734405,
+    "ast_hash": "7263548d895d14587b06bc4e83e556b7",
+    "semantic_hash": "7263548d895d14587b06bc4e83e556b7"
+  },
+  "vercel.json": {
+    "mtime": 1793065841.3627007,
+    "seen": 1793072832.7344074,
+    "ast_hash": "165e63121bdcea93b1d88f68a87c74d6",
+    "semantic_hash": "165e63121bdcea93b1d88f68a87c74d6"
+  },
+  "vite.config.js": {
+    "mtime": 1793065841.3627007,
+    "seen": 1793072832.7344096,
+    "ast_hash": "84bf8d834005bc32fea4504ba83f96fa",
+    "semantic_hash": "84bf8d834005bc32fea4504ba83f96fa"
+  },
+  "README.md": {
+    "mtime": 1793066870.1297815,
+    "seen": 1793072832.7344117,
+    "ast_hash": "1ad39eca0bb6f90d26321fefa44d11f8",
+    "semantic_hash": "1ad39eca0bb6f90d26321fefa44d11f8"
+  },
+  "docs/brief-diseno.md": {
+    "mtime": 1793066865.4860294,
+    "seen": 1793072832.734414,
+    "ast_hash": "2f82090d5abcaec9104128f65abd8c11",
+    "semantic_hash": "2f82090d5abcaec9104128f65abd8c11"
+  },
+  "index.html": {
+    "mtime": 1793066094.0605633,
+    "seen": 1793072832.7344165,
+    "ast_hash": "6437533e4bc4c2e3fd8a62cc5b1f1402",
+    "semantic_hash": "6437533e4bc4c2e3fd8a62cc5b1f1402"
+  },
+  "public/apple-touch-icon.png": {
+    "mtime": 1793066603.511,
+    "seen": 1793072832.7344184,
+    "ast_hash": "1c00142d408f9de343cf8c883c69d5fd",
+    "semantic_hash": "1c00142d408f9de343cf8c883c69d5fd"
+  },
+  "public/favicon-32.png": {
+    "mtime": 1793066603.504,
+    "seen": 1793072832.7344205,
+    "ast_hash": "53e30a7bed347ec6799c6ab61afa9ffc",
+    "semantic_hash": "53e30a7bed347ec6799c6ab61afa9ffc"
+  },
+  "public/icon-192.png": {
+    "mtime": 1793066603.518,
+    "seen": 1793072832.7344224,
+    "ast_hash": "9a8c443dd44e3e2e11668b6176eb6b9a",
+    "semantic_hash": "9a8c443dd44e3e2e11668b6176eb6b9a"
+  },
+  "public/icon-512.png": {
+    "mtime": 1793066603.532,
+    "seen": 1793072832.7344244,
+    "ast_hash": "e86e4953d7165677873cbaa59632d7fa",
+    "semantic_hash": "e86e4953d7165677873cbaa59632d7fa"
+  },
+  "scripts/optimizar-fotos.js": {
+    "mtime": 1793066599.716933,
+    "seen": 1793072832.7342994,
+    "ast_hash": "0541b3cf1cbc442744058bf68f68492d",
+    "semantic_hash": "0541b3cf1cbc442744058bf68f68492d"
+  },
+  "src/components/ui/Foto.jsx": {
+    "mtime": 1793066001.0282109,
+    "seen": 1793072832.7343416,
+    "ast_hash": "c86ed2a2717865fbafaa5321e6f347ad",
+    "semantic_hash": "c86ed2a2717865fbafaa5321e6f347ad"
+  },
+  "src/data/fotos.json": {
+    "mtime": 1793066602.9573772,
+    "seen": 1793072832.7343569,
+    "ast_hash": "6243903aa35d4445b01811729514a48e",
+    "semantic_hash": "6243903aa35d4445b01811729514a48e"
+  },
+  "public/logo-2x.webp": {
+    "mtime": 1793066602.984,
+    "seen": 1793072832.734426,
+    "ast_hash": "2a4601a721afa6770b173be4c548c148",
+    "semantic_hash": "2a4601a721afa6770b173be4c548c148"
+  },
+  "public/logo.webp": {
+    "mtime": 1793066602.993,
+    "seen": 1793072832.734428,
+    "ast_hash": "f214cc5998a01707b12ffbfbcd9155f2",
+    "semantic_hash": "f214cc5998a01707b12ffbfbcd9155f2"
+  },
+  "public/marca-gato.png": {
+    "mtime": 1793066603.005,
+    "seen": 1793072832.7344298,
+    "ast_hash": "dc675e6868f05bd5b891be686f4f3fa1",
+    "semantic_hash": "dc675e6868f05bd5b891be686f4f3fa1"
+  }
+}
