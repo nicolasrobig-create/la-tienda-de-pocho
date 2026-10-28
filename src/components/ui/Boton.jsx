@@ -11,6 +11,9 @@ const VARIANTES = {
   fantasma: 'px-3 text-azul-oscuro hover:bg-durazno',
   ambar: 'bg-ambar text-noche shadow-tarjeta hover:bg-fondo hover:shadow-elevada',
   claro: 'border-2 border-fondo bg-transparent text-fondo hover:bg-fondo hover:text-noche',
+  // Portada animada (sobre el azul cielo)
+  crema: 'bg-fondo text-tinta shadow-tarjeta hover:bg-durazno hover:shadow-elevada',
+  tinta: 'border-2 border-tinta bg-transparent text-tinta hover:bg-tinta hover:text-fondo',
 };
 
 // Renderiza <Link> si recibe `to`, <a> si recibe `href` y <button> en otro caso.

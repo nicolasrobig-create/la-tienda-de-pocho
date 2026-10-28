@@ -70,9 +70,8 @@ plantilla = plantilla.replace('</head>', `    ${precargaFuentes}\n  </head>`);
 // Foto que más probablemente será el LCP de cada ruta: se precarga para que el navegador la pida
 // sin esperar a que React pinte la página. Los `sizes` deben ser los mismos que usa el componente.
 const SIZES_TARJETA = '(min-width: 1024px) 280px, (min-width: 768px) 30vw, 50vw'; // = ImagenProducto.jsx
-const SIZES_HERO = '(min-width: 768px) 260px, 62vw'; // = SIZES_HERO de src/pages/Inicio.jsx
+const SIZES_PORTADA = '(min-width: 768px) 100vw, 92vw'; // = sizes del poster en src/components/portada/Portada.jsx
 const SIZES_GALERIA = '(min-width: 768px) 540px, 92vw'; // = GaleriaProducto.jsx
-const FOTO_HERO = 'perro-pasto'; // foto principal del hero de src/pages/Inicio.jsx (ver src/data/fotos.json)
 const fotos = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'fotos.json'), 'utf8'));
 const ultimoDe = (lista) => lista[lista.length - 1]; // "novedades" ordena de último a primero
 
@@ -88,7 +87,7 @@ function linkFoto(nombre, sizes) {
   return `<link rel="preload" as="image" href="${url(anchos.at(-1))}" imagesrcset="${srcset}" imagesizes="${sizes}" fetchpriority="high" />`;
 }
 function precargaImagen(ruta) {
-  if (ruta === '/') return linkFoto(FOTO_HERO, SIZES_HERO);
+  if (ruta === '/') return `<link rel="preload" as="image" href="/portada/inicio-1280.webp" imagesrcset="/portada/inicio-640.webp 640w, /portada/inicio-1280.webp 1280w" imagesizes="${SIZES_PORTADA}" fetchpriority="high" />`; // poster de la portada (src/config/portada.ts)
   if (ruta === '/catalogo') return linkImagen(ultimoDe(productos), SIZES_TARJETA);
   if (ruta.startsWith('/marca/')) return linkImagen(ultimoDe(productos.filter((p) => p.slugMarca === ruta.split('/')[2])), SIZES_TARJETA);
   if (ruta.startsWith('/producto/')) return linkImagen(productos.find((p) => p.id === ruta.split('/')[2]), SIZES_GALERIA);

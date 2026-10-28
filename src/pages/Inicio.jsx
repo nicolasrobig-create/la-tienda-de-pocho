@@ -8,9 +8,8 @@ import { marcas, obtenerProducto, productos } from '../lib/datos.js';
 import { TIENDA } from '../config/store';
 import { usePagina } from '../hooks/usePagina.js';
 import { META_ESTATICAS } from '../lib/seo.js';
+import Portada from '../components/portada/Portada.jsx';
 
-// Debe coincidir con el preload de la portada en scripts/postbuild.js (FOTO_HERO y SIZES_HERO)
-export const SIZES_HERO = '(min-width: 768px) 260px, 62vw';
 const IDS_GATOS = [
   'pro-plan-felino-adulto-3-kg', 'hills-felino-adulto-indoor-3-5-lb', 'taste-of-the-wild-felino-rocky-mountain-5-lb',
   'orijen-felino-original-cat-4-lb', 'nd-felino-tropical-adulto-1-5-kg', 'equilibrio-felino-adulto-1-5-kg',
@@ -38,47 +37,8 @@ export default function Inicio() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="degradado-hero sobre-oscuro relative overflow-hidden text-fondo">
-        <div className="contenedor relative grid items-center gap-10 py-10 md:grid-cols-2 md:gap-6 md:py-16 lg:py-20">
-          <div className="motion-safe:animate-subir">
-            <p className="mb-4 inline-flex items-center gap-2 rounded-boton bg-ambar px-3.5 py-1.5 text-sm font-semibold text-noche">
-              <Icono nombre="pin" className="size-4" /> Entregamos en {TIENDA.cobertura}
-            </p>
-            <h1 className="text-4xl leading-[1.05] text-fondo sm:text-5xl lg:text-6xl">
-              Buena comida para quien <span className="text-ambar">te espera en casa</span>
-            </h1>
-            <p className="mt-5 max-w-lg text-lg text-fondo/90">
-              Alimento para gatos y perros, desde marcas de siempre hasta dietas veterinarias. Elige con calma y te lo llevamos.
-            </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Boton to="/catalogo" variante="ambar" className="min-h-12 px-7">Ver el catálogo <Icono nombre="flecha" className="size-5" /></Boton>
-              <Boton to="/catalogo?animal=gato" variante="claro" className="min-h-12 px-7">Para mi gato</Boton>
-            </div>
-          </div>
-
-          <div className="relative mx-auto h-[22rem] w-full max-w-md sm:h-[27rem] md:h-[30rem]">
-            <div aria-hidden="true" className="absolute inset-x-[4%] inset-y-[6%] rounded-[2.5rem] bg-fondo/10" />
-            <div className="absolute top-0 left-[1%] z-0 hidden w-[56%] -rotate-4 sm:block overflow-hidden rounded-[1.75rem] border-4 border-fondo shadow-elevada motion-safe:transition-transform motion-safe:duration-500 motion-safe:hover:-rotate-2">
-              <Foto
-                nombre="gata-churu"
-                alt="Gata blanca lamiendo un snack Churu dentro de una canasta tejida"
-                sizes={SIZES_HERO}
-                className="aspect-[790/1271] w-full"
-              />
-            </div>
-            <div className="absolute bottom-0 left-1/2 z-10 w-[62%] -translate-x-1/2 rotate-3 sm:right-[1%] sm:left-auto sm:w-[58%] sm:translate-x-0 overflow-hidden rounded-[1.75rem] border-4 border-fondo shadow-elevada motion-safe:transition-transform motion-safe:duration-500 motion-safe:hover:rotate-1">
-              <Foto
-                nombre="perro-pasto"
-                alt="Perro blanco con manchas color canela sonriendo en el pasto junto a su pelota morada"
-                sizes={SIZES_HERO}
-                prioridad
-                className="aspect-[550/815] w-full"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Portada animada: el scroll recorre el video (src/components/portada) */}
+      <Portada />
 
       {/* Puntos de confianza */}
       <section className="contenedor py-10" aria-label="Por qué comprar aquí">

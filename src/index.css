@@ -23,6 +23,11 @@
   --color-oliva: #4f6b2e;          /* funcional: disponible, confirmaciones */
   --color-blanco: #ffffff;
 
+  /* Portada animada (src/components/portada): azul cielo de la maqueta y su texto oscuro.
+     tinta/cielo 5.3 (pasa AA) · fondo/cielo 3.3 (solo texto grande) · ámbar/cielo 1.9 (nunca como texto). */
+  --color-cielo: #0a90e8;
+  --color-tinta: #06152f;
+
   /* Tipografías */
   --font-display: "Fraunces Variable", Georgia, serif;
   --font-sans: "Figtree Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
