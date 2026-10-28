@@ -103,3 +103,17 @@ Reglas:
 - `src/data/productos.json` — catálogo (sin precio). Se regenera con `npm run catalogo`.
 - `src/data/precios.json` — `{ [id]: { precio, stock, esEjemplo } }`. Se completa con `npm run precios` (solo agrega ids nuevos).
 - Imágenes WebP (máx. 1200 px de ancho): `public/productos/[marca]/[id].webp`, ruta ya incluida en el campo `imagen`.
+
+## 8. Encabezado y portada animada (2026-10-28)
+
+- **Encabezado en pestañas** (`src/components/layout/Header.jsx`): dos pestañas crema. Izquierda: píldora con el gato, nombre en
+  mayúsculas espaciadas y los 7 enlaces. Derecha: lupa (abre el buscador), carrito con contador e "Ingresar". No es fijo: se va con la página.
+  En Inicio flota sobre la portada y el video asoma entre las pestañas; en las demás páginas va en el flujo, sobre el fondo crema.
+  Por debajo de `lg` es una barra con menú, nombre y carrito; el menú trae enlaces, buscador e ingreso.
+- **Ingreso con WhatsApp** (`/ingresar`): sin contraseñas ni cuentas. Pide nombre y celular, valida y abre WhatsApp con el mensaje escrito.
+  No guarda nada. La página es `noindex`.
+- **Portada animada** (`src/components/portada/Portada.jsx`): el scroll recorre un video fijo (Bruno → croqueta → plato). Textos, botones,
+  videos y tiempos en `src/config/portada.ts`. Con movimiento reducido o ahorro de datos se ven dos tarjetas fijas.
+- **Colores nuevos**, solo para la portada y el encabezado: `cielo` #0A90E8 (círculos, botón de ingreso, fondo de la portada) y `tinta` #06152F
+  (texto sobre el cielo, 5,3:1). Sobre el cielo: la crema solo sirve en texto grande (3,3:1) y el ámbar nunca como texto (1,9:1).
+- **Sin blanco** en la portada ni en el encabezado: se usa el crema `fondo`. Los blancos del video se pasaron a crema al recodificarlo.

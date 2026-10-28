@@ -17,10 +17,10 @@ const PUERTO = 4173;
 const BASE = `http://localhost:${PUERTO}`;
 const RUTAS = process.argv.slice(2).length
   ? process.argv.slice(2)
-  : ['/', '/catalogo', '/marca/hills', '/producto/pro-plan-felino-adulto-3-kg', '/carrito', '/checkout', '/contacto', '/envios-y-devoluciones', '/nosotros'];
+  : ['/', '/catalogo', '/marca/hills', '/producto/pro-plan-felino-adulto-3-kg', '/carrito', '/checkout', '/contacto', '/envios-y-devoluciones', '/nosotros', '/ingresar'];
 
 // Páginas privadas con noindex a propósito: Lighthouse las marca como "bloqueadas para indexar" (SEO ~66).
-const EXENTAS_SEO = ['/carrito', '/checkout', '/pedido-confirmado'];
+const EXENTAS_SEO = ['/carrito', '/checkout', '/pedido-confirmado', '/ingresar'];
 
 const chromePath = [
   process.env.CHROME_PATH,

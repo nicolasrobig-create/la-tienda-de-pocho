@@ -109,7 +109,7 @@ function paginaDeRuta(ruta) {
   if (ruta === '/') return 'Inicio';
   if (ruta.startsWith('/marca/')) return 'Marca';
   if (ruta.startsWith('/producto/')) return 'Producto';
-  const mapa = { '/catalogo': 'Catalogo', '/carrito': 'Carrito', '/checkout': 'Checkout', '/pedido-confirmado': 'PedidoConfirmado', '/contacto': 'Contacto', '/nosotros': 'Nosotros', '/envios-y-devoluciones': 'Envios' };
+  const mapa = { '/catalogo': 'Catalogo', '/carrito': 'Carrito', '/checkout': 'Checkout', '/pedido-confirmado': 'PedidoConfirmado', '/contacto': 'Contacto', '/nosotros': 'Nosotros', '/envios-y-devoluciones': 'Envios', '/ingresar': 'Ingresar' };
   return mapa[ruta];
 }
 function precargaPagina(ruta) {

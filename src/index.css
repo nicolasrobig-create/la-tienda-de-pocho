@@ -85,6 +85,25 @@
     background-image: linear-gradient(180deg, var(--color-durazno-claro), var(--color-fondo));
   }
   /* Elevación al pasar el cursor, con transición (se anula con prefers-reduced-motion) */
+  /* Encabezado en pestañas (Header.jsx): donde la pestaña se une con el video, la esquina de este
+     gira hacia adentro. --marco es el margen crema que rodea a la portada. */
+  .pestana::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 1.5rem;
+    height: calc(1.5rem + var(--marco, 0.75rem));
+    pointer-events: none;
+  }
+  .pestana-izq::after {
+    left: 100%;
+    background: radial-gradient(circle at 100% 100%, transparent 1.5rem, var(--color-fondo) calc(1.5rem + 0.5px));
+  }
+  .pestana-der::after {
+    right: 100%;
+    background: radial-gradient(circle at 0 100%, transparent 1.5rem, var(--color-fondo) calc(1.5rem + 0.5px));
+  }
+
   .elevar {
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   }

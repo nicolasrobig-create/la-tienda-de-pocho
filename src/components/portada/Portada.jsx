@@ -5,7 +5,7 @@ import { PORTADA as P } from '../../config/portada';
 import { TIENDA } from '../../config/store';
 
 // Portada animada: el scroll recorre un video fijo cuadro a cuadro y los textos se funden encima.
-// Textos, botones, videos y tiempos: src/config/portada.ts. Colores: tokens cielo / tinta / fondo de src/index.css.
+// El encabezado (Header.jsx) flota encima en las dos esquinas de arriba. Textos, botones, videos y tiempos: src/config/portada.ts. Colores: tokens cielo / tinta / fondo de src/index.css.
 //
 // Cómo funciona:
 // - El video tiene todos sus cuadros como keyframes (ffmpeg -g 1): puede saltar a cualquiera al instante.
@@ -59,7 +59,7 @@ function Pantalla1({ ref }) {
   return (
     <div ref={ref} className="pointer-events-none absolute inset-0 z-20 will-change-[opacity,transform]">
       {/* Móvil: texto arriba y botón abajo, el video en medio. Escritorio: columna izquierda. */}
-      <div className="absolute inset-x-0 top-0 flex h-[44%] flex-col justify-center gap-2.5 px-5 md:inset-y-0 md:h-auto md:w-[min(40rem,54%)] md:gap-5 md:px-12">
+      <div className="absolute inset-x-0 top-0 flex h-[44%] flex-col justify-center gap-2.5 px-5 pt-14 md:inset-y-0 md:h-auto md:w-[min(40rem,54%)] md:gap-5 md:px-12 md:pt-24">
         <p className="hidden w-fit items-center gap-2 rounded-boton bg-fondo px-3.5 py-1.5 text-sm font-semibold text-tinta shadow-tarjeta md:inline-flex">
           <Icono nombre="pin" className="size-4" /> {c.etiqueta}
         </p>
@@ -72,7 +72,7 @@ function Pantalla1({ ref }) {
         <BotonPrincipal boton={c.boton} className="w-full max-w-xs" />
       </div>
       {/* Escritorio: dos frases a la derecha y la tarjeta de WhatsApp abajo */}
-      <ul className="absolute top-8 right-8 hidden w-64 flex-col gap-2.5 md:flex lg:right-12">
+      <ul className="absolute top-24 right-8 hidden w-64 flex-col gap-2.5 md:flex lg:right-12">
         {c.datos.map((d) => <li key={d} className="rounded-2xl bg-fondo/90 px-4 py-3 text-sm leading-snug text-tinta shadow-tarjeta backdrop-blur-sm">{d}</li>)}
       </ul>
       <div className="absolute right-8 bottom-9 hidden md:block lg:right-12"><TarjetaWhatsApp /></div>
@@ -93,7 +93,7 @@ function Pantalla2({ ref, oculta = false }) {
   return (
     <div ref={ref} className={`pointer-events-none absolute inset-0 z-20 will-change-[opacity,transform] ${oculta ? 'opacity-0 invisible' : ''}`}>
       {/* Móvil: título arriba; frase y botón abajo */}
-      <div className="absolute inset-x-0 top-0 flex h-[44%] items-center px-5 md:hidden">
+      <div className="absolute inset-x-0 top-0 flex h-[44%] items-center px-5 pt-14 md:hidden">
         <h2 className="text-[1.75rem] leading-[1.08] text-balance text-tinta sm:text-4xl">{c.titulo}</h2>
       </div>
       <div className="absolute inset-x-5 bottom-[3%] flex flex-col items-center gap-2.5 text-center md:hidden">
@@ -171,7 +171,6 @@ export default function Portada() {
     const elPista = pista.current;
     const elEscenario = escenario.current;
     const video = clip.current;
-    const cabecera = document.querySelector('header');
     const movil = window.matchMedia('(max-width: 767px)');
     const paneles = [[p1, P.zonas.pantalla1], [cap, P.zonas.transicion], [p2, P.zonas.pantalla2]];
 
@@ -184,14 +183,11 @@ export default function Portada() {
     let raf = 0;
     let urlBlob = '';
 
-    const altoCabecera = () => cabecera?.offsetHeight ?? 0;
-
-    // El escenario es sticky bajo la cabecera: el progreso corre mientras la pista lo sostiene.
+    // El escenario es sticky arriba de todo: el progreso corre mientras la pista lo sostiene.
     const medir = () => {
-      elPista.style.setProperty('--alto-header', `${altoCabecera()}px`);
       const r = elPista.getBoundingClientRect();
       const recorrido = r.height - elEscenario.offsetHeight;
-      progreso = recorrido > 0 ? acotar((altoCabecera() - r.top) / recorrido, 0, 1) : 0;
+      progreso = recorrido > 0 ? acotar(-r.top / recorrido, 0, 1) : 0;
       if (duracion) objetivo = progreso * duracion;
     };
 
@@ -288,8 +284,6 @@ export default function Portada() {
     const eventos = ['touchstart', 'pointerdown', 'wheel', 'keydown'];
     eventos.forEach((e) => window.addEventListener(e, desbloquear, { once: true, passive: true }));
 
-    const observador = cabecera && 'ResizeObserver' in window ? new ResizeObserver(alScroll) : null;
-    observador?.observe(cabecera);
     window.addEventListener('scroll', alScroll, { passive: true });
     window.addEventListener('resize', alScroll);
 
@@ -305,7 +299,6 @@ export default function Portada() {
       window.removeEventListener('scroll', alScroll);
       window.removeEventListener('resize', alScroll);
       eventos.forEach((e) => window.removeEventListener(e, desbloquear));
-      observador?.disconnect();
       if (urlBlob) URL.revokeObjectURL(urlBlob);
     };
   }, [estatico]);
@@ -314,7 +307,7 @@ export default function Portada() {
 
   return (
     <section ref={pista} aria-label="Portada" className="relative" style={{ height: `${P.alturaPista * 100}svh` }}>
-      <div ref={escenario} className="sticky top-[var(--alto-header,10rem)] h-[calc(100svh-var(--alto-header,10rem))] min-h-[30.5rem] p-2 md:p-3">
+      <div ref={escenario} className="sticky top-0 h-[100svh] min-h-[34rem] p-2 md:p-3">
         <div className="relative h-full overflow-hidden rounded-[1.75rem] bg-fondo">
           <div className={VENTANA}>
             <Poster poster={P.posters.inicio} prioridad />

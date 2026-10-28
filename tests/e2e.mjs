@@ -64,6 +64,8 @@ async function flujo(browser, { nombre, ancho, alto, movil }) {
 
   // 2. Buscar (sin tildes)
   const buscador = movil ? '#buscar-movil' : '#buscar-escritorio';
+  await p.click(movil ? 'button[aria-label="Abrir menú"]' : 'button[aria-label="Abrir buscador"]');
+  await p.waitForSelector(`dialog[open] ${buscador}`);
   await p.type(buscador, 'urinario');
   await p.keyboard.press('Enter');
   await p.waitForFunction(() => location.search.includes('q=urinario') && document.querySelectorAll('article').length > 0);
@@ -168,7 +170,7 @@ async function flujo(browser, { nombre, ancho, alto, movil }) {
   comprobar(t('Al recargar la confirmación no persiste el pedido'), (await p.$eval('h1', (e) => e.textContent)).includes('No encontramos un pedido reciente'));
 
   // 10. Páginas estáticas: sin scroll horizontal
-  for (const ruta of ['/', '/catalogo', '/marca/hills', '/envios-y-devoluciones', '/contacto', '/nosotros', '/carrito', '/checkout', '/no-existe']) {
+  for (const ruta of ['/', '/catalogo', '/marca/hills', '/envios-y-devoluciones', '/contacto', '/nosotros', '/ingresar', '/carrito', '/checkout', '/no-existe']) {
     await p.goto(BASE + ruta, { waitUntil: 'networkidle0' });
     const [sw, cw] = await p.evaluate(() => [document.documentElement.scrollWidth, document.documentElement.clientWidth]);
     if (sw > cw) comprobar(t(`Sin scroll horizontal en ${ruta}`), false, `${sw}>${cw}`);
