@@ -44,5 +44,5 @@ export const PORTADA = {
   },
 
   // Largo del recorrido, en alturas de pantalla. Más alto = animación más lenta al hacer scroll.
-  alturaPista: 4.2,
+  alturaPista: 2.3,
 };

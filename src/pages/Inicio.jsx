@@ -9,6 +9,7 @@ import { TIENDA } from '../config/store';
 import { usePagina } from '../hooks/usePagina.js';
 import { META_ESTATICAS } from '../lib/seo.js';
 import Portada from '../components/portada/Portada.jsx';
+import MarcasInicio from '../components/catalogo/MarcasInicio.jsx';
 
 const IDS_GATOS = [
   'pro-plan-felino-adulto-3-kg', 'hills-felino-adulto-indoor-3-5-lb', 'taste-of-the-wild-felino-rocky-mountain-5-lb',
@@ -120,7 +121,7 @@ export default function Inicio() {
       </section>
 
       {/* Marcas */}
-      <section id="marcas" className="degradado-calido scroll-mt-40 py-14" aria-labelledby="marcas-titulo">
+      <section id="marcas" className="degradado-calido scroll-mt-6 py-14" aria-labelledby="marcas-titulo">
         <div className="contenedor">
           <div className="relative mb-8 overflow-hidden rounded-[1.75rem] shadow-elevada">
             <Foto
@@ -135,16 +136,7 @@ export default function Inicio() {
               <p className="mt-1 text-fondo/90">Entra a una marca para ver todo lo que tenemos.</p>
             </div>
           </div>
-          <ul className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-4">
-            {marcas.map((m) => (
-              <li key={m.slug}>
-                <Link to={`/marca/${m.slug}`} className="elevar flex min-h-14 items-center justify-between gap-2 rounded-xl bg-blanco px-4 py-3 font-display text-lg font-bold shadow-tarjeta hover:bg-azul hover:text-blanco">
-                  {m.nombre}
-                  <span className="font-sans text-sm font-medium opacity-70 tabular-nums">{m.total}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <MarcasInicio />
         </div>
       </section>
 

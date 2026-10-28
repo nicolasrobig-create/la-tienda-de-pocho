@@ -32,8 +32,8 @@ Contrastes medidos (WCAG, mínimo AA = 4,5:1 en texto, 3:1 en componentes y text
 | Primario (hover) | `azul-oscuro` | `#083570` | Hover / activo, enlaces sobre claro | 11,5:1 sobre fondo |
 | Texto oscuro | `noche` | `#0A2A63` | Texto principal, footer, bandas oscuras | 13,2:1 sobre fondo |
 | — | `noche-suave` | `#44567F` | Texto secundario | 7,0:1 sobre fondo · 5,5:1 sobre durazno |
-| Fondo claro | `fondo` | `#FFFAF0` | Fondo de página | — |
-| Secundario | `durazno` | `#F8D9C4` | Chips, íconos, superficies | noche sobre durazno 10,3:1 |
+| Fondo | `fondo` | `#FBE9C6` | Fondo de página y marco de la portada (crema fuerte) | noche 11,5:1 |
+| Secundario | `durazno` | `#F4C9A6` | Chips, íconos, superficies | noche 9,0:1 · noche-suave 4,8:1 |
 | — | `durazno-claro` | `#FDEEE0` | Bandas amplias, esqueletos de carga | — |
 | — | `durazno-oscuro` | `#E6C2A8` | Bordes y divisores | decorativo |
 | Acento | `ambar` | `#FFB020` | Badges, CTA sobre azul, hover, activo del menú | noche sobre ámbar 7,5:1 · ámbar sobre azul 4,7:1 (solo texto grande) |
@@ -117,3 +117,5 @@ Reglas:
 - **Colores nuevos**, solo para la portada y el encabezado: `cielo` #0A90E8 (círculos, botón de ingreso, fondo de la portada) y `tinta` #06152F
   (texto sobre el cielo, 5,3:1). Sobre el cielo: la crema solo sirve en texto grande (3,3:1) y el ámbar nunca como texto (1,9:1).
 - **Sin blanco** en la portada ni en el encabezado: se usa el crema `fondo`. Los blancos del video se pasaron a crema al recodificarlo.
+
+- **Crema fuerte en todo el sitio (2026-10-28):** `fondo` pasó de #FFFAF0 a #FBE9C6 y `blanco` dejó de ser blanco: es #FFF6E3, el crema claro de tarjetas, campos y paneles. `durazno` subió a #F4C9A6 para separarse del fondo. No hay blanco en la interfaz.

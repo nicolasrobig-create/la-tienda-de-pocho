@@ -57,7 +57,9 @@ async function flujo(browser, { nombre, ancho, alto, movil }) {
   const t = (txt) => `[${nombre}] ${txt}`;
 
   // 1. Inicio
-  await p.goto(BASE + '/', { waitUntil: 'networkidle0' });
+  // Inicio baja el video de la portada y el navegador mantiene esa solicitud (blob:) abierta como medio: no se espera red inactiva.
+  await p.goto(BASE + '/', { waitUntil: 'load' });
+  await p.waitForSelector('h1');
   await dormir(400);
   await foto('01-inicio');
   comprobar(t('Inicio carga con h1'), (await p.$eval('h1', (e) => e.textContent)).includes('Buena comida'));
@@ -171,7 +173,7 @@ async function flujo(browser, { nombre, ancho, alto, movil }) {
 
   // 10. Páginas estáticas: sin scroll horizontal
   for (const ruta of ['/', '/catalogo', '/marca/hills', '/envios-y-devoluciones', '/contacto', '/nosotros', '/ingresar', '/carrito', '/checkout', '/no-existe']) {
-    await p.goto(BASE + ruta, { waitUntil: 'networkidle0' });
+    await p.goto(BASE + ruta, { waitUntil: ruta === '/' ? 'load' : 'networkidle0' }); // Inicio mantiene abierta la solicitud del video
     const [sw, cw] = await p.evaluate(() => [document.documentElement.scrollWidth, document.documentElement.clientWidth]);
     if (sw > cw) comprobar(t(`Sin scroll horizontal en ${ruta}`), false, `${sw}>${cw}`);
   }

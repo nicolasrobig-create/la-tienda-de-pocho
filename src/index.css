@@ -8,23 +8,23 @@
    ─────────────────────────────────────────────────────────────── */
 @theme {
   /* Paleta de marca: azul del logo + durazno de las letras + ámbar de contraste.
-     Contrastes (WCAG): azul/fondo 9.1 · azul-oscuro/fondo 11.5 · noche/fondo 13.2 ·
-     noche-suave/fondo 7.0 y /durazno 5.5 · blanco/azul 9.5 · noche/ámbar 7.5.
+     Contrastes (WCAG): azul/fondo 7.9 · noche/fondo 11.5 · noche-suave/fondo 6.1 y /durazno 4.8 ·
+     crema claro (blanco)/azul 8.8 · noche/ámbar 7.5. El crema fuerte (fondo) NO sirve como texto sobre el cielo (2.85).
      El ámbar nunca va como texto sobre fondo claro; sobre azul solo en texto grande o iconos. */
   --color-azul: #0b4390;           /* primario: header, botones, enlaces, precios */
   --color-azul-oscuro: #083570;    /* hover / activo del primario */
   --color-noche: #0a2a63;          /* texto principal, footer, bandas oscuras */
   --color-noche-suave: #44567f;    /* texto secundario */
-  --color-fondo: #fffaf0;          /* fondo de página */
-  --color-durazno: #f8d9c4;        /* secundario: chips, iconos, superficies */
+  --color-fondo: #fbe9c6;          /* fondo de página: crema fuerte */
+  --color-durazno: #f4c9a6;        /* secundario: chips, iconos, superficies (más marcado que el original #f8d9c4 para separarse del crema) */
   --color-durazno-claro: #fdeee0;  /* bandas amplias y tarjetas suaves */
-  --color-durazno-oscuro: #e6c2a8; /* bordes, divisores */
+  --color-durazno-oscuro: #ddb890; /* bordes, divisores */
   --color-ambar: #ffb020;          /* acento: hover, badges, CTA sobre azul */
   --color-oliva: #4f6b2e;          /* funcional: disponible, confirmaciones */
-  --color-blanco: #ffffff;
+  --color-blanco: #fff6e3;       /* ya no es blanco: crema claro de tarjetas, campos y paneles (el nombre se conserva para no tocar cada componente) */
 
   /* Portada animada (src/components/portada): azul cielo de la maqueta y su texto oscuro.
-     tinta/cielo 5.3 (pasa AA) · fondo/cielo 3.3 (solo texto grande) · ámbar/cielo 1.9 (nunca como texto). */
+     tinta/cielo 5.3 (pasa AA) · tarjeta/cielo 3.2 (solo texto grande) · ámbar/cielo 1.9 (nunca como texto). */
   --color-cielo: #0a90e8;
   --color-tinta: #06152f;
 
@@ -125,7 +125,7 @@
     position: absolute;
     inset: 0;
     transform: translateX(-100%);
-    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+    background: linear-gradient(90deg, transparent, rgb(255 246 227 / 0.6), transparent);
     animation: brillo 1.4s infinite;
   }
 

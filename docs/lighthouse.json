@@ -6,11 +6,12 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "2.5 s",
+    "lcp": "2.7 s",
     "auditoriasBajas": [
-      "first-contentful-paint",
+      "largest-contentful-paint",
       "total-byte-weight",
       "unused-javascript",
+      "cache-insight",
       "image-delivery-insight",
       "network-dependency-tree-insight"
     ]
@@ -37,13 +38,12 @@
   {
     "modo": "mobile",
     "ruta": "/marca/hills",
-    "rendimiento": 86,
+    "rendimiento": 87,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
     "lcp": "4.0 s",
     "auditoriasBajas": [
-      "first-contentful-paint",
       "largest-contentful-paint",
       "interactive",
       "unused-javascript",
@@ -61,6 +61,7 @@
     "seo": 100,
     "lcp": "2.9 s",
     "auditoriasBajas": [
+      "first-contentful-paint",
       "largest-contentful-paint",
       "unused-javascript",
       "cache-insight",
@@ -93,7 +94,7 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 69,
-    "lcp": "2.0 s",
+    "lcp": "2.1 s",
     "auditoriasBajas": [
       "first-contentful-paint",
       "cumulative-layout-shift",
@@ -113,6 +114,7 @@
     "seo": 100,
     "lcp": "2.2 s",
     "auditoriasBajas": [
+      "first-contentful-paint",
       "unused-javascript",
       "network-dependency-tree-insight"
     ]
@@ -133,11 +135,11 @@
   {
     "modo": "mobile",
     "ruta": "/nosotros",
-    "rendimiento": 96,
+    "rendimiento": 95,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "2.6 s",
+    "lcp": "2.8 s",
     "auditoriasBajas": [
       "largest-contentful-paint",
       "unused-javascript",
@@ -149,11 +151,11 @@
   {
     "modo": "mobile",
     "ruta": "/ingresar",
-    "rendimiento": 99,
+    "rendimiento": 98,
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 69,
-    "lcp": "1.9 s",
+    "lcp": "2.1 s",
     "auditoriasBajas": [
       "unused-javascript",
       "is-crawlable",
@@ -167,11 +169,11 @@
     "accesibilidad": 100,
     "buenas-practicas": 100,
     "seo": 100,
-    "lcp": "0.6 s",
+    "lcp": "0.7 s",
     "auditoriasBajas": [
       "total-byte-weight",
       "unused-javascript",
-      "forced-reflow-insight",
+      "cache-insight",
       "image-delivery-insight",
       "network-dependency-tree-insight"
     ]
