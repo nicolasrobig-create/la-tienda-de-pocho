@@ -10,7 +10,7 @@ const alternar = (lista, valor) => (lista.includes(valor) ? lista.filter((v) => 
 
 function Grupo({ titulo, children }) {
   return (
-    <fieldset className="mb-5 border-b border-arena-oscura/70 pb-5 last:mb-0 last:border-0 last:pb-0">
+    <fieldset className="mb-5 border-b border-durazno-oscuro/70 pb-5 last:mb-0 last:border-0 last:pb-0">
       <legend className="mb-3 font-display text-lg font-bold">{titulo}</legend>
       {children}
     </fieldset>
@@ -19,10 +19,10 @@ function Grupo({ titulo, children }) {
 
 function Casilla({ id, marcada, onCambiar, etiqueta, cantidad }) {
   return (
-    <label htmlFor={id} className="flex min-h-9 cursor-pointer items-center gap-3 rounded-lg px-1 py-1 text-[0.95rem] hover:bg-arena/70">
-      <input id={id} type="checkbox" checked={marcada} onChange={onCambiar} className="size-5 shrink-0 cursor-pointer accent-terracota" />
+    <label htmlFor={id} className="flex min-h-9 cursor-pointer items-center gap-3 rounded-lg px-1 py-1 text-[0.95rem] hover:bg-durazno/70">
+      <input id={id} type="checkbox" checked={marcada} onChange={onCambiar} className="size-5 shrink-0 cursor-pointer accent-azul" />
       <span className="flex-1">{etiqueta}</span>
-      {cantidad != null && <span className="text-sm text-cacao-suave tabular-nums">{cantidad}</span>}
+      {cantidad != null && <span className="text-sm text-noche-suave tabular-nums">{cantidad}</span>}
     </label>
   );
 }
@@ -65,7 +65,7 @@ export default function PanelFiltros({ idBase, f, onCambiar, marcaFija, conteos,
               type="button"
               aria-pressed={f.animal === a.valor}
               onClick={() => onCambiar({ animal: a.valor })}
-              className="min-h-11 rounded-boton border-2 border-cacao px-4 text-sm font-semibold transition-colors hover:bg-arena aria-pressed:bg-cacao aria-pressed:text-crema"
+              className="min-h-11 rounded-boton border-2 border-noche px-4 text-sm font-semibold transition-colors hover:bg-durazno aria-pressed:bg-noche aria-pressed:text-fondo"
             >
               {a.etiqueta}
               {a.valor && <span className="ml-1.5 font-normal opacity-70 tabular-nums">{conteos.animal[a.valor] ?? 0}</span>}
@@ -92,16 +92,16 @@ export default function PanelFiltros({ idBase, f, onCambiar, marcaFija, conteos,
 
       <Grupo titulo="Precio (COP)">
         <form onSubmit={aplicarPrecio} noValidate>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 gap-3">
             <Campo etiqueta="Mínimo" type="number" inputMode="numeric" min="0" step="500" placeholder={String(rangoPrecios.min)} value={min} onChange={(e) => setMin(e.target.value)} />
             <Campo etiqueta="Máximo" type="number" inputMode="numeric" min="0" step="500" placeholder={String(rangoPrecios.max)} value={max} onChange={(e) => setMax(e.target.value)} />
           </div>
           {error && (
-            <p role="alert" className="mt-2 flex items-start gap-1.5 text-sm font-medium text-terracota-oscura">
+            <p role="alert" className="mt-2 flex items-start gap-1.5 text-sm font-medium text-azul-oscuro">
               <Icono nombre="alerta" className="mt-0.5 size-4 shrink-0" /> {error}
             </p>
           )}
-          <p className="mt-2 text-xs text-cacao-suave">Va de {formatearPrecio(rangoPrecios.min)} a {formatearPrecio(rangoPrecios.max)}.</p>
+          <p className="mt-2 text-xs text-noche-suave">Va de {formatearPrecio(rangoPrecios.min)} a {formatearPrecio(rangoPrecios.max)}.</p>
           <Boton type="submit" variante="suave" className="mt-3 w-full">Aplicar precio</Boton>
         </form>
       </Grupo>

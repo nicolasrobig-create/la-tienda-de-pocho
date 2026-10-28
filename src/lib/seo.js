@@ -36,6 +36,7 @@ export const META_ESTATICAS = {
     titulo: 'Envíos y devoluciones',
     descripcion: 'Entregamos en Bogotá. El costo y la disponibilidad del envío se confirman por WhatsApp según tu zona. Conoce cómo funcionan los cambios.',
   },
+  '/ingresar': { titulo: 'Ingresar', descripcion: 'Ingresa a La Tienda de Pocho con tu número de WhatsApp. Sin contraseñas.', noindex: true },
   '/carrito': { titulo: 'Carrito', descripcion: 'Tu carrito de compras en La Tienda de Pocho.', noindex: true },
   '/checkout': { titulo: 'Datos de entrega', descripcion: 'Completa tus datos de entrega para enviar el pedido por WhatsApp.', noindex: true },
   '/pedido-confirmado': { titulo: 'Pedido listo', descripcion: 'Resumen de tu pedido en La Tienda de Pocho.', noindex: true },

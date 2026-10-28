@@ -2,34 +2,43 @@
 
 /* ───────────────────────────────────────────────────────────────
    ÚNICO lugar donde se definen colores, tipografías y espaciado.
-   Tailwind v4 genera utilidades (bg-crema, text-cacao, font-display…)
-   y variables CSS (var(--color-crema)…) a partir de este bloque.
+   Tailwind v4 genera utilidades (bg-fondo, text-noche, font-display…)
+   y variables CSS (var(--color-fondo)…) a partir de este bloque.
    Ver docs/brief-diseno.md antes de tocar nada.
    ─────────────────────────────────────────────────────────────── */
 @theme {
-  /* Paleta cálida */
-  --color-crema: #fbf4e8;          /* fondo de página */
-  --color-arena: #f1e3cc;          /* superficies, tarjetas, bandas */
-  --color-arena-oscura: #e2cfae;   /* bordes, divisores */
-  --color-cacao: #3b2418;          /* texto principal */
-  --color-cacao-suave: #6b5648;    /* texto secundario */
-  --color-terracota: #b5452f;      /* acción principal (botones, enlaces) */
-  --color-terracota-oscura: #983722; /* hover / activo */
-  --color-miel: #e9a23b;           /* acento decorativo (no para texto sobre crema) */
-  --color-oliva: #4f6b2e;          /* disponible, confirmaciones */
+  /* Paleta de marca: azul del logo + durazno de las letras + ámbar de contraste.
+     Contrastes (WCAG): azul/fondo 9.1 · azul-oscuro/fondo 11.5 · noche/fondo 13.2 ·
+     noche-suave/fondo 7.0 y /durazno 5.5 · blanco/azul 9.5 · noche/ámbar 7.5.
+     El ámbar nunca va como texto sobre fondo claro; sobre azul solo en texto grande o iconos. */
+  --color-azul: #0b4390;           /* primario: header, botones, enlaces, precios */
+  --color-azul-oscuro: #083570;    /* hover / activo del primario */
+  --color-noche: #0a2a63;          /* texto principal, footer, bandas oscuras */
+  --color-noche-suave: #44567f;    /* texto secundario */
+  --color-fondo: #fffaf0;          /* fondo de página */
+  --color-durazno: #f8d9c4;        /* secundario: chips, iconos, superficies */
+  --color-durazno-claro: #fdeee0;  /* bandas amplias y tarjetas suaves */
+  --color-durazno-oscuro: #e6c2a8; /* bordes, divisores */
+  --color-ambar: #ffb020;          /* acento: hover, badges, CTA sobre azul */
+  --color-oliva: #4f6b2e;          /* funcional: disponible, confirmaciones */
   --color-blanco: #ffffff;
+
+  /* Portada animada (src/components/portada): azul cielo de la maqueta y su texto oscuro.
+     tinta/cielo 5.3 (pasa AA) · fondo/cielo 3.3 (solo texto grande) · ámbar/cielo 1.9 (nunca como texto). */
+  --color-cielo: #0a90e8;
+  --color-tinta: #06152f;
 
   /* Tipografías */
   --font-display: "Fraunces Variable", Georgia, serif;
   --font-sans: "Figtree Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Radios */
-  --radius-tarjeta: 1rem;
+  --radius-tarjeta: 1.25rem;
   --radius-boton: 999px;
 
-  /* Sombra suave y cálida */
-  --shadow-tarjeta: 0 1px 2px rgb(59 36 24 / 0.06), 0 6px 18px rgb(59 36 24 / 0.08);
-  --shadow-elevada: 0 2px 4px rgb(59 36 24 / 0.08), 0 14px 32px rgb(59 36 24 / 0.14);
+  /* Sombras suaves teñidas de azul noche */
+  --shadow-tarjeta: 0 1px 2px rgb(10 42 99 / 0.06), 0 6px 18px rgb(10 42 99 / 0.09);
+  --shadow-elevada: 0 2px 4px rgb(10 42 99 / 0.09), 0 14px 32px rgb(10 42 99 / 0.16);
 
   /* Animaciones sutiles (se anulan con prefers-reduced-motion, ver @layer base) */
   --animate-subir: subir 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
@@ -62,11 +71,54 @@
 }
 
 @layer components {
+  /* Degradados de marca: azul del logo hacia azul noche (el hero suma un halo de azul claro;
+     un halo ámbar sobre azul se mezcla en gris) */
+  .degradado-marca {
+    background-image: linear-gradient(135deg, var(--color-azul) 0%, var(--color-noche) 100%);
+  }
+  .degradado-hero {
+    background-image:
+      radial-gradient(56rem 30rem at 100% 0%, rgb(70 140 235 / 0.38), transparent 65%),
+      linear-gradient(135deg, var(--color-azul) 0%, var(--color-noche) 100%);
+  }
+  .degradado-calido {
+    background-image: linear-gradient(180deg, var(--color-durazno-claro), var(--color-fondo));
+  }
+  /* Elevación al pasar el cursor, con transición (se anula con prefers-reduced-motion) */
+  /* Encabezado en pestañas (Header.jsx): donde la pestaña se une con el video, la esquina de este
+     gira hacia adentro. --marco es el margen crema que rodea a la portada. */
+  .pestana::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 1.5rem;
+    height: calc(1.5rem + var(--marco, 0.75rem));
+    pointer-events: none;
+  }
+  .pestana-izq::after {
+    left: 100%;
+    background: radial-gradient(circle at 100% 100%, transparent 1.5rem, var(--color-fondo) calc(1.5rem + 0.5px));
+  }
+  .pestana-der::after {
+    right: 100%;
+    background: radial-gradient(circle at 0 100%, transparent 1.5rem, var(--color-fondo) calc(1.5rem + 0.5px));
+  }
+
+  .elevar {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .elevar:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-elevada);
+  }
+  /* El foco azul no se ve sobre azul: dentro de zonas oscuras se usa ámbar */
+  .sobre-oscuro :focus-visible { outline-color: var(--color-ambar); }
+
   /* Marcador de carga con brillo suave */
   .esqueleto {
     position: relative;
     overflow: hidden;
-    background-color: var(--color-arena);
+    background-color: var(--color-durazno-claro);
   }
   .esqueleto::after {
     content: "";
@@ -82,10 +134,10 @@
   dialog.panel {
     padding: 0;
     border: 0;
-    background: var(--color-crema);
-    color: var(--color-cacao);
+    background: var(--color-fondo);
+    color: var(--color-noche);
   }
-  dialog.panel::backdrop { background: rgb(59 36 24 / 0.55); }
+  dialog.panel::backdrop { background: rgb(10 42 99 / 0.6); }
   dialog.panel-derecha {
     margin: 0 0 0 auto;
     height: 100dvh;
@@ -106,15 +158,15 @@
 
 @layer base {
   html {
-    background-color: var(--color-crema);
-    color: var(--color-cacao);
+    background-color: var(--color-fondo);
+    color: var(--color-noche);
     font-family: var(--font-sans);
     -webkit-text-size-adjust: 100%;
   }
   body {
     min-height: 100vh;
     margin: 0;
-    background-color: var(--color-crema);
+    background-color: var(--color-fondo);
     line-height: 1.6;
   }
   h1, h2, h3 {
@@ -123,7 +175,7 @@
     text-wrap: balance;
   }
   :focus-visible {
-    outline: 3px solid var(--color-terracota);
+    outline: 3px solid var(--color-azul);
     outline-offset: 2px;
   }
   @media (prefers-reduced-motion: reduce) {

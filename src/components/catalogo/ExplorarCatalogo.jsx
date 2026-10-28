@@ -78,7 +78,7 @@ export default function ExplorarCatalogo({ marcaFija }) {
     <div className="grid gap-8 lg:grid-cols-[16rem_1fr] lg:gap-10">
       {esEscritorio && (
         <aside aria-label="Filtros">
-          <div className="sticky top-36 max-h-[calc(100dvh-10rem)] overflow-y-auto rounded-tarjeta bg-arena/60 p-5">{panel('d')}</div>
+          <div className="sticky top-36 max-h-[calc(100dvh-10rem)] overflow-y-auto rounded-tarjeta bg-durazno/60 p-5">{panel('d')}</div>
         </aside>
       )}
 
@@ -88,16 +88,16 @@ export default function ExplorarCatalogo({ marcaFija }) {
           <button
             type="button"
             onClick={() => setPanelAbierto(true)}
-            className="inline-flex min-h-11 items-center gap-2 rounded-boton border-2 border-cacao px-4 text-sm font-semibold hover:bg-arena lg:hidden"
+            className="inline-flex min-h-11 items-center gap-2 rounded-boton border-2 border-noche px-4 text-sm font-semibold hover:bg-durazno lg:hidden"
             aria-haspopup="dialog"
           >
             <Icono nombre="filtro" className="size-5" />
             Filtros
-            {chips.length > 0 && <span className="rounded-full bg-terracota px-2 text-xs text-blanco">{chips.length}</span>}
+            {chips.length > 0 && <span className="rounded-full bg-azul px-2 text-xs text-blanco">{chips.length}</span>}
           </button>
 
-          <p role="status" className="mr-auto text-sm text-cacao-suave">
-            <strong className="text-cacao">{pluralizar(resultados.length, 'producto', 'productos')}</strong>
+          <p role="status" className="mr-auto text-sm text-noche-suave">
+            <strong className="text-noche">{pluralizar(resultados.length, 'producto', 'productos')}</strong>
           </p>
 
           <div className="flex items-center gap-2">
@@ -106,7 +106,7 @@ export default function ExplorarCatalogo({ marcaFija }) {
               id="orden"
               value={f.orden}
               onChange={(e) => cambiar({ orden: e.target.value === 'novedades' ? '' : e.target.value })}
-              className="min-h-11 rounded-xl border border-arena-oscura bg-blanco px-3 text-sm font-medium hover:border-cacao-suave"
+              className="min-h-11 rounded-xl border border-durazno-oscuro bg-blanco px-3 text-sm font-medium hover:border-noche-suave"
             >
               {ORDENES.map((o) => <option key={o.valor} value={o.valor}>{o.etiqueta}</option>)}
             </select>
@@ -117,7 +117,7 @@ export default function ExplorarCatalogo({ marcaFija }) {
           <ul className="mb-5 flex flex-wrap items-center gap-2" aria-label="Filtros activos">
             {chips.map((c) => (
               <li key={c.k}>
-                <button type="button" onClick={c.quitar} className="inline-flex min-h-9 items-center gap-1.5 rounded-boton bg-arena px-3 text-sm font-medium hover:bg-arena-oscura">
+                <button type="button" onClick={c.quitar} className="inline-flex min-h-9 items-center gap-1.5 rounded-boton bg-durazno px-3 text-sm font-medium hover:bg-durazno-oscuro">
                   {c.texto}
                   <Icono nombre="cerrar" className="size-3.5" />
                   <span className="sr-only">Quitar filtro</span>
@@ -153,14 +153,14 @@ export default function ExplorarCatalogo({ marcaFija }) {
 
       <Dialogo abierto={panelAbierto} onCerrar={() => setPanelAbierto(false)} etiqueta="Filtros">
         <div className="flex h-full flex-col">
-          <div className="flex items-center justify-between border-b border-arena-oscura px-5 py-4">
+          <div className="flex items-center justify-between border-b border-durazno-oscuro px-5 py-4">
             <h2 className="text-2xl">Filtros</h2>
-            <button type="button" onClick={() => setPanelAbierto(false)} className="inline-flex size-11 items-center justify-center rounded-full hover:bg-arena" aria-label="Cerrar filtros">
+            <button type="button" onClick={() => setPanelAbierto(false)} className="inline-flex size-11 items-center justify-center rounded-full hover:bg-durazno" aria-label="Cerrar filtros">
               <Icono nombre="cerrar" className="size-6" />
             </button>
           </div>
           <div className="flex-1 overflow-y-auto px-5 py-5">{panel('m')}</div>
-          <div className="border-t border-arena-oscura p-4">
+          <div className="border-t border-durazno-oscuro p-4">
             <Boton onClick={() => setPanelAbierto(false)} className="w-full">Ver {pluralizar(resultados.length, 'producto', 'productos')}</Boton>
           </div>
         </div>

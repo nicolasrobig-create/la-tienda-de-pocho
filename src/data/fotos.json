@@ -1,0 +1,68 @@
+{
+  "perro-pasto": {
+    "anchos": [
+      360,
+      480,
+      550
+    ],
+    "ancho": 550,
+    "alto": 815
+  },
+  "gata-churu": {
+    "anchos": [
+      360,
+      480,
+      768,
+      790
+    ],
+    "ancho": 790,
+    "alto": 1271
+  },
+  "terranova-tienda": {
+    "anchos": [
+      360,
+      480,
+      768
+    ],
+    "ancho": 768,
+    "alto": 960
+  },
+  "bodega-pared": {
+    "anchos": [
+      360,
+      480,
+      768,
+      1080
+    ],
+    "ancho": 1080,
+    "alto": 600
+  },
+  "bodega-proplan": {
+    "anchos": [
+      360,
+      480,
+      768,
+      1080
+    ],
+    "ancho": 1080,
+    "alto": 1080
+  },
+  "local-interior": {
+    "anchos": [
+      360,
+      480,
+      768,
+      1080
+    ],
+    "ancho": 1080,
+    "alto": 500
+  },
+  "perro-negro": {
+    "anchos": [
+      360,
+      420
+    ],
+    "ancho": 420,
+    "alto": 730
+  }
+}

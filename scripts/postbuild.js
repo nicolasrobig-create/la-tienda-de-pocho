@@ -70,9 +70,9 @@ plantilla = plantilla.replace('</head>', `    ${precargaFuentes}\n  </head>`);
 // Foto que más probablemente será el LCP de cada ruta: se precarga para que el navegador la pida
 // sin esperar a que React pinte la página. Los `sizes` deben ser los mismos que usa el componente.
 const SIZES_TARJETA = '(min-width: 1024px) 280px, (min-width: 768px) 30vw, 50vw'; // = ImagenProducto.jsx
-const SIZES_HERO = '(min-width: 768px) 190px, 38vw'; // = SIZES_HERO de src/pages/Inicio.jsx
+const SIZES_PORTADA = '(min-width: 768px) 100vw, 92vw'; // = sizes del poster en src/components/portada/Portada.jsx
 const SIZES_GALERIA = '(min-width: 768px) 540px, 92vw'; // = GaleriaProducto.jsx
-const HERO_ID = 'nd-felino-tropical-adulto-1-5-kg'; // = IDS_HERO[1] de src/pages/Inicio.jsx
+const fotos = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'fotos.json'), 'utf8'));
 const ultimoDe = (lista) => lista[lista.length - 1]; // "novedades" ordena de último a primero
 
 function linkImagen(p, sizes) {
@@ -80,8 +80,14 @@ function linkImagen(p, sizes) {
   const srcset = [240, 400, 800].map((w) => `${base}-${w}.webp ${w}w`).concat(`${base}.webp 1200w`).join(', ');
   return `<link rel="preload" as="image" href="${base}-400.webp" imagesrcset="${srcset}" imagesizes="${sizes}" fetchpriority="high" />`;
 }
+function linkFoto(nombre, sizes) {
+  const { anchos } = fotos[nombre];
+  const url = (w) => `/fotos/${nombre}-${w}.webp`;
+  const srcset = anchos.map((w) => `${url(w)} ${w}w`).join(', ');
+  return `<link rel="preload" as="image" href="${url(anchos.at(-1))}" imagesrcset="${srcset}" imagesizes="${sizes}" fetchpriority="high" />`;
+}
 function precargaImagen(ruta) {
-  if (ruta === '/') return linkImagen(productos.find((p) => p.id === HERO_ID), SIZES_HERO);
+  if (ruta === '/') return `<link rel="preload" as="image" href="/portada/inicio-1280.webp" imagesrcset="/portada/inicio-640.webp 640w, /portada/inicio-1280.webp 1280w" imagesizes="${SIZES_PORTADA}" fetchpriority="high" />`; // poster de la portada (src/config/portada.ts)
   if (ruta === '/catalogo') return linkImagen(ultimoDe(productos), SIZES_TARJETA);
   if (ruta.startsWith('/marca/')) return linkImagen(ultimoDe(productos.filter((p) => p.slugMarca === ruta.split('/')[2])), SIZES_TARJETA);
   if (ruta.startsWith('/producto/')) return linkImagen(productos.find((p) => p.id === ruta.split('/')[2]), SIZES_GALERIA);
@@ -103,7 +109,7 @@ function paginaDeRuta(ruta) {
   if (ruta === '/') return 'Inicio';
   if (ruta.startsWith('/marca/')) return 'Marca';
   if (ruta.startsWith('/producto/')) return 'Producto';
-  const mapa = { '/catalogo': 'Catalogo', '/carrito': 'Carrito', '/checkout': 'Checkout', '/pedido-confirmado': 'PedidoConfirmado', '/contacto': 'Contacto', '/nosotros': 'Nosotros', '/envios-y-devoluciones': 'Envios' };
+  const mapa = { '/catalogo': 'Catalogo', '/carrito': 'Carrito', '/checkout': 'Checkout', '/pedido-confirmado': 'PedidoConfirmado', '/contacto': 'Contacto', '/nosotros': 'Nosotros', '/envios-y-devoluciones': 'Envios', '/ingresar': 'Ingresar' };
   return mapa[ruta];
 }
 function precargaPagina(ruta) {
@@ -162,11 +168,11 @@ function escribirRuta(ruta, meta, tipo) {
   fs.writeFileSync(destino, html, 'utf8');
 }
 
-// ── Imagen para compartir: foto del producto sobre fondo crema, 1200×630
+// ── Imagen para compartir: foto del producto sobre fondo durazno claro, 1200×630
 async function imagenOg(producto, destino) {
   const origen = path.join(PUBLIC, producto.imagen.replace(/^\//, ''));
   const foto = await sharp(origen).resize({ width: 520, height: 560, fit: 'inside' }).toBuffer();
-  await sharp({ create: { width: 1200, height: 630, channels: 3, background: '#f1e3cc' } })
+  await sharp({ create: { width: 1200, height: 630, channels: 3, background: '#fdeee0' } })
     .composite([{ input: foto, gravity: 'center' }])
     .jpeg({ quality: 82, mozjpeg: true })
     .toFile(destino);

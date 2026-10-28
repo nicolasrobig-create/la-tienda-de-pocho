@@ -1,4 +1,6 @@
 # Fotos y .docx originales: solo sirven para generar el catálogo en local
 Productos/
+Fotos/
+.claude/
 docs/capturas/
 tests/

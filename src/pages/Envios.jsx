@@ -44,28 +44,28 @@ export default function Envios() {
       <Migas items={[{ etiqueta: 'Inicio', to: '/' }, { etiqueta: 'Envíos y devoluciones' }]} />
       <header className="mt-4 mb-10 max-w-2xl">
         <h1 className="text-4xl sm:text-5xl">Envíos y devoluciones</h1>
-        <p className="mt-3 text-lg text-cacao-suave">Lo esencial para recibir el alimento de tu mascota sin complicaciones.</p>
+        <p className="mt-3 text-lg text-noche-suave">Lo esencial para recibir el alimento de tu mascota sin complicaciones.</p>
       </header>
 
       <ul className="grid max-w-4xl gap-5 sm:grid-cols-2">
         {BLOQUES.map((b) => (
           <li key={b.titulo} className="rounded-tarjeta bg-blanco p-6 shadow-tarjeta">
-            <span className="flex size-11 items-center justify-center rounded-full bg-arena text-terracota"><Icono nombre={b.icono} className="size-6" /></span>
+            <span className="flex size-11 items-center justify-center rounded-full bg-durazno text-azul"><Icono nombre={b.icono} className="size-6" /></span>
             <h2 className="mt-4 text-xl">{b.titulo}</h2>
-            <p className="mt-2 text-cacao-suave">{b.texto}</p>
+            <p className="mt-2 text-noche-suave">{b.texto}</p>
           </li>
         ))}
       </ul>
 
       {excluidas.length > 0 && (
-        <div className="mt-6 flex max-w-4xl gap-3 rounded-tarjeta border border-miel bg-miel/15 p-5" role="note">
-          <Icono nombre="alerta" className="mt-0.5 size-5 shrink-0 text-terracota-oscura" />
+        <div className="mt-6 flex max-w-4xl gap-3 rounded-tarjeta border border-ambar bg-ambar/15 p-5" role="note">
+          <Icono nombre="alerta" className="mt-0.5 size-5 shrink-0 text-azul-oscuro" />
           <p><strong>Zonas donde no entregamos por ahora:</strong> {excluidas.join(', ')}. Si estás en una de ellas, escríbenos y revisamos otras opciones.</p>
         </div>
       )}
 
       <div className="mt-10 flex flex-wrap items-center gap-4">
-        <p className="text-cacao-suave">¿Quieres saber el costo para tu zona?</p>
+        <p className="text-noche-suave">¿Quieres saber el costo para tu zona?</p>
         {numero ? (
           <Boton href={`https://wa.me/${numero}?text=${encodeURIComponent('Hola, quiero consultar el costo de envío a mi zona.')}`} target="_blank" rel="noopener noreferrer">
             <Icono nombre="whatsapp" className="size-5" /> Preguntar por WhatsApp

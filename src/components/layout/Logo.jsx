@@ -1,28 +1,27 @@
 import { Link } from 'react-router-dom';
 import { TIENDA } from '../../config/store';
 
-// Marca provisional: plato de comida sobre sello terracota + nombre en Fraunces.
-// Reemplazar por el logo real cuando exista (solo este archivo).
-export function Marca({ className = 'size-10' }) {
+// Logo real (public/logo.webp y logo-2x.webp, generados con `npm run fotos`).
+// Su fondo es el azul de marca: en el header se funde con la barra; en el footer queda como sello redondeado.
+export function ImagenLogo({ grande = false, className = '' }) {
   return (
-    <svg viewBox="0 0 48 48" className={className} aria-hidden="true" focusable="false">
-      <circle cx="24" cy="24" r="24" fill="var(--color-terracota)" />
-      <circle cx="18.5" cy="17" r="2.6" fill="var(--color-miel)" />
-      <circle cx="25" cy="14.5" r="2.6" fill="var(--color-miel)" />
-      <circle cx="30.5" cy="18" r="2.6" fill="var(--color-miel)" />
-      <path d="M11 24h26a13 13 0 0 1-26 0z" fill="var(--color-crema)" />
-      <path d="M17 36.5h14" stroke="var(--color-crema)" strokeWidth="2.4" strokeLinecap="round" />
-    </svg>
+    <img
+      src={grande ? '/logo-2x.webp' : '/logo.webp'}
+      width={grande ? 540 : 270}
+      height={grande ? 235 : 118}
+      alt={TIENDA.nombre}
+      decoding="async"
+      className={`block h-auto ${className}`}
+    />
   );
 }
 
 export default function Logo({ claro = false }) {
   return (
-    <Link to="/" className="group inline-flex items-center gap-2.5" aria-label={`${TIENDA.nombre}, ir al inicio`}>
-      <Marca className="size-10 shrink-0 transition-transform duration-300 motion-safe:group-hover:-rotate-6" />
-      <span className={`font-display text-xl leading-none font-bold tracking-tight sm:text-2xl ${claro ? 'text-crema' : 'text-cacao'}`}>
-        La Tienda <span className="block text-sm font-medium tracking-wide sm:inline sm:text-2xl sm:font-bold">de Pocho</span>
-      </span>
+    <Link to="/" className="group inline-block" aria-label={`${TIENDA.nombre}, ir al inicio`}>
+      <ImagenLogo
+        className={`w-28 transition-transform duration-300 sm:w-36 motion-safe:group-hover:scale-[1.03] ${claro ? 'w-40 rounded-2xl shadow-elevada sm:w-44' : ''}`}
+      />
     </Link>
   );
 }

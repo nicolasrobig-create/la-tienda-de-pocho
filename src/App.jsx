@@ -14,6 +14,7 @@ const PedidoConfirmado = lazy(() => import('./pages/PedidoConfirmado.jsx'));
 const Contacto = lazy(() => import('./pages/Contacto.jsx'));
 const Nosotros = lazy(() => import('./pages/Nosotros.jsx'));
 const Envios = lazy(() => import('./pages/Envios.jsx'));
+const Ingresar = lazy(() => import('./pages/Ingresar.jsx'));
 const NoEncontrada = lazy(() => import('./pages/NoEncontrada.jsx'));
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="contacto" element={<Contacto />} />
           <Route path="nosotros" element={<Nosotros />} />
           <Route path="envios-y-devoluciones" element={<Envios />} />
+          <Route path="ingresar" element={<Ingresar />} />
           <Route path="*" element={<NoEncontrada />} />
         </Route>
       </Routes>

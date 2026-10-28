@@ -16,7 +16,7 @@ export default function Catalogo() {
       <Migas items={[{ etiqueta: 'Inicio', to: '/' }, { etiqueta: 'Catálogo' }]} />
       <header className="mt-4 mb-8 max-w-2xl">
         <h1 className="text-4xl sm:text-5xl">{titulo}</h1>
-        <p className="mt-2 text-cacao-suave">Filtra por marca, precio, presentación o necesidad. Todos los precios están en pesos colombianos.</p>
+        <p className="mt-2 text-noche-suave">Filtra por marca, precio, presentación o necesidad. Todos los precios están en pesos colombianos.</p>
       </header>
       <ExplorarCatalogo />
     </div>
